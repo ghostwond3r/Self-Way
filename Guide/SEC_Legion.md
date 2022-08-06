@@ -33,15 +33,19 @@ During the process of it, you will have to change password. For this you can use
 
 As long as you follow common sense like;
 
-- never do anything hacking related outside of your hacking environment
-
-- never do any of your normal computer usage inside your hacking environment
-
-- never mention any information about your real life when talking with other hackers
-
-- never brag about your illegal hacking exploits to friends in real life
+1. never do anything hacking related outside of your hacking environment
+2. never do any of your normal computer usage inside your hacking environment
+3. never mention any information about your real life when talking with other hackers
+4. never brag about your illegal hacking exploits to friends in real life
 
 If you follow these rules, then you can pretty much do whatever you want with no fear of being in such situations you dont want.
+
+Always keep in mind that you dont know who is behind the screen; 
+- wearing the picture of Anonymous does not mean the person is trustable. NEVER.
+
+Dont share ;
+- image & video without removing metadata > https://www.verexif.com/en/
+- screenshot of your computer or phone where we see the actual time zone
 
 </br>
 
@@ -49,57 +53,61 @@ If you follow these rules, then you can pretty much do whatever you want with no
 *The name of the settings might change if you use Iphone, but the security goes on the same way*
 
 ### Lock Screen 
-- [ ] if your screen have no lock, add it and dont use easy PIN like 0000 or 1234
+- if your screen have no lock, add it and dont use easy PIN like 0000 or 1234
 
 ### Applications 
-- [ ] remove any app you don't use
+- remove any app you don't use
 
 ### Security   
-- [ ] check to make sure Google Play Protect is activate
+- check to make sure Google Play Protect is activate
 
-- [ ] check Security & Google Play system Update
+- check Security & Google Play system Update
 
-- [ ] disactivate Find My Mobile
+- disactivate Find My Mobile
 
-- [ ] active and setup a Secure Folder
+- active and setup a Secure Folder
 
-- [ ] setup SIM card Lock (dont loose the NIP)
+- setup SIM card Lock (dont loose the NIP)
 
 ### Privacy 
-- [ ] check the Permission Manager
+- check the Permission Manager
 
-- [ ] activate the Alert if an app access your clipboard
+- activate the Alert if an app access your clipboard
 
-- [ ] deactivate Send Diagnostics Data
+- deactivate Send Diagnostics Data
 
-- [ ] deactivate Android Personalization Services (Google)
+- deactivate Android Personalization Services (Google)
 
-- [ ] clear data in Android System Intelligence
+- clear data in Android System Intelligence
 
-- [ ] Google location history: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
+- Google location history: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
 
-- [ ] Google Activities Control: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
+- Google Activities Control: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
 
-- [ ] Ads : GET new ID & clear data
+- Ads : GET new ID & clear data
 
-- [ ] Usage & Diagnostics : deactivate
+- Usage & Diagnostics : deactivate
 
 ### Location 
-- [ ] deactivate
+- deactivate
 
-- [ ] app permissions : REMOVED ALL
+- app permissions : REMOVED ALL
 
-- [ ] location services : DEACTIVATE ALL
+- location services : DEACTIVATE ALL
 
-- [ ] emergency location services : deactivate
+- emergency location services : deactivate
 
 ### Google 
-- [ ] deactivate and clear old history
+- deactivate and clear old history
 
-- [ ] deactivate offline activities and clear old history
+- deactivate offline activities and clear old history
 
-- [ ] remove or regenerate adds id 
+- remove or regenerate adds id 
 
-- [ ] make sure to have two-factor authentification
+- make sure to have two-factor authentification
 
-- [ ] change your password with one containing at least 10 characters, mix of letters + caps + numbers
+- change your password with one containing at least 10 characters, mix of letters + caps + numbers
+
+</br>
+
+## Social Media 
