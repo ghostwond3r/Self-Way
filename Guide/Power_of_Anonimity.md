@@ -84,7 +84,7 @@ If you follow these rules, then you can pretty much do whatever you want with no
 
 - emergency location services : deactivate
 
-## Google 
+### Google 
 
 - deactivate and clear old history
 
