@@ -18,14 +18,22 @@ During the process of it, you will have to change password. For this you can use
 ## Index
 
 1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#behavior)
-
 2. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security-for-android-phone)
-  - 2.1 [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#lock-screen)
-      - 2.2 [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#applications)
-        - 2.3 [Security](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security)
-          - 2.4 [Privacy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#privacy)
-            - 2.5 [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#location)
-              - 2.6 [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#google)
+   - [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#lock-screen)
+   - [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#applications)
+   - [Security](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security)
+   - [Privacy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#privacy)
+   - [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#location)
+   - [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#google)
+3. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#social-media)
+4. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#browsing)
+5. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vpn-virtual-private-network)
+6. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vm-virtual-machine)
+7. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#encryption)
+8. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#proxy)
+9. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vps-virtual-private-server)
+10. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#cryptocurrency)
+
 </br>
 
 ## Behavior 
