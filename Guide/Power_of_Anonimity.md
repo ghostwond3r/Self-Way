@@ -14,6 +14,8 @@ That being said, aligning with my last NewBloodProject (NBP), this guide had to 
 During the process of it, you will have to change password. For this you can use any password generator like this: https://www.dashlane.com/en/features/password-generator
 
 </br>
+## Index
+
 
 ## Behavior 
 
@@ -36,13 +38,13 @@ If you follow these rules, then you can pretty much do whatever you want with no
 ## Security for Android phone
 *The name of the settings might change if you use Iphone, but the security goes on the same way*
 
-### Lock Screen : 
+### Lock Screen 
 - if your screen have no lock, add it and dont use easy PIN like 0000 or 1234
 
-### Applications : 
+### Applications 
 - remove any app you don't use
 
-### Security :  
+### Security   
 - check to make sure Google Play Protect is activate
 
 - check Security & Google Play system Update
@@ -53,7 +55,7 @@ If you follow these rules, then you can pretty much do whatever you want with no
 
 - setup SIM card Lock (dont loose the NIP)
 
-### Privacy :
+### Privacy 
 - check the Permission Manager
 
 - activate the Alert if an app access your clipboard
@@ -72,17 +74,16 @@ If you follow these rules, then you can pretty much do whatever you want with no
 
 - Usage & Diagnostics : deactivate
 
-### Location :
+### Location 
 - deactivate
 
 - app permissions : REMOVED ALL
 
 - location services : DEACTIVATE ALL
 
-### Safety and Emergency
 - emergency location services : deactivate
 
-### Google :
+## Google 
 
 - deactivate and clear old history
 
