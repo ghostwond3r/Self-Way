@@ -9,10 +9,33 @@
 ![sw](https://user-images.githubusercontent.com/64184513/183240520-25692b9a-98eb-429b-a1e6-419196974331.jpg)
 
 ### How to install
+```
+sudo su
+cd /
+git clone https://github.com/NeverWonderLand/Self-Way
+cd Self-Way
+chmod +x install.sh
+./install.sh
+```
 
-
-----------------------------------------
-
-We just live - We just die - What's up in your mind ?
-
-----------------------------------------
+### Directory
+```
+/opt
+    /anonymity
+    /cracking
+    /ddos
+    /exploitation
+    /finder
+    /forensics
+    /guide
+    /post-exploitation
+    /recon
+    /reporting
+    /reversing
+    /se
+    /shell
+    /sniffing
+    /vulnerability
+    /webapp
+    /wireless
+```
