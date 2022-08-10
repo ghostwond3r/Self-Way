@@ -7,7 +7,7 @@ I would give two answers to that;
 
 2. Our name comes from its own definition. Anonymity is necessary for us for protection purposes. Without its protections, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
 
-That being said, aligning with my last NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge; , methods, behaviors, habits and tools to adopt in order to maintain this anonymity. 
+ThEditing Self-Way/SEC_Legion.md at main · NeverWonderLand/Self-Wayat being said, aligning with my last NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge; , methods, behaviors, habits and tools to adopt in order to maintain this anonymity. 
 
 ``Keep in mind : you can only change the world by being free.``
 
