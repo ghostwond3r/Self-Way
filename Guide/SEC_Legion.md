@@ -10,7 +10,7 @@ Following the creation of the NewBloodProject (NBP), this guide had to be writte
 
 ``Keep in mind : you can only change the world by being free.``
 
-During the process of it, you must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
+You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
 </br>
 
