@@ -1,17 +1,16 @@
 # Think Fast - Act Wise - Stay Free
 
-The art of anonymity doesn't just end with wearing a mask... 
-I would give two answers to that; 
+Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
 
-1. An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. The words become true and echo in themselves. 
+Anonymity is necessary to us for protection purposes. Without this, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
 
-2. Our name comes from its own definition. Anonymity is necessary for us for protection purposes. Without its protections, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
+> An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
 
-That being said, aligning with my last NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge; , methods, behaviors, habits and tools to adopt in order to maintain this anonymity. 
+Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe.
 
 ``Keep in mind : you can only change the world by being free.``
 
-During the process of it, you will have to change password. For this you can use any password generator like this: https://www.dashlane.com/en/features/password-generator
+During the process of it, you must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
 </br>
 
