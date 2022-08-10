@@ -62,67 +62,62 @@ Dont share ;
 
 
 ## What is considered as private data
-```
-Passwords
-Real, full (family) name
-Address of your home, workplace, or school
-Social Security number
-Government ID numbers (driver’s license number and passport number)
-Date and place of birth
-Biometric information (fingerprints, facial recognition, voice recognition)
-Computer’s IP address (a unique number that identifies your computer on the Internet)
-Specific location (geolocation numbers, like from your phone or in tagged photos)
-Credit and debit card numbers, security codes, and expiration dates
-Bank account numbers
-Answers to common security questions
-Name you use day to day, if different from your legal name
-Primary screen name(s)
-Email address (if it’s not public)
-Telephone number
-Race, sexual orientation, and gender
-Mailing address (if it’s different from your residence; otherwise it’s red)
-Country, state, and city of residence
-ZIP code (or postal code)
-Google Voice number
-Secondary screen names or account names (say, a throwaway email that forwards to your primary address)
-Mailing address or PO box
-Digital, online phone number, such as a Skype number
-Email addresses that are not linked to a vital service, such as your bank account
-Photos and videos that don’t embarrass you or reveal private information
-Social media profiles on sites where you’re confident you understand the privacy settings
-General likes, favorites, and things you enjoy sharing on social media sites
-Single-use or gift credit cards
-```
+
+* Passwords
+* Real, full (family) name
+* Address of your home, workplace, or school
+* Social Security number
+* Government ID numbers (driver’s license number and passport number)
+* Date and place of birth
+* Biometric information (fingerprints, facial recognition, voice recognition)
+* Computer’s IP address (a unique number that identifies your computer on the Internet)
+* Specific location (geolocation numbers, like from your phone or in tagged photos)
+* Credit and debit card numbers, security codes, and expiration dates
+* Bank account numbers
+* Answers to common security questions
+* Name you use day to day, if different from your legal name
+* Primary screen name(s)
+* Email address (if it’s not public)
+* Telephone number
+* Race, sexual orientation, and gender
+* Mailing address (if it’s different from your residence; otherwise it’s red)
+* Country, state, and city of residence
+* ZIP code (or postal code)
+* Google Voice number
+* Secondary screen names or account names (say, a throwaway email that forwards to your primary address)
+* Mailing address or PO box
+* Digital, online phone number, such as a Skype number
+* Email addresses that are not linked to a vital service, such as your bank account
+* Photos and videos that don’t embarrass you or reveal private information
+* Social media profiles on sites where you’re confident you understand the privacy settings
+* General likes, favorites, and things you enjoy sharing on social media sites
+* Single-use or gift credit cards
+
+</br>
 
 ### Communication
 
 The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. For that, it's recommended to use two apps: Telegram and Wire. You can find them on either Google's Play Store if you're on Android or Apple's Appstore if you have iOS.
 
-• You should use Telegram groups and channels to stay up to date and alert about what's going down in your surroundings.
-
-• You should use Wire to communicate with your peer group.
+* You should use Telegram groups and channels to stay up to date and alert about what's going on.
+* You should use Wire to communicate with your peer group.
 
 #### Telegram
 
 Let's start off with the most important points:
 
-• Telegram group chats are not encrypted.
-
-• Telegram channels are not encrypted.
-
-• normal chats are not encrypted by default
-
-• the secure chat feature is fishy.
+* Telegram group chats are not encrypted.
+* Telegram channels are not encrypted.
+* Normal chats are not encrypted by default
+* The secure chat feature is fishy.
 
 Use Telegram to follow channels from your city to stay up to date about what's going down. You can find these channels on social media. Don't write anything there that you wouldn't post on twitter or instagram. If you can read it, so can the police. To keep your phone number private, go to the privacy settings and disallow your phone number from being displayed.
 
 #### Wire
 
-• End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
-
-• Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
-
-• Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC.
+* End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
+* Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
+* Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC.
 
 </br>
 
