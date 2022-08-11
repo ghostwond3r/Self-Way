@@ -56,10 +56,6 @@ If you follow these rules, then you can pretty much do whatever you want with no
 Always keep in mind that you dont know who is behind the screen; 
 - wearing the picture of Anonymous does not mean the person is trustable. NEVER.
 
-Dont share ;
-- image & video without removing metadata > https://www.verexif.com/en/
-- screenshot of your computer or phone where we see the actual time zone
-
 </br>
 
 
@@ -134,64 +130,48 @@ If you can;
 *The name of the settings might change if you use Iphone, but the security goes on the same way*
 
 ### Lock Screen 
-- if your screen have no lock, add it and dont use easy PIN like 0000 or 1234
+* If your screen have no lock, add it and dont use easy PIN like 0000 or 1234
 
 ### Applications 
-- remove any app you don't use
+* Remove any app you don't use
 
 ### Security   
-- check to make sure Google Play Protect is activate
-
-- check Security & Google Play system Update
-
-- disactivate Find My Mobile
-
-- active and setup a Secure Folder
-
-- setup SIM card Lock (dont loose the NIP)
+* Check to make sure Google Play Protect is activate
+* Check Security & Google Play system Update
+* Deactivate Find My Mobile
+* Active and setup a Secure Folder
+* Setup SIM card Lock (dont loose the NIP)
 
 ### Privacy 
-- check the Permission Manager
-
-- activate the Alert if an app access your clipboard
-
-- deactivate Send Diagnostics Data
-
-- deactivate Android Personalization Services (Google)
-
-- clear data in Android System Intelligence
-
-- Google location history: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
-
-- Google Activities Control: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
-
-- Ads : GET new ID & clear data
-
-- Usage & Diagnostics : deactivate
+* Check the Permission Manager
+* Activate the Alert if an app access your clipboard
+* Deactivate Send Diagnostics Data
+* Deactivate Android Personalization Services (Google)
+* Clear data in Android System Intelligence
+* Google location history: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
+* Google Activities Control: REMOVE ALL HISTORY & DEACTIVATE ALL PERMISSIONS
+* Ads : GET new ID & clear data
+* Usage & Diagnostics : deactivate
 
 ### Location 
-- deactivate
-
-- app permissions : REMOVED ALL
-
-- location services : DEACTIVATE ALL
-
-- emergency location services : deactivate
+* Deactivate
+* App permissions : REMOVED ALL
+* Location services : DEACTIVATE ALL
+* Emergency location services : deactivate
 
 ### Google 
-- deactivate and clear old history
-
-- deactivate offline activities and clear old history
-
-- remove or regenerate adds id 
-
-- make sure to have two-factor authentification
-
-- change your password with one containing at least 10 characters, mix of letters + caps + numbers
+* Deactivate and clear old history
+* Deactivate offline activities and clear old history
+* Remove or regenerate adds id 
+* Make sure to have two-factor authentification
+* Change your password with one containing at least 10 characters, mix of letters + caps + numbers
 
 </br>
 
 ## Social Media 
+Dont share ;
+* Image & video: without removing metadata > https://www.verexif.com/en/
+* Screenshot of your computer or phone: where we see YOUR actual TIME ZONE
 
 </br>
 
