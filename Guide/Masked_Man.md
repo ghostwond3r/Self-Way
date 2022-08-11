@@ -1,45 +1,50 @@
-# Think Fast - Act Wise - Stay Free
-
+# The Masked Man
+* * * * * * * * * * * * Think Fast 
+* * * * * * * * * * * * Act Wise 
+* * * * * * * * * * * * Stay Free
+---------------------------
 Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
 
 Anonymity is necessary to us for protection purposes. Without this, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
 
 > An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
 
-Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe.
+Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
 
-``Keep in mind : you can only change the world by being free.``
+> OPSEC ? uh..?
 
-You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
+* * The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short – shut the f**k up, alright?
 
 </br>
 
 ## Index
 
-1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#behavior)
-2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#what-is-considered-as-private-data)
-3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#communication)
-   - [Telegram](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#telegram)
-   - [Wire](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#wire)
-   - [Burner](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#burner)
-4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security-for-android-phone)
-   - [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#lock-screen)
-   - [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#applications)
-   - [Security](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security)
-   - [Privacy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#privacy)
-   - [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#location)
-   - [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#google)
-5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#social-media)
-5. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#browsing)
-7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vpn-virtual-private-network)
-8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vm-virtual-machine)
-9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#encryption)
-10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#proxy)
-11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vps-virtual-private-server)
-12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#cryptocurrency)
-13. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#utilities)
+1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#behavior)
+2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#what-is-considered-as-private-data)
+3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#communication)
+   - [Telegram](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#telegram)
+   - [Wire](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#wire)
+   - [Burner](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#burner)
+4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#security-for-android-phone)
+   - [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#lock-screen)
+   - [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#applications)
+   - [Security](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#security)
+   - [Privacy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#privacy)
+   - [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#location)
+   - [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#google)
+5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#social-media)
+5. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#browsing)
+7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vpn-virtual-private-network)
+8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vm-virtual-machine)
+9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#encryption)
+10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#proxy)
+11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vps-virtual-private-server)
+12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#cryptocurrency)
+13. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#utilities)
 
 </br>
+
+* * You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
 ## Behavior 
 ``Always remember that YOU are your worse enemy's``
@@ -109,20 +114,31 @@ Let's start off with the most important points:
 * Normal chats are not encrypted by default
 * The secure chat feature is fishy.
 
-Use Telegram to follow channels from your city to stay up to date about what's going down. You can find these channels on social media. Don't write anything there that you wouldn't post on twitter or instagram. If you can read it, so can the police. To keep your phone number private, go to the privacy settings and disallow your phone number from being displayed.
+Use Telegram to follow channels from your city to stay up to date about what's going down. You can find these channels on social media. Don't write anything there that you wouldn't post on twitter or instagram. If you can read it, so can the police. To keep your phone number private, go to the privacy settings and disallow your phone number from being displayed. 
+
+> Download [Telegram](https://telegram.org/)
 
 ### Wire
 
 * End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
 * Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
-* Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC.
+* Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC. 
+
+> Download [Wire](https://wire.com/en/download/)
 
 ### Burner
+* A “burner phone” is a cheap, prepaid mobile phone that you can destroy or discard when you no longer need it. You can read more about it here: https://www.digitalcameraworld.com/uk/buying-guides/best-burner-phone
+* An APP burning phone number can also be great.
 
-If you can;
-* Get a burner phone number
-* Get a prepaid SIM card
-* Get a phone with a removable battery
+> Here some APP
+* [Burners Android](https://play.google.com/store/apps/details?id=com.adhoclabs.burner)
+* [Burners iOS](https://itunes.apple.com/app/id505800761)
+* [Hushed Android](https://play.google.com/store/apps/details?id=com.hushed.release)
+* [Hushed iOS](https://itunes.apple.com/us/app/hushed-free-number-texting/id600520752)
+* [CoverMe Android](https://play.google.com/store/apps/details?id=ws.coverme.im)
+* [CoverMe iOS](https://itunes.apple.com/app/coverme-secure-texting-phone/id593652484)
+* [Cloud SIM Android](https://play.google.com/store/apps/details?id=com.cloudsimapp.vtl)
+* [Cloud SIM iOS](https://apps.apple.com/app/cloud-sim/id1141422197)
 
 </br>
 
