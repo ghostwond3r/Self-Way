@@ -19,6 +19,9 @@ You must change some of your actual password. For this you can use any password 
 1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#behavior)
 2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#what-is-considered-as-private-data)
 3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#communication)
+   - [Telegram](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#telegram)
+   - [Wire](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#wire)
+   - [Burner](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#burner)
 4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#security-for-android-phone)
    - [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#lock-screen)
    - [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#applications)
@@ -27,7 +30,7 @@ You must change some of your actual password. For this you can use any password 
    - [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#location)
    - [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Power_of_Anonimity.md#google)
 5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#social-media)
-6. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#browsing)
+5. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#browsing)
 7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vpn-virtual-private-network)
 8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#vm-virtual-machine)
 9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/SEC_Legion.md#encryption)
@@ -94,14 +97,14 @@ Dont share ;
 
 </br>
 
-### Communication
+## Communication
 
 The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. For that, it's recommended to use two apps: Telegram and Wire. You can find them on either Google's Play Store if you're on Android or Apple's Appstore if you have iOS.
 
 * You should use Telegram groups and channels to stay up to date and alert about what's going on.
 * You should use Wire to communicate with your peer group.
 
-#### Telegram
+### Telegram
 
 Let's start off with the most important points:
 
@@ -112,11 +115,18 @@ Let's start off with the most important points:
 
 Use Telegram to follow channels from your city to stay up to date about what's going down. You can find these channels on social media. Don't write anything there that you wouldn't post on twitter or instagram. If you can read it, so can the police. To keep your phone number private, go to the privacy settings and disallow your phone number from being displayed.
 
-#### Wire
+### Wire
 
 * End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
 * Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
 * Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC.
+
+### Burner
+
+If you can;
+* Get a burner phone number
+* Get a prepaid SIM card
+* Get a phone with a removable battery
 
 </br>
 
