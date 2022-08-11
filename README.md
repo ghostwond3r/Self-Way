@@ -8,6 +8,8 @@
   
 ![sw](https://user-images.githubusercontent.com/64184513/183240520-25692b9a-98eb-429b-a1e6-419196974331.jpg)
 
+> We have focused on teaching as a skill and forgotten what Socrates knew: teaching is a gift, learning is a skill. - Author: Peter Drucker
+
 ### How to install
 ```
 sudo su
