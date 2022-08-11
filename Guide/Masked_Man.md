@@ -3,6 +3,10 @@
 * * * * * * * * * * * * Act Wise 
 * * * * * * * * * * * * Stay Free
 ---------------------------
+<p align="center">
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157308-6e2cdd0c-2ed0-4d0c-ba8e-b9185a337975.jpg"
+</p>
+   
 Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
 
 Anonymity is necessary to us for protection purposes. Without this, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
@@ -10,7 +14,7 @@ Anonymity is necessary to us for protection purposes. Without this, we fall, and
 > An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
 
 Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
-
+   
 > OPSEC ? uh..?
 
 * * The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short – shut the f**k up, alright?
@@ -58,6 +62,10 @@ As long as you follow common sense like;
 
 If you follow these rules, then you can pretty much do whatever you want with no fear of being in such situations you dont want.
 
+<p align="center">
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157060-587be764-b055-4858-b6b5-65916c2c7f71.gif"
+</p>
+   
 Always keep in mind that you dont know who is behind the screen; 
 - wearing the picture of Anonymous does not mean the person is trustable. NEVER.
 
@@ -98,6 +106,10 @@ Always keep in mind that you dont know who is behind the screen;
 
 </br>
 
+<p align="right">
+   <img width="auto" height="auto" src="https://privacy-pc.com/wp-content/uploads/2013/04/opsec-in-a-nutshell.jpg"
+</p>
+   
 ## Communication
 
 The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. For that, it's recommended to use two apps: Telegram and Wire. You can find them on either Google's Play Store if you're on Android or Apple's Appstore if you have iOS.
@@ -142,6 +154,10 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 
 </br>
 
+<p align="left">
+   <img width="auto" height="auto" src="https://privacy-pc.com/wp-content/uploads/2013/04/methodology.jpg"
+</p>
+   
 ## Security for Android phone
 *The name of the settings might change if you use Iphone, but the security goes on the same way*
 
@@ -184,6 +200,10 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 
 </br>
 
+<p align="center">
+   <img width="auto" height="auto" src="https://privacy-pc.com/wp-content/uploads/2013/04/ten-crack-commandments-2.jpg"
+</p>
+   
 ## Social Media 
 Dont share ;
 * Image & video: without removing metadata > https://www.verexif.com/en/
