@@ -209,6 +209,94 @@ Dont share ;
 * Image & video: without removing metadata > https://www.verexif.com/en/
 * Screenshot of your computer or phone: where we see YOUR actual TIME ZONE
 
+* Dont Enable Auto Login
+
+If someone gets access to your phone or computer make sure they can’t automatically access your social sites. Make sure your computer’s browser “remember” your login and password isn’t set.
+
+
+* Use Two-factor authentication 2FA
+
+‘double checking’ you really are who you say you are by texting your phone a code that you need to enter before you can log in.
+
+
+* Setup Security Answers
+
+You can set up security questions on your accounts use questions that are hard to find out about you.
+
+
+* Use a VPN
+
+Virtual Private Network is an encryption tool. If you want to keep your conversations, messages, and calls secure this is the best solution.
+
+
+* Keep Antivirus Updated
+
+Never go on the internet without installing anti-malware and antivirus software to secure your online activity and important data.
+
+
+* Change Passwords Frequently
+
+Always use a combination of letters, numbers, and symbols to make it harder to break. Good, secure passwords shouldn’t be easy to remember.
+Never use the same password for multiple websites because they will all become compromised.
+
+* Selective Accepting Friends
+
+Are they really who they say they are? Do you really know that their profile is real and not fake? The safest option is to only accept“friend” requests from people you know in the real world.
+
+
+* Turn Off GPS
+
+Turn off your GPS to keep your exact location private. If you plan to share images online turn off the GPS function to protect your safety.
+
+
+* Internet is Permanent
+
+Always consider that anything you post stays there forever. Even if you delete your account, someone may already print/copy your content.
+
+
+* Personal Information
+
+Careful who you reveal personal information. Always be suspicious of anyone who asks for your personal information over any social media platform.
+
+
+* Beware Clicking on Links
+
+Even if sent from your friends think twice. Hackers love social platforms because you are more likely to click on something from your friends.
+
+
+* Block Fake Accounts
+
+Sadly social media is full of fake profiles. These can be used for a number of reasons from hacking or monitoring your activities
+
+* Suspicious Login Attempts
+
+Social media platforms email you if they feel a login is suspicious. Maybe because it comes from a different IP address, a different browser or your account is sending spamming posts. Keep checking your emails regularly. If you get a suspicious login attempt to your account, change your password as soon as possible.
+
+
+* Keep Browser Updated
+
+Make sure you have the latest version of your browser that is not vulnerable to attacks and hackers. Don’t save passwords in your browser because if your system gets compromised your passwords can be easily read.
+
+
+* Auto Share Options
+
+There are options to automatically share posts from one platform to another.
+
+
+* Close Old Accounts
+
+Old social media accounts you haven’t used in years can risk your personal data security. Delete account and remove as much personal information as possible.
+
+* App Authorisation
+
+Every time you log in to another site using the option of using a social media login you are granting authorisation to your account. They tell you what data this app will have access to before you agree but if you stop using that site remember to revoke authorisation.
+
+
+* Password Manager
+
+Your passwords are valuable, so treat them that way. There are a number of password manager software available that help you store and organise passwords. This enables you to log in with just one main password that then allows you to access all your accounts. Generate a strong random passwords to make accounts safer.
+
+
 </br>
 
 ## Browsing
