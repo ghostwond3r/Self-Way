@@ -1,4 +1,5 @@
-# :mechanical_arm:	 ICS/SCADA Enumeration Techniques for Effective Scanning, Network Reconnaissance, and Tactical Host Probing:
+# ICS/SCADA 
+## Enumeration Techniques for Effective Scanning, Network Reconnaissance, and Tactical Host Probing:
 
 ## General Enumeration:
 
