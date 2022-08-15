@@ -117,3 +117,6 @@ You may be thinking when to store? Simple, when the information is big enough to
 There's a lot of precaution mechanisms and recommendations to follow based on securing evidence, electrostatic aisle for electronic devices, access control, theft, electric incidence, dust and so much on. 
 
 The wrong protection of the evidence can invalid the complete investigation.
+
+
+Original from https://gist.github.com/davidlares/0cd9fdeb1018227f198e0ec42664d7d0
