@@ -18,26 +18,4 @@ chmod +x install.sh
 ./install.sh
 ```
 
-### Directory
-```
-/opt
-    /anonymity
-    /cracking
-    /ddos
-    /exploitation
-    /finder
-    /forensics
-    /guide
-    /post-exploitation
-    /recon
-    /reporting
-    /reversing
-    /se
-    /shell
-    /sniffing
-    /vulnerability
-    /webapp
-    /wireless
-```
-
-#### I dedicate this tool for the [NewBloodProject](https://twitter.com/NewBloodProject?s=20&t=ewLDaon99QR9BW4M_FxCUQ) -- wondR <3
+### I dedicate this tool for the [NewBloodProject](https://twitter.com/NewBloodProject?s=20&t=ewLDaon99QR9BW4M_FxCUQ) -- wondR <3
