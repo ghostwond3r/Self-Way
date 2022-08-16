@@ -285,6 +285,8 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 
 ## Encryption
 
+[Dual-Boot Arch + Windows Encrypted](https://gist.github.com/CodingCellist/c505e98628d0be6a7b200247659fd752#creating-an-encrypted-shared-partition)
+
 </br>
 
 ## Proxy
