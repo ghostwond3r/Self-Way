@@ -276,6 +276,7 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 </br>
 
 ## VPN (Virtual Private Network)
+* [Install Mullvad on Kali](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/install_Mullvad_Kali.md)
 
 </br>
 
@@ -284,7 +285,6 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 </br>
 
 ## Encryption
-
 * [Dual-Boot Arch + Windows Encrypted](https://gist.github.com/CodingCellist/c505e98628d0be6a7b200247659fd752#creating-an-encrypted-shared-partition)
 * [PDF - Create & Use VeraCrypt](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/VeraCryptUserguide.pdf)
 * [Video Tutorial VeraCrypt - HackerSploit](https://youtu.be/cxo8xosH_TI)
