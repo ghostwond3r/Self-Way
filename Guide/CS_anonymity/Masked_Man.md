@@ -23,30 +23,21 @@ Following the creation of the NewBloodProject (NBP), this guide had to be writte
 
 ## Index
 
-1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#behavior)
-2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#what-is-considered-as-private-data)
-3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#communication)
-   - [Telegram](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#telegram)
-   - [Wire](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#wire)
-   - [Burner](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#burner)
-4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#security-for-android-phone)
-   - [Lock Screen](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#lock-screen)
-   - [Applications](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#applications)
-   - [Security](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#security)
-   - [Privacy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#privacy)
-   - [Location](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#location)
-   - [Google ](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#google)
-5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#social-media)
-5. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#browsing)
-7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vpn-virtual-private-network)
-8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vm-virtual-machine)
-9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#encryption)
-10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#proxy)
-11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#vps-virtual-private-server)
-12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#cryptocurrency)
-13. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Masked_Man.md#utilities)
-
 </br>
+
+1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#behavior)
+2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#what-is-considered-as-private-data)
+3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#communication)
+4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#security-for-android-phone)
+5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#social-media)
+6. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#browsing)
+7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vpn-virtual-private-network)
+8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vm-virtual-machine)
+9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#encryption)
+10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#proxy)
+11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vps-virtual-private-server)
+12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#cryptocurrency)
+13. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
 
 * * You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
