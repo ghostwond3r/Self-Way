@@ -287,6 +287,7 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 
 * [Dual-Boot Arch + Windows Encrypted](https://gist.github.com/CodingCellist/c505e98628d0be6a7b200247659fd752#creating-an-encrypted-shared-partition)
 * [PDF - Create & Use VeraCrypt](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/VeraCryptUserguide.pdf)
+* [Video Tutorial VeraCrypt - HackerSploit](https://youtu.be/cxo8xosH_TI)
 
 </br>
 
