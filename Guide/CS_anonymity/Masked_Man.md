@@ -279,6 +279,14 @@ Keep Browser Updated**
 
 ## Browsing
 
+Your information footprint on the Internet is like your body in the physical world: it represents your identity. Like seeing some part of your body, seeing some part of your information footprint — like the location of the device you’re posting from or the pattern of your language — may make it possible for someone to uniquely identify you even when there is no name or other explicit identifier attached.
+
+It is virtually impossible to remain anonymous on the Internet. As a consequence of the protocols used for Internet communication, some details of your device’s setup are communicated to your Internet service provider, and often to the site or service you are using. For example, your IP address is always transmitted, and when you’re browsing the web, your browser transmits information about the browser’s configuration to the website server. These details can be combined together to serve as a unique identifier.
+
+Most web browsers have “private browsing” or “incognito” modes, but those names can be misleading; the sites and services you use can still identify you using IP address, browser configuration, and browsing history (via cookies), and can still track your activities on those sites. Even if you use a tool like an anonymization proxy to cover your IP address and the timestamps on your communications, uniquely identifiable information still leaks through: for example, your browser configuration, cookies, or the information you supply by submitting a query-by-example request.
+
+Furthermore, data mining and inference techniques (see: You’re Leaving Footprints) can be used to match anonymized users to their real identities with a high degree of accuracy, including through language models, speaker identification, facial recognition, location correlation, activity modeling, and other retrieval techniques. But it doesn’t always require such specialized techniques; if there is even a single link between an online identity and your real self, somebody (or some bot) can submit a query using a single identifier (for example, a name, phone number, or email address) to a commercial data-broker service (such as Rapleaf.com or Data.com) that aggregates data from many sources, and that service will give them a full personal profile, which can include home address, income level, job description, and other private information.
+
 </br>
 
 ## VPN (Virtual Private Network)
