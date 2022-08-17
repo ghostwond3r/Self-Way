@@ -300,6 +300,9 @@ Furthermore, data mining and inference techniques (see: You’re Leaving Footpri
 </br>
 
 ## VM (Virtual Machine)
+> [VirtualBox](https://www.virtualbox.org/)
+
+> [VMware](https://www.vmware.com//)
 
 </br>
 
