@@ -56,10 +56,15 @@ If you follow these rules, then you can pretty much do whatever you want with no
 <p align="center">
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157060-587be764-b055-4858-b6b5-65916c2c7f71.gif"
 </p>
+
+**Tips**
    
-Always keep in mind that you dont know who is behind the screen; 
+> Always keep in mind that you dont know who is behind the screen; 
 - wearing the picture of Anonymous does not mean the person is trustable. NEVER.
 
+> Of course, we are all human behind these masks, and nature being what it is;
+- sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. So boys and girls, think twice.
+   
 </br>
 
 
