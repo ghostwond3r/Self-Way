@@ -148,6 +148,10 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 * [Cloud SIM Android](https://play.google.com/store/apps/details?id=com.cloudsimapp.vtl)
 * [Cloud SIM iOS](https://apps.apple.com/app/cloud-sim/id1141422197)
 
+### Secure email services 
+* Since we’re so deeply entrenched in the Google ecosystem, we use Gmail as our personal email provider. While we love its ease of use, we don’t love that Google keeps all of our private emails on its servers. However, there are secure options like ProtonMail, the same company that brought us ProtonVPN. ProtonMail is based in Switzerland, a nonmember of the surveillance alliance Five Eyes, so the company can’t be forced to give the government customer data (doesn't mean it is 100% safe, nothing is). Rather, all email has end-to-end encryption with open source code, and the service is free for Android, iOS, and web users.
+
+> Download [ProtonMail](https://proton.me/mail/download)
 </br>
 
 <p align="left">
