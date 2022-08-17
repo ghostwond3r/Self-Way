@@ -293,6 +293,35 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 
 ## Proxy
 
+### HTTP Proxy
+This is a server that acts as a middle man between two communications, a client and a server. The proxy sets in the middle and can interact with the request/response cycle.
+
+This component is a good thing for privacy, bypassing filters and any kind of censorship, logging and eavesdropping, and another kind of technical restriction, besides traffic capturing and manipulation.
+
+### Three types of proxy
+
+1. **Forward** : proxies are the ones in which the client sends the request to the proxy and fetch the response on behalf, the client can or not know about the proxy but the server doesn't.
+
+This proxy is placed here: `Client -> Proxy -> Internet <= Server`
+
+2. **Reverse** : this is used behind a network architecture and distributes load traffic to the servers. A request goes directly to the proxy and this one handles the request.
+
+Can be seen like this: `Client -> Internet -> Proxy <= Server`
+
+3. **Transparent** : they do not modify any information without any configuration on the request/response cycle. This is commonly used by ISP providers for faster responses.
+
+Here's how is seen: `Client -> Proxy -> Internet => Server`
+
+### MITMProxy overview
+
+This is an interactive console program that allows traffic flow to be intercepted and more.
+
+Run: `mitmproxy` (this will start a console on the 8080 port) **this can be change**.
+
+Then, go to your browser settings and set the manual proxy settings to your localhost IP and set the same port as the `mitmproxy`
+
+When all the setup is done, you can browse and access any website. 
+
 </br>
 
 ## VPS (Virtual Private Server)
