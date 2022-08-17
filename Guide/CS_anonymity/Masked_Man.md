@@ -287,6 +287,11 @@ Most web browsers have “private browsing” or “incognito” modes, but thos
 
 Furthermore, data mining and inference techniques (see: You’re Leaving Footprints) can be used to match anonymized users to their real identities with a high degree of accuracy, including through language models, speaker identification, facial recognition, location correlation, activity modeling, and other retrieval techniques. But it doesn’t always require such specialized techniques; if there is even a single link between an online identity and your real self, somebody (or some bot) can submit a query using a single identifier (for example, a name, phone number, or email address) to a commercial data-broker service (such as Rapleaf.com or Data.com) that aggregates data from many sources, and that service will give them a full personal profile, which can include home address, income level, job description, and other private information.
 
+### Safe browser to use
+> [Tor](https://www.torproject.org/)
+
+> [Brave](https://brave.com/)
+
 </br>
 
 ## VPN (Virtual Private Network)
