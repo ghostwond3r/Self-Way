@@ -1,0 +1,191 @@
+# My aliases
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -la'
+alias l='ls -CF'
+alias lsl="ls -lhFA | less"
+alias ls-l="ls -l"
+alias cd..="cd .."
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+alias dudirs='for a in `find . -mindepth 1 -maxdepth 1 -type d`; do echo $a... ; du -csh "$a" 2> /dev/null | grep -v total ; done'
+
+# Use less if output is bigger than screen
+alias less="less -F -X -R"
+alias ifconfig="sudo ifconfig -a"
+alias reload=". ~/.bashrc"
+
+# The Exits Family
+alias ':q'='exit'
+alias ':Q'='exit'
+alias ':x'='exit'
+alias ':X'='exit'
+alias ':w'='exit'
+alias ':W'='exit'
+alias 'q'='exit'
+alias 'Q'='exit'
+
+alias sudo='sudo '
+alias fuck='sudo $(history -p \!\!)'
+alias mkdir="mkdir -pv"
+alias wget="wget -c"
+alias histg="history | grep"
+alias remoteip="(curl -s https://api.ipify.org/ && echo)"
+alias commandstat="history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | grep -v \"./\" | column -c3 -s \" \" -t | sort -nr | nl |  head -n10"
+
+# Searchable process table
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+# Copy working directory path
+alias cpwd="pwd | tr -d "\n" | setclip"
+alias meminfo='free -m -l -t'
+
+## get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+ 
+## get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+
+alias hex2raw="tr -d '\\\x' | xxd -r -p"
+alias prettyjson='python -m json.tool'
+
+function killallbyname() {
+    sudo kill -9 $(psg $1 | fawk 2 | tail -n +2 | xargs)
+}
+
+function extract {
+ if [ -z "$1" ]; then
+    # display usage if no parameters given
+    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
+ else
+    if [ -f "$1" ] ; then
+        NAME=${1%.*}
+        #mkdir $NAME && cd $NAME
+        case "$1" in
+          *.tar.bz2)   tar xvjf ./"$1"    ;;
+          *.tar.gz)    tar xvzf ./"$1"    ;;
+          *.tar.xz)    tar xvJf ./"$1"    ;;
+          *.lzma)      unlzma ./"$1"      ;;
+          *.bz2)       bunzip2 ./"$1"     ;;
+          *.rar)       unrar x -ad ./"$1" ;;
+          *.gz)        gunzip ./"$1"      ;;
+          *.tar)       tar xvf ./"$1"     ;;
+          *.tbz2)      tar xvjf ./"$1"    ;;
+          *.tgz)       tar xvzf ./"$1"    ;;
+          *.zip)       unzip ./"$1"       ;;
+          *.Z)         uncompress ./"$1"  ;;
+          *.7z)        7z x ./"$1"        ;;
+          *.xz)        unxz ./"$1"        ;;
+          *.exe)       cabextract ./"$1"  ;;
+          *)           echo "extract: '$1' - unknown archive method" ;;
+        esac
+    else
+        echo "'$1' - file does not exist"
+    fi
+  fi
+}
+
+# =======================================================
+# COLORS
+#
+# Restore default color setting.
+# By default, set it to white color instead of actual restore.
+RESTORE=$(echo -en '\033[0m')
+RED=$(echo -en '\033[00;31m')
+GREEN=$(echo -en '\033[00;32m')
+YELLOW=$(echo -en '\033[00;33m')
+BLUE=$(echo -en '\033[00;34m')
+MAGENTA=$(echo -en '\033[00;35m')
+PURPLE=$(echo -en '\033[00;35m')
+CYAN=$(echo -en '\033[00;36m')
+LIGHTGRAY=$(echo -en '\033[00;37m')
+LRED=$(echo -en '\033[01;31m')
+LGREEN=$(echo -en '\033[01;32m')
+LYELLOW=$(echo -en '\033[01;33m')
+LBLUE=$(echo -en '\033[01;34m')
+LMAGENTA=$(echo -en '\033[01;35m')
+LPURPLE=$(echo -en '\033[01;35m')
+LCYAN=$(echo -en '\033[01;36m')
+WHITE=$(echo -en '\033[01;37m')
+
+red() { 
+    echo $RED$1$RESTORE 
+}
+green() { 
+    echo $GREEN$1$RESTORE 
+}
+yellow() {
+ echo $YELLOW$1$RESTORE 
+}
+blue() {
+ echo $BLUE$1$RESTORE 
+}
+magenta() {
+ echo $MAGENTA$1$RESTORE 
+}
+purple() {
+ echo $PURPLE$1$RESTORE 
+}
+cyan() {
+ echo $CYAN$1$RESTORE 
+}
+lightgray() {
+ echo $LIGHTGRAY$1$RESTORE 
+ }
+lred() {
+ echo $LRED$1$RESTORE 
+}
+lgreen() {
+ echo $LGREEN$1$RESTORE 
+}
+lyellow() {
+ echo $LYELLOW$1$RESTORE 
+}
+lblue() {
+ echo $LBLUE$1$RESTORE 
+}
+lmagenta() {
+ echo $LMAGENTA$1$RESTORE 
+}
+lpurple() {
+ echo $LPURPLE$1$RESTORE 
+}
+lcyan() {
+ echo $LCYAN$1$RESTORE 
+}
+white() {
+ echo $WHITE$1$RESTORE 
+}
+
+# =======================================================
+# ENVIRONMENT DEPENDING
+
+export ENCLIP_RECIPIENT=
+export LESS='-F -R -X $LESS'
+export LESSOPEN='|~/.lessfilter %s'
+
+alias forcefullists='find ~/data/SecLists/Discovery/Web_Content/ -type f -exec sh -c "wc -l {}" \; | column -t | sort -k1,1nr | head -n 30'
+defaultiface=`ip route ls | grep default | pcregrep -o1 '.+dev (\S+).+'`
+alias diface=`echo $defaultiface`
+
+function nmapscripts() {
+    find /usr/share/nmap/scripts/ -exec basename {} \; | grep -i "$1" | column
+}
+
+alias bcb='~/tools/Penetration-Testing-Tools/web/burp-curl-beautifier.py'
+
+alias mirror='wget -mkEpnp -e robots=off'
+alias web1='python -m SimpleHTTPServer'
+alias web2='ruby -run -ehttpd . -p8000'
+alias eslintjs='eslint --no-eslintrc -c ~/.eslintrc.js .'
+
+alias unblock_dir='sudo chmod -R 755'
+alias block_dir='sudo chmod -R 700'
+EOF
