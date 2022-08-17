@@ -158,8 +158,7 @@ Use Telegram to follow channels from your city to stay up to date about what's g
    <img width="auto" height="auto" src="https://privacy-pc.com/wp-content/uploads/2013/04/methodology.jpg"
 </p>
    
-## Security for Android phone
-*The name of the settings might change if you use Iphone, but the security goes on the same way*
+## Phone Security
 
 ### Lock Screen 
 * If your screen have no lock, add it and dont use easy PIN like 0000 or 1234
