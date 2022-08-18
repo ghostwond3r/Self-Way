@@ -3,12 +3,12 @@
 * * * * * * * * * * * * Act Wise 
 * * * * * * * * * * * * Stay Free
 ---------------------------
+Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
+
 <p align="center">
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157308-6e2cdd0c-2ed0-4d0c-ba8e-b9185a337975.jpg"
 </p>
    
-Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
-
 Anonymity is necessary to us for protection purposes. Without this, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
 
 > An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
