@@ -64,6 +64,9 @@ If you follow these rules, then you can pretty much do whatever you want with no
 > Always keep in mind that you dont know who is behind the screen; **wearing the picture of Anonymous does not mean the person is trustable. NEVER.**
 
 > Of course, we are all human behind these masks, and nature being what it is; sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. **So boys and girls, think twice.**
+
+> For all the mistake you did in the past, you might be able to see them while Googling your name. To erase yourself from the result of Google please follow the steps described here: https://www.security.org/digital-security/delete-personal-information-google/
+   
    
 </br>
 
