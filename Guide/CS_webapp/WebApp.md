@@ -119,3 +119,47 @@ Custom HTTP headers
 ```
 python3 corsy.py -u https://example.com --headers "User-Agent: GoogleBot\nCookie: SESSION=Hacked"
 ```
+
+## Garud
+* Find injections points
+
+Example Usage
+```
+garud -d hackerone.com
+```
+Exclude out of scope domains
+```
+echo test.hackerone.com > ossdomain.txt
+garud -d hackerone.com -x ~/ossdomain.txt
+```
+With all flags
+```
+garud -d hackerone.com -j -s -x /home/oss.txt
+```
+Hide output in the terminal
+```
+garud -d hackerone.com -s
+```
+Store output in a single json file
+```
+garud -d hackerone.com -s -j
+cd hackerone
+cat output.json | jq
+{
+  "nuclei_critical": [],
+  "vuln_crlf": [],
+  "dalfox": [
+    "[POC][V][GET][inATTR-double(3)-URL] http://subdomain.target.tld/hpp?pp=FUZZ%22onpointerout%3Dconfirm.call%28null%2C1%29+class%3Ddalfox+",
+    ----------------------snip----------------------
+    "subdomains": [
+      "sub.target.tld",
+      "tub.target.tld",
+      "subdomain.target.tld"
+  ],
+  "vuln_xss": [
+    "[POTENTIAL XSS] - http://subdomain.target.tld/hpp/?pp=%22%3E%2F%3E%3Csvg%2Fonload%3Dconfirm%28document.domain%29%3E ",
+    "[POTENTIAL XSS] - http://subdomain.target.tld:80/hpp/?pp=%22%3E%2F%3E%3Csvg%2Fonload%3Dconfirm%28document.domain%29%3E ",
+    "[POTENTIAL XSS] - http://subdomain.target.tld:80/hpp/index.php?pp=%22%3E%2F%3E%3Csvg%2Fonload%3Dconfirm%28document.domain%29%3E "
+  ]
+}
+```
