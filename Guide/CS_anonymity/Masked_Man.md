@@ -15,9 +15,9 @@ Anonymity is necessary to us for protection purposes. Without this, we fall, and
 
 Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
    
-> OPSEC ? uh..?
+> OPSEC ?
 
-* * The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short – shut the f**k up, alright?
+* * The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short; **keep your mouth close**.
 
 </br>
 
@@ -59,11 +59,9 @@ If you follow these rules, then you can pretty much do whatever you want with no
 
 > Privacy is the ability to keep things to yourself by choice, while anonymity means that you want people to see what you do, just not your identity.
    
-> Always keep in mind that you dont know who is behind the screen; 
-- wearing the picture of Anonymous does not mean the person is trustable. NEVER.
+> Always keep in mind that you dont know who is behind the screen; **wearing the picture of Anonymous does not mean the person is trustable. NEVER.**
 
-> Of course, we are all human behind these masks, and nature being what it is;
-- sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. So boys and girls, think twice.
+> Of course, we are all human behind these masks, and nature being what it is; sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. **So boys and girls, think twice.**
    
 </br>
 
