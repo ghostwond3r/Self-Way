@@ -38,7 +38,8 @@ Following the creation of the NewBloodProject (NBP), this guide had to be writte
 10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#proxy)
 11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vps-virtual-private-server)
 12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#cryptocurrency)
-13. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
+13. [Whistleblowing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#whistleblowing)
+14. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
 
 * * You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
@@ -404,6 +405,53 @@ When all the setup is done, you can browse and access any website.
 
 ## Cryptocurrency
 * Cryptocurrency is an increasingly popular payment method, but contrary to popular belief, it’s not always anonymous. With Bitcoin, for example, all payments are completely transparent. If you want to make anonymous payments, use a cryptocurrency like Monero, which hides the sender, receiver, and amount sent using three different privacy technologies.
+
+</br>
+
+## Whistleblowing
+**Best Digital Practices for Whistleblowing**
+
+Dont use your work phones
+* To protect your anonymity, use your home phone as opposed to the phone in your office or organization.
+
+Don’t work on your home or work Internet
+* If you’re using your home device on a public Wi-Fi network like at a coffee shop, use a VPN, or Virtual Private Network. VPNs hide your web traffic and IP address, encrypting your activity.
+
+Create accounts with fake names
+* For any email, social media or messaging apps you may be using to communicate about your whistleblowing, create new accounts with fake information.
+
+Stay on task
+* When you’re working on your whistleblowing by using the Internet at all, make sure you don’t do other online activities simultaneously, like checking your email or shopping online.
+
+Use a secure browser
+* We recommend using Tor instead of your regular web browser, as it lets users remain anonymous.
+
+Use encrypted messaging apps
+* Instead of using your phone’s default messaging app like iMessage, use an encrypted app like TextSecure
+
+Check phone settings
+* You may not know this, but your phone is most likely tracking you at all times. 
+
+| Here’s how to change your settings:
+
+> iOS: Under Settings, click on Bluetooth and toggle the switch off. Next under Settings, go to Privacy then Location Services and toggle the switch to off.
+
+> Android: In Settings, click Connected Devices, Connection Preferences, then Bluetooth and turn it off. Also in Settings click on Google, Manage Your Google Account, Data and Personalization then Activity Controls and turn it off.
+
+Hide your screen
+* Hacking isn’t the only way that people can get your credentials; they can also do it the old-fashioned way by peaking over your screen15. To hide your web activity in a flash, you’ll need to know the device’s keyboard shortcut you can press to hide your web windows or tabs. 
+
+| Here are the shortcuts for the most popular computer brands:
+
+> Mac: Command-H
+> Windows: Windows + D
+> Chromebook: Shift + Ctrl + w
+> Dell: Alt + Q
+> HP: Alt + F4
+> Lenovo: Ctrl-W
+
+Close accounts on public computers
+* If you’re using a public computer, make sure to completely log out of your accounts and remove any devices or software that you used on it.
 
 </br>
 
