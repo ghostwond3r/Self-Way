@@ -57,7 +57,7 @@ If you follow these rules, then you can pretty much do whatever you want with no
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157060-587be764-b055-4858-b6b5-65916c2c7f71.gif"
 </p>
 
-**Tips**
+> Privacy is the ability to keep things to yourself by choice, while anonymity means that you want people to see what you do, just not your identity.
    
 > Always keep in mind that you dont know who is behind the screen; 
 - wearing the picture of Anonymous does not mean the person is trustable. NEVER.
