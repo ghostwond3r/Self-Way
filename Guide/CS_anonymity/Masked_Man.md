@@ -404,6 +404,7 @@ When all the setup is done, you can browse and access any website.
 </br>
 
 ## Cryptocurrency
+* Cryptocurrency is an increasingly popular payment method, but contrary to popular belief, it’s not always anonymous. With Bitcoin, for example, all payments are completely transparent. If you want to make anonymous payments, use a cryptocurrency like Monero, which hides the sender, receiver, and amount sent using three different privacy technologies.
 
 </br>
 
