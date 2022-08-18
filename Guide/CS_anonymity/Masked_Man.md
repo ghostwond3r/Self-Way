@@ -432,7 +432,7 @@ Use encrypted messaging apps
 Check phone settings
 * You may not know this, but your phone is most likely tracking you at all times. 
 
-| Here’s how to change your settings:
+Here’s how to change your settings:
 
 > iOS: Under Settings, click on Bluetooth and toggle the switch off. Next under Settings, go to Privacy then Location Services and toggle the switch to off.
 
@@ -441,13 +441,18 @@ Check phone settings
 Hide your screen
 * Hacking isn’t the only way that people can get your credentials; they can also do it the old-fashioned way by peaking over your screen15. To hide your web activity in a flash, you’ll need to know the device’s keyboard shortcut you can press to hide your web windows or tabs. 
 
-| Here are the shortcuts for the most popular computer brands:
+Here are the shortcuts for the most popular computer brands:
 
 > Mac: Command-H
+
 > Windows: Windows + D
+
 > Chromebook: Shift + Ctrl + w
+
 > Dell: Alt + Q
+
 > HP: Alt + F4
+
 > Lenovo: Ctrl-W
 
 Close accounts on public computers
