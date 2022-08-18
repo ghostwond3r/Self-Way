@@ -87,3 +87,35 @@ Activate shell file
 ```
 ; php -f filelocation.php;
 ```
+
+## Corsy
+* Scans for all known misconfigurations in CORS implementations.
+
+Standard scan
+```
+python3 corsy.py -u https://example.com
+```
+Scan URLs from a file
+```
+python3 corsy.py -i /path/urls.txt
+```
+Scan URLs from stdin
+```
+cat urls.txt | python3 corsy.py
+```
+Number of threads
+```
+python3 corsy.py -u https://example.com -t 20
+```
+Delay between requests
+```
+python3 corsy.py -u https://example.com -d 2
+```
+Export results to JSON
+```
+python3 corsy.py -i /path/urls.txt -o /path/output.json
+```
+Custom HTTP headers
+```
+python3 corsy.py -u https://example.com --headers "User-Agent: GoogleBot\nCookie: SESSION=Hacked"
+```
