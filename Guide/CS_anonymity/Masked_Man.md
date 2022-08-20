@@ -6,19 +6,14 @@
 <p align="center">
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157308-6e2cdd0c-2ed0-4d0c-ba8e-b9185a337975.jpg"
 </p>
-Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
-
-</br>
-
-Anonymity is necessary to us for protection purposes. Without this, we fall, and our whole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..
-
-> An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
-
-Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
    
-> OPSEC ?
+Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
 
-* * The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short; **keep your mouth close**.
+<p align="center">
+Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.</br></br>
+Anonymity is necessary to us for protection purposes. Without this, we fall, and ourwhole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..</br></br>
+An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
+</p>
 
 </br>
 
@@ -68,6 +63,9 @@ If you follow these rules, then you can pretty much do whatever you want with no
 > For all the mistake you did in the past, you might be able to see them while Googling your name. To erase yourself from the result of Google please follow the steps described here: https://www.security.org/digital-security/delete-personal-information-google/
 
 > DONT BE FOOL BY HONEYPOT 
+   
+> The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short; **keep your mouth close**.
+
    
 </br>
 
