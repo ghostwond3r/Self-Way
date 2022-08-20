@@ -4,7 +4,7 @@
 - [Connections](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-connection)
 - [Monitoring](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-monitoring)
 - [Hotspot Captive Portal Bypass](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#hotspot-captive-portal-bypass)
-- [Denial of Service]
+- [Denial of Service](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-denial-of-service)
 
 </br>
 
