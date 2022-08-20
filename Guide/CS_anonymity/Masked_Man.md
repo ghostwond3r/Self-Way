@@ -1,75 +1,81 @@
 # The Masked Man
-* * * * * * * * * * * * Think Fast 
-* * * * * * * * * * * * Act Wise 
-* * * * * * * * * * * * Stay Free
------------
+</br>
+<p align="center">
+Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.
+</br>
+Anonymity is necessary to us for protection purposes. 
+</br>
+Without this, we fall, and ourwhole life with it, perhaps the life of your loved ones too...
+</br>
+If you choose the voice of Anonymous, then master the art of anonymity. 
+</br>
+There is no room for fame on this path..
+</p>
+
 <p align="center">
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157308-6e2cdd0c-2ed0-4d0c-ba8e-b9185a337975.jpg"
 </p>
-   
-Following the creation of the NewBloodProject (NBP), this guide had to be written. I will describe, to the best of my own knowledge, as well as the one from others, how to stay safe. **You can only change the world by being FREE.**
 
 <p align="center">
-Being Anonymous doesn't just end with wearing a mask... Our name comes from its own definition.</br></br>
-Anonymity is necessary to us for protection purposes. Without this, we fall, and ourwhole life with it, perhaps the life of your loved ones too... If you choose the voice of Anonymous, then master the art of anonymity. There is no room for fame on this path..</br></br>
-An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
-</p>
-
+An anonymous voice has an impact beyond the reach of any possible judgment by our conscience. 
 </br>
+We cannot categorize an idea that has no owner. Each word become true and echo in themselves.
+</p></br>
 
-## Index
+
+# Index
 
 </br>
 
 1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#behavior)
-2. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#what-is-considered-as-private-data)
-3. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#communication)
-4. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#security-for-android-phone)
-5. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#social-media)
-6. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#browsing)
-7. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vpn-virtual-private-network)
-8. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vm-virtual-machine)
-9. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#encryption)
-10. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#proxy)
-11. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vps-virtual-private-server)
-12. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#cryptocurrency)
-13. [Whistleblowing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#whistleblowing)
-14. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
+2. [Authentication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#authentication)
+3. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#what-is-considered-as-private-data)
+4. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#communication)
+5. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#security-for-android-phone)
+6. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#social-media)
+7. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#browsing)
+8. [Search engines](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#search-engine)
+9. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vpn-virtual-private-network)
+10. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vm-virtual-machine)
+11. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#encryption)
+12. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#proxy)
+13. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vps-virtual-private-server)
+14. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#cryptocurrency)
+15. [Whistleblowing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#whistleblowing)
+16. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
 
-* * You must change some of your actual password. For this you can use any password generator like this: [Dashlane](https://www.dashlane.com/en/features/password-generator)
 
-## Behavior 
+# Behavior 
 ``Always remember that YOU are your worse enemy's``
 
 As long as you follow common sense like;
 
-1. never do anything hacking related outside of your hacking environment
-2. never do any of your normal computer usage inside your hacking environment
-3. never mention any information about your real life when talking with other hackers
-4. never brag about your illegal hacking exploits to friends in real life
+1. **Never do anything hacking related outside of your hacking environment**
+2. **Never do any of your normal computer usage inside your hacking environment**
+3. **Never mention any information about your real life when talking with other hackers**
+4. **Never brag about your illegal hacking exploits to friends in real life**
 
-If you follow these rules, then you can pretty much do whatever you want with no fear of being in such situations you dont want.
+*If you follow these rules, then you can pretty much do whatever you want with less risk of being in such situations you dont want.*
 
 <p align="center">
    <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/184157060-587be764-b055-4858-b6b5-65916c2c7f71.gif"
 </p>
 
-> Privacy is the ability to keep things to yourself by choice, while anonymity means that you want people to see what you do, just not your identity.
-   
-> Always keep in mind that you dont know who is behind the screen; **wearing the picture of Anonymous does not mean the person is trustable. NEVER.**
+* Privacy is the ability to keep things to yourself by choice, while anonymity means that you want people to see what you do, just not your identity.
 
-> Of course, we are all human behind these masks, and nature being what it is; sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. **So boys and girls, think twice.**
+* Always keep in mind that you dont know who is behind the screen; **wearing the picture of Anonymous does not mean the person is trustable. NEVER.**
 
-> For all the mistake you did in the past, you might be able to see them while Googling your name. To erase yourself from the result of Google please follow the steps described here: https://www.security.org/digital-security/delete-personal-information-google/
+* Of course, we are all human behind these masks, and nature being what it is; sometimes relationships slip from anonymity... a lot of the "doxxing" we see is the result. **So boys and girls, think twice.**
 
-> DONT BE FOOL BY HONEYPOT 
-   
-> The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short; **keep your mouth close**.
+* For all the mistake you did in the past, you might be able to see them while Googling your name. To erase yourself from the result of Google please follow the steps described here: https://www.security.org/digital-security/delete-personal-information-google/
 
-   
+* DONT BE FOOL BY HONEYPOT   
+
+* The less you say, the harder it is for people to figure out what you’re doing. You do not want to give people an opportunity to take control of your actions or your life. So, in short; **keep your mouth close**.
+
 </br>
 
-## Authentication
+# Authentication
 
 * Use a long, strong and unique password for each of your accounts (see HowSecureIsMyPassword.net)
 * Use a secure password manager, to encrypt, store and fill credentials, such as BitWarden or KeePass / KeePassXC
@@ -77,8 +83,8 @@ If you follow these rules, then you can pretty much do whatever you want with no
 * When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You should store these on paper or in a safe place on disk (e.g. in offline storage or as in an encrypted file/drive).
 * Sign up for breach alerts (with Firefox Monitor or HaveIBeenPwned), and update passwords of compromised accounts
 
-## What is considered as private data
-
+# What is considered as private data
+```
 * Passwords
 * Real, full (family) name
 * Address of your home, workplace, or school
@@ -108,68 +114,91 @@ If you follow these rules, then you can pretty much do whatever you want with no
 * Social media profiles on sites where you’re confident you understand the privacy settings
 * General likes, favorites, and things you enjoy sharing on social media sites
 * Single-use or gift credit cards
-
+```
 </br>
-
-<p align="right">
-   <img width="auto" height="auto" src="https://privacy-pc.com/wp-content/uploads/2013/04/opsec-in-a-nutshell.jpg"
-</p>
    
-## Communication
+# Communication
 
-The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. For that, it's recommended to use two apps: Telegram and Wire. You can find them on either Google's Play Store if you're on Android or Apple's Appstore if you have iOS.
+The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. 
+--------------------
 
-* You should use Telegram groups and channels to stay up to date and alert about what's going on.
-* You should use Wire to communicate with your peer group.
-
-### Telegram
+## Telegram
 
 Let's start off with the most important points:
-
+```
 * Telegram group chats are not encrypted.
 * Telegram channels are not encrypted.
 * Normal chats are not encrypted by default
 * The secure chat feature is fishy.
-
+```
 Use Telegram to follow channels from your city to stay up to date about what's going down. You can find these channels on social media. Don't write anything there that you wouldn't post on twitter or instagram. If you can read it, so can the police. To keep your phone number private, go to the privacy settings and disallow your phone number from being displayed. 
 
 > Download [Telegram](https://telegram.org/)
+-------------------
 
-### Wire
+## Wire
 * End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
 * Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
 * Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC. 
 
 > Download [Wire](https://wire.com/en/download/)
+--------------------
 
-### Signal
-* Probably one of the most popular, secure private messaging apps that combines strong encryption (see Signal Protocol) with a simple UI and plenty of features. It's widely used across the world, and easy-to-use, functioning similar to WhatsApp - with instant messaging, read-receipts, support for media attachments and allows for high-quality voice and video calls. It's cross-platform, open-source and totally free. Signal is recommended by Edward Snowden, and is a perfect solution for most users.
-   
+## Signal
+Probably one of the most popular, secure private messaging apps that combines:
+* strong encryption  
+* simple UI 
+* cross-platform
+* open-source 
+* totally free
+
+It's widely used across the world, and easy-to-use. Signal is recommended by Edward Snowden, and is a perfect solution for most users. 
+
 > Download [Signal](https://signal.org/)
-   
-### Session
-* Session is a fork of Signal, however unlike Signal it does not require a mobile number (or any other personal data) to register, instead each user is identified by a public key. It is also decentralized, with servers being run by the community though Loki Net, messages are encrypted and routed through several of these nodes. All communications are E2E encrypted, and there is no meta data.
-   
+---------------------
+
+## Session
+Session is a fork of Signal, however unlike Signal it does not require a mobile number (or any other personal data) to register, instead each user is identified by a public key. It is also decentralized, with servers being run by the community though Loki Net, messages are encrypted and routed through several of these nodes. 
+* All communications are E2E encrypted, and there is no meta data. 
+
 > Download [Session](https://getsession.org/)
-   
-### Silence 
-* If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. It's easy-to-use, reliable and secure - but has fallen in popularity, now that internet-based messaging is often faster and more flexible
-   
+----------------------
+
+## Silence 
+If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. 
+* easy-to-use
+* reliable 
+* secure 
+
 > Download [Silence](https://silence.im/)
-   
-### OTR
-* Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging/ XMPP. It has fallen in popularity in recent years, in favor for simpler, mobile-based messaging apps, but still widely used and secure. It provides: Encryption (so no one else can read your messages), Authentication (assurance that the correspondent is who you think they are), Deniability (After a conversation, it cannot be proved you took part), Perfect Forwards Secrecy (if your keys are compromised, no previous messages can be decrypted). The easiest way to use OTR, is with a plugin for your IM client.
-   
+--------------------
+
+## OTR
+Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging/ XMPP. 
+
+It provides: 
+* Encryption 
+* Authentication 
+* Deniability (After a conversation, it cannot be proved you took part)
+* Perfect Forwards Secrecy (if your keys are compromised, no previous messages can be decrypted)
+
+The easiest way to use OTR, is with a plugin for your IM client.
+
 > Download [Off-The-Record](https://otr.cypherpunks.ca/)
-   
-### OpenPGP
-* can be used over existing chat networks (such as email or message boards). It provides cryptographic privacy and authentication, PGP is used to encrypt messages.
-   
+---------------------
+
+## OpenPGP
+Can be used over existing chat networks (such as email or message boards). PGP is used to encrypt messages.
+
+It provides: 
+* cryptographic privacy 
+* authentication
+
 > Download [OpenPGP](https://www.openpgp.org/)
-   
-### Burner
-* A “burner phone” is a cheap, prepaid mobile phone that you can destroy or discard when you no longer need it. You can read more about it here: https://www.digitalcameraworld.com/uk/buying-guides/best-burner-phone
-* An APP burning phone number can also be great.
+----------------------
+
+## Burner
+A “burner phone” is a cheap, prepaid mobile phone that you can destroy or discard when you no longer need it. You can read more about it here: https://www.digitalcameraworld.com/uk/buying-guides/best-burner-phone
 
 > Here some APP
 * [Burners Android](https://play.google.com/store/apps/details?id=com.adhoclabs.burner)
@@ -180,21 +209,24 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 * [CoverMe iOS](https://itunes.apple.com/app/coverme-secure-texting-phone/id593652484)
 * [Cloud SIM Android](https://play.google.com/store/apps/details?id=com.cloudsimapp.vtl)
 * [Cloud SIM iOS](https://apps.apple.com/app/cloud-sim/id1141422197)
+---------------------
 
-### Secure email services 
-* Since we’re so deeply entrenched in the Google ecosystem, we use Gmail as our personal email provider. While we love its ease of use, we don’t love that Google keeps all of our private emails on its servers. However, there are secure options like ProtonMail, the same company that brought us ProtonVPN. ProtonMail is based in Switzerland, a nonmember of the surveillance alliance Five Eyes, so the company can’t be forced to give the government customer data (doesn't mean it is 100% safe, nothing is). Rather, all email has end-to-end encryption with open source code, and the service is free for Android, iOS, and web users.
+## Secure email services 
+Since we’re so deeply entrenched in the Google ecosystem, we use Gmail as our personal email provider. While we love its ease of use, we don’t love that Google keeps all of our private emails on its servers. However, there are secure options like ProtonMail, the same company that brought us ProtonVPN. ProtonMail is based in Switzerland, a nonmember of the surveillance alliance Five Eyes, so the company can’t be forced to give the government customer data (doesn't mean it is 100% safe, nothing is). Rather, all email has end-to-end encryption with open source code, and the service is free for Android, iOS, and web users.
 
 > Download [ProtonMail](https://proton.me/mail/download)
+---------------------
 
-### Temporary email
-* Instead of using your private email to register on any services online, use a temporary email. 
+## Temporary email
+Instead of using your private email to register on any services online, use a temporary email. 
 
 > Here some sites
 * [Temp-mail](https://temp-mail.org/)
 * [Tempmail](https://tempail.com/)
 * [Tempmailo](https://tempmailo.com/)
 * [Uranomail](https://uranomail.es/)
-  
+-----------------------
+
 </br>
 
 <p align="left">
