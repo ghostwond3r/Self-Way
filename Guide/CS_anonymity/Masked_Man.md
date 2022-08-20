@@ -69,6 +69,13 @@ If you follow these rules, then you can pretty much do whatever you want with no
    
 </br>
 
+## Authentication
+
+* Use a long, strong and unique password for each of your accounts (see HowSecureIsMyPassword.net)
+* Use a secure password manager, to encrypt, store and fill credentials, such as BitWarden or KeePass / KeePassXC
+* Enable 2-Factor authentication where available, and use an authenticator app or hardware token
+* When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You should store these on paper or in a safe place on disk (e.g. in offline storage or as in an encrypted file/drive).
+* Sign up for breach alerts (with Firefox Monitor or HaveIBeenPwned), and update passwords of compromised accounts
 
 ## What is considered as private data
 
