@@ -131,13 +131,37 @@ Use Telegram to follow channels from your city to stay up to date about what's g
 > Download [Telegram](https://telegram.org/)
 
 ### Wire
-
 * End-to-end encrypted : All messaging on Wire uses end-to-end encryption (E2EE), giving users a strong degree of privacy and security.
 * Independently audited : Wire is 100% open source with its code available on GitHub, independently audited and ISO, CCPA, GDPR, SOX-compliant.
 * Deployment options & device support : Wire can be deployed on Wire's Cloud, your cloud server, or your own on-premises server and all features can be used across web, mobile, and PC. 
 
 > Download [Wire](https://wire.com/en/download/)
 
+### Signal
+* Probably one of the most popular, secure private messaging apps that combines strong encryption (see Signal Protocol) with a simple UI and plenty of features. It's widely used across the world, and easy-to-use, functioning similar to WhatsApp - with instant messaging, read-receipts, support for media attachments and allows for high-quality voice and video calls. It's cross-platform, open-source and totally free. Signal is recommended by Edward Snowden, and is a perfect solution for most users.
+   
+> Download [Signal](https://signal.org/)
+   
+### Session
+* Session is a fork of Signal, however unlike Signal it does not require a mobile number (or any other personal data) to register, instead each user is identified by a public key. It is also decentralized, with servers being run by the community though Loki Net, messages are encrypted and routed through several of these nodes. All communications are E2E encrypted, and there is no meta data.
+   
+> Download [Session](https://getsession.org/)
+   
+### Silence 
+* If you're restricted to only sending SMS/MMS, then Silence makes it easy to encrypt messages between 2 devices. This is important since traditional text messaging is inherently insecure. It's easy-to-use, reliable and secure - but has fallen in popularity, now that internet-based messaging is often faster and more flexible
+   
+> Download [Silence](https://silence.im/)
+   
+### OTR
+* Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging/ XMPP. It has fallen in popularity in recent years, in favor for simpler, mobile-based messaging apps, but still widely used and secure. It provides: Encryption (so no one else can read your messages), Authentication (assurance that the correspondent is who you think they are), Deniability (After a conversation, it cannot be proved you took part), Perfect Forwards Secrecy (if your keys are compromised, no previous messages can be decrypted). The easiest way to use OTR, is with a plugin for your IM client.
+   
+> Download [Off-The-Record](https://otr.cypherpunks.ca/)
+   
+### OpenPGP
+* can be used over existing chat networks (such as email or message boards). It provides cryptographic privacy and authentication, PGP is used to encrypt messages.
+   
+> Download [OpenPGP](https://www.openpgp.org/)
+   
 ### Burner
 * A “burner phone” is a cheap, prepaid mobile phone that you can destroy or discard when you no longer need it. You can read more about it here: https://www.digitalcameraworld.com/uk/buying-guides/best-burner-phone
 * An APP burning phone number can also be great.
