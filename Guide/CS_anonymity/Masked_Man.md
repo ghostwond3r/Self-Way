@@ -119,8 +119,10 @@ As long as you follow common sense like;
    
 # Communication
 
-The most important step is to make sure you can communicate securely without being surveilled. You need a way to communicate privately with your peer group and a way to stay up to date with what's happening around you and where demonstrations are taking place. 
---------------------
+**Make sure you can communicate securely without being surveilled.**
+</br>
+**You need a way to communicate privately with your peer group and a way to stay up to date.**
+
 
 ## Telegram
 
