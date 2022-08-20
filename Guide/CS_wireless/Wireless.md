@@ -1,17 +1,14 @@
-# WiFi Commands
+## Index
 
---------------------
-Index
+- [Interfaces Management](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-interfaces-management)
+- [Connections](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-connection)
+- [Monitoring](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#wifi-monitoring)
+- [Hotspot Captive Portal Bypass](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_wireless/Wireless.md#hotspot-captive-portal-bypass)
 
-- [Interfaces Management]
-- [Connections]
-- [Monitoring]
-- [Hotspot Captive Portal Bypass]
-- 
-
--------------------
+</br>
 
 # WiFi Interfaces Management
+</br>
 
 ## List Available WiFi Interfaces
 ```
@@ -119,6 +116,7 @@ Change interface channel
 iwconfig <interface> channel <channel_number>
 ```
 
+</br>
 
 # WiFi Connection
 
@@ -159,6 +157,7 @@ dhclient -v wlan0
 ping 8.8.8.8
 ```
 
+</br>
 
 # WiFi Monitoring
 
@@ -213,6 +212,7 @@ airodump-ng -c <channel> --bssid <MAC_AP> -w <capture_file> mon0
 * * Filter on "eap"
 * * Check field "Type" in EAP message
 
+</br>
 
 # Hotspot Captive Portal Bypass
 
@@ -261,3 +261,6 @@ brctl addif br0 <interface>
 ebtables -t nat -A POSTROUTING -o <interface> -d <MAC_gateway> -j snat --to-source <MAC_authorized_client>
 ```
 3. Apply IP based authorization bypass - Method 1 (MiTM) (cf. before).
+
+</br>
+
