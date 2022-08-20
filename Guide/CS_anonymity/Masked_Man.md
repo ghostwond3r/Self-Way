@@ -345,9 +345,32 @@ Keep Browser Updated**
 * many other private information
 
 ### Safe browser to use
-> [Tor](https://www.torproject.org/)
 
-> [Brave](https://brave.com/)
+[Librewolf]
+* Librewolf is an independent “fork” of Firefox, with the primary goals of privacy, security and user freedom. It is the community run successor to LibreFox
+
+[Brave Browser](https://brave.com/)
+* Brave Browser, currently one of the most popular private browsers - it provides speed, security, and privacy by blocking trackers with a clean, yet fully-featured UI. It also pays you in BAT tokens for using it. Brave also has Tor built-in, when you open up a private tab/ window.
+
+[Firefox]
+* Significantly more private, and offers some nifty privacy features than Chrome, Internet Explorer and Safari. After installing, there are a couple of small tweaks you will need to make, in order to secure Firefox. For a though config, see @arkenfox's user.js. You can also follow one of these guides by: Restore Privacy or 12Bytes
+
+[Tor Browser](https://www.torproject.org/)
+* Tor provides an extra layer of anonymity, by encrypting each of your requests, then routing it through several nodes, making it near-impossible for you to be tracked by your ISP/ provider. It does make every-day browsing a little slower, and some sites may not work correctly. As with everything there are trade-offs
+
+[Bromite]
+* Hardened and privacy-respecting fork of Chromium for Android. Comes with built-in adblock and additional settings for hardening.
+
+## Search engine
+
+DuckDuckGo
+* DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. They even have a .onion URL, for use with Tor and a no Javascript version
+
+Qwant
+* French service that aggregates Bings results, with its own results. Quant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no promotions. Quant has a unique, but nice UI.
+
+Startpage
+* Dutch search engine that searches on google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source)
 
 </br>
 
@@ -364,6 +387,18 @@ Keep Browser Updated**
 </br>
 
 ## Encryption
+
+[VeraCrypt](https://www.veracrypt.fr/)
+* VeraCrypt is open source cross-platform disk encryption software. You can use it to either encrypt a specific file or directory, or an entire disk or partition. VeraCrypt is incredibly feature-rich, with comprehensive encryption options, yet the GUI makes it easy to use. It has a CLI version, and a portable edition. VeraCrypt is the successor of (the now deprecated) TrueCrypt.
+
+[Cryptomator](https://cryptomator.org/)
+* Open source client-side encryption for cloud files - Cryptomator is geared towards using alongside cloud-backup solutions, and hence preserves individual file structure, so that they can be uploaded. It too is easy to use, but has fewer technical customizations for how the data is encrypted, compared with VeraCrypt. Cryptomator works on Windows, Linux and Mac - but also has excellent mobile apps.
+
+[Age](https://github.com/FiloSottile/age)
+* age is a simple, modern and secure CLI file encryption tool and Go library. It features small explicit keys, no config options, and UNIX-style composability
+
+Ressources: 
+
 * [Dual-Boot Arch + Windows Encrypted](https://gist.github.com/CodingCellist/c505e98628d0be6a7b200247659fd752#creating-an-encrypted-shared-partition)
 * [PDF - Create & Use VeraCrypt](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/VeraCryptUserguide.pdf)
 * [Video Tutorial VeraCrypt - HackerSploit](https://youtu.be/cxo8xosH_TI)
@@ -467,8 +502,11 @@ Close accounts on public computers
 ## Utilities
 
 ### Antitheft Apps
-  *   Lookout: https://www.lookout.com/
-  *   Prey: https://preyproject.com/
+
+| Name | Website | 
+| --- | --- |
+|Lookout| https://www.lookout.com/ |
+|Prey| https://preyproject.com/ |
 
 ### Antitracking Plug-ins and Extensions
   *	AdBlock Plus: https://adblockplus.org/
