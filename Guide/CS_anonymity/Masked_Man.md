@@ -327,53 +327,44 @@ Screenshot of your computer or phone: where we see YOUR actual TIME ZONE
 
 ## Browsing
 
-### What is the meaning of "Anonymity" online ?
+1. What is the meaning of "Anonymity" online ?
 
-> Your information footprint on the Internet is like your body in the physical world: it represents your identity, (like the location of the device you’re posting from or the pattern of your language) may make it possible for someone to uniquely identify you even when there is no name or other explicit identifier attached.
+**Your information footprint on the Internet is like your body in the physical world: it represents your identity, (like the location of the device you’re posting from or the pattern of your language) may make it possible for someone to uniquely identify you even when there is no name or other explicit identifier attached.**
 
-> It is virtually impossible to remain anonymous on the Internet. As a consequence of the protocols used for Internet communication, some details of your device’s setup are communicated to your Internet service provider, and often to the site or service you are using.
+**It is virtually impossible to remain anonymous on the Internet. As a consequence of the protocols used for Internet communication, some details of your device’s setup are communicated to your Internet service provider, and often to the site or service you are using.**
 
-> Most web browsers have **private browsing** modes, but this can be misleading; the sites and services you use can still identify you using;
-
- * IP address
-
+2. Most web browsers have **private browsing** modes, but this can be misleading; the sites and services you use can still identify you using;
+```
+* IP address
 * browser configuration
-
 * browsing history (via cookies)
+```
+*And so ... They can still track your activities on those sites.*
 
-| And so ... They can still track your activities on those sites.
-
-> Even if you use a tool like an anonymization proxy to cover your 'IP address and the timestamps on your communications', uniquely identifiable information still leaks through;
-
+3. Even if you use a tool like an anonymization proxy to cover your 'IP address and the timestamps on your communications', uniquely identifiable information still leaks through;
+```
 * browser configuration
-
 * cookies
-
 * the infos you supply by a query-by-example request
+```
 
-> Data mining and inference techniques can be used to match anonymized users to their real identities with a high degree of accuracy, including through;
-
+4. Data mining and inference techniques can be used to match anonymized users to their real identities with a high degree of accuracy, including through;
+```
 * language models
-
 * speaker identification
-
 * facial recognition
-
 * location correlation
-
 * activity modeling
-
 * other retrieval techniques
+```
 
-> It doesn’t always require such specialized techniques; `if there is even a single link between an online identity and your real self`, somebody can submit a query using a single identifier to a commercial data-broker service that aggregates data from many sources, and that service will give them a full personal profile, which can include; 
-
+5. It doesn’t always require such specialized techniques; `if there is even a single link between an online identity and your real self`, somebody can submit a query using a single identifier to a commercial data-broker service that aggregates data from many sources, and that service will give them a full personal profile, which can include; 
+```
 * home address
-
 * income level
-
 * job description
-
 * many other private information
+```
 
 ### Safe browser to use
 
