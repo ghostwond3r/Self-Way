@@ -517,3 +517,238 @@ Lenovo: Ctrl-W
 
 </br>
 
+## Utilities
+
+### Antitheft Apps
+
+| Name | Website | 
+| ---- | ------- |
+|Lookout| https://www.lookout.com/ |
+|Prey| https://preyproject.com/ |
+
+### Antitracking Plug-ins and Extensions
+| Name | Website | 
+| ---- | ------- |
+|AdBlock Plus| https://adblockplus.org/ |
+|Blur| https://dnt.abine.com/#register |
+|Disconnect| https://disconnect.me/ |
+|Ghostery| https://www.ghostery.com/en/ |
+
+### Password Managers
+| Name | Website | 
+| ---- | ------- |
+|1Password| http://www.agilebits.com/onepassword/ |
+|KeePass| http://www.keepass.info/ |
+|LastPass| https://lastpass.com/ |
+|oneSafe| http://www.onesafe-apps.com/ |
+|Password Safe| http://www.passwordsafe.sourceforge.net/ |
+|Splash ID Safe| http://www.splashdata.com/ |
+
+### Searching Your Name
+| Name | Website | 
+| ---- | ------- |
+|pokeo| http://www.spokeo.com/ |
+|SSearch| http://www.ussearch.com/ |
+|ntelius| http://www.intelius.com/ |
+
+### Breaches
+| Name | Website | 
+| ---- | ------- |
+|FTC data breach| https://www.ftccomplaintassistant​.gov/ |
+|Hack checker| https://haveibeenpwned.com/ |
+|Hard drive recovery| http://www.drivesaversdatarecovery​.com/ |
+
+### Account Recovery
+| Name | Website | 
+| ---- | ------- |
+|Amazon| Use Help -> Contact Us|
+|AppleCare| https://www.apple.com/support/applecare/ |
+|eBay| 1.866.961.9253 |
+|Facebook| https://www.facebook.com/hacked/ |
+|Google| http://www.google.com/accounts/recovery/ |
+|Microsoft (Outlook, Xbox, Hotmail, and so on)| https://account.live​.com/acsr/ |
+|PayPal| U.S.A.: 1.888.221.1161 or world: 1.402.935.2050)|
+|Twitter| https://support.twitter.com/forms/hacked/ |
+|Yahoo!| https://help.yahoo.com/kb/helpcentral/ or 1.800.318.0612|
+|Find phone numbers that may help| http://gethuman.com/ |
+
+### Backup Services and Products
+| Name | Website | 
+| ---- | ------- |
+|Amazon Cloud Services| http://aws.amazon.com/backup-recovery/ |
+|Box| https://www.box.com/personal/file-sync/ |
+|CrashPlan| http://www.code42.com/crashplan/ |
+|iCloud| https://www.apple.com/icloud/ |
+|DropBox| https://www.dropbox.com/ |
+ 
+### Create an Account with a New Email Provider
+| Name | Website | 
+| ---- | ------- |
+|Gmail| https://accounts.google.com/signup |
+|Hushmail| https://www.hushmail.com/signup/ |
+|iCloud| https://support.apple.com/kb/ph2620?locale=en_US |
+|Microsoft Outlook| http://www.microsoft.com/en-us/outlook-com/ |
+|Yahoo! Mail| https://overview.mail.yahoo.com/ |
+|Zoho Mail| https://mail.zoho.com/biz/createAcc.do |
+
+### Encryption Products
+| Name | Website |
+| ---- | ------- |
+|VeraCrypt| https://veracrypt.codeplex.com/ |
+|CipherShed| https://ciphershed.org/ |
+
+### Encryption Programs
+| Name | Website |
+| ---- | ------- |
+|BitLocker for Windows| https://technet.microsoft.com/en-us/library/cc732774.aspx |
+|FileVault for Mac| https://support.apple.com/en-us/HT204837 |
+
+### Reputation Services and Image Removal
+| Name | Website |
+| ---- | ------- |
+|Abine| https://www.abine.com/ |
+|DMCA Defender| http://www.dmcadefender.com/ |
+|Reputation| https://reputation.com |
+
+### Revenge Porn Support Organizations
+| Name | Website |
+| ---- | ------- |
+|Army of She| http://www.armyofshe.com/ |
+|Ban Revenge Porn| http://www.banrevengeporn.com/ |
+|Crash Override Network| http://www​.crashoverridenetwork.com |
+|End Revenge Porn| http://www.endrevengeporn.org/ and http://www​.endrevengeporn.org/professionals-helping-victims/ |
+|IWF| https://www.iwf.org.uk/report/ |
+|Women Against Revenge Porn| http://www.womenagainstrevengeporn​.com/ |
+
+### Identity Theft
+| Name | Website |
+| ---- | ------- |
+|Fix credit reports| http://www.consumer.ftc.gov/articles/0291-disputing-errors-credit-reporting-companies/ |
+|IRS ID Theft Affidavit Form 14039| http://www.irs.gov/pub/irs-pdf/f14039.pdf |
+|IRS Identity Protection Specialized Unit| 1.800.908.4490 |
+|Social Security Administration fraud hotline| 1.800.269.0271 |
+|Wipe or overwrite the drive or memory on your phone| http://dban.org/ |
+
+### Antitheft Tracking Apps
+| Name | Website |
+| ---- | ------- |
+|AVG| http://www.avg.com/us-en/for-android |
+|Kapersky| http://www.kaspersky.com/mobile_security |
+|Lookout| https://www.lookout.com/ |
+|McAfee| http://home.mcafee.com/store?CategoryId=Mobile |
+|Prey| https://preyproject.com/ |
+|Where’s My Droid| http://wheresmydroid.com/ |
+
+### FTC Identity Theft Report
+| Name | Website |
+| ---- | ------- |
+|To create| http://www.consumer.ftc.gov/articles/0277-create-identity​-theft-report/ |
+|To file| http://ftccomplaintassistant.gov/Questions: 1.877.IDTHEFT (438.4338) |
+
+### Social Media Privacy Settings
+| Name | Website |
+| ---- | ------- |
+|Facebook| http://www.facebook.com/settings/?tab=privacy/ |
+|Google| http://www.google.com/dashboard/ |
+|Twitter| http://www.twitter.com/settings/security/ |
+
+### Photo Sharing Site Privacy Settings
+| Name | Website |
+| ---- | ------- |
+|Flickr| https://www.flickr.com/account/privacy/ |
+|Imgur| https://help.imgur.com/hc/en-us/articles/201746817-Image/ |
+|Instagram| https://help.instagram.com/116024195217477/ |
+
+### Find Tracking Companies
+| Name | Website |
+| ---- | ------- |
+|Ghostery| http://www.ghostery.com/ |
+|Privacy Fix| https://privacyfix.com |
+ 
+### People-Finder Sites
+| Name | Website |
+| ---- | ------- |
+|BeenVerified| http://www.beenverified.com/ |
+|DOBSearch| https://www.dobsearch.com/ |
+|Intelius| http://www.intelius.com/ |
+|LexisNexis| http://www.lexisnexis.com/en-us/products/public-records​.page |
+|Spokeo| http://www.spokeo.com/WhitePages |
+|WhitePages| http://www.whitepages.com/ |
+
+### Opt Out of Data Mining
+| Name | Website |
+| ---- | ------- |
+|Digital Advertising Alliance (DAA)| http://www.aboutads.info/choices/ |
+|Do Not Track| http://www.donottrack.us/ |
+|Mobile App Tracking| http://www.optoutmobile.com/optout/index.html |
+|Network Advertising Initiative| http://www.networkadvertising.org/choices/ |
+
+### Browser Plug-ins and Extensions
+| Name | Website |
+| ---- | ------- |
+|Adblock Plus| https://adblockplus.org/ |
+|AppLock| https://play.google.com/store/apps/details?id=com.domobile​.applock |
+|AVG PrivacyFix: Manages all social media privacy| https://www.privacyfix.com/start/install |
+|Blur: Blocks tracking| https://dnt.abine.com/#register |
+|BugMeNot: Bypasses sign-in on websites| http://bugmenot.com/ |
+|Cocoon: Blocks tracking, offers disposable email addresses|  https://getcocoon.com/ |
+|Disconnect: Blocks Facebook tracking| https://disconnect.me/ |
+|Do Not Track| http://donottrack.us/ |
+|DuckDuckGo: A nontracking search engine| https://duckduckgo.com/ |
+|Ghostery| https://www.ghostery.com/en/ |
+|HTTPS Everywhere|	https://www.eff.org/HTTPS-EVERYWHERE |
+|PrivacySuite| https://addons.mozilla.org/en-US/firefox/addon/privacysuite/ |
+
+### Location
+| Name | Website |
+| ---- | ------- |
+|Find your current IP address| http://www.whatismyip.com/ |
+|PO box application| https://poboxes.usps.com/poboxonline/search/landingPage.do |
+|VPN, reliable reviews| http://www.torrentfreak.com/?s=VPN/ |
+
+### Prepaid Credit Cards/Gift Cards
+| Name | Website |
+| ---- | ------- |
+|Amex| http://www.americanexpress.com/gift-cards/ |
+|Discover| http://www.discover.com/gift-cards/index.shtml |
+|MasterCard| http://www.mastercard.us/prepaid-gift-card.html |
+|Visa| http://usa.visa.com/personal/personal-cards/gift-cards/ |
+|Prepaid| http://www​.abine.com/maskme/ |
+
+### OpenPGP Encryption
+| Name | Website |
+| ---- | ------- |
+|How it works| http://www.explainthatstuff.com/encryption.html |
+|Cryptography.org; “PGP Installation and Use For Dummies,”| http://www.qdog.com/pgp/pgp_faq.html |
+|Browser extension: Mailvelope| https://www.mailvelope.com/ |
+|Open source alternative| https://www.gnupg.org/ |
+
+### OTR
+| Name | Website |
+| ---- | ------- |
+|How it works| http://www.pressfreedomfoundation.org/encryption​-works#otr, https://otr.cypherpunks.ca |
+|Chat/IM software| https://adium​.im/ |
+|Xabber| http://www.xabber.com/ |
+|TextSecure| https://whispersystems.org/ |
+|ChatSecure| https://chatsecure.org/ |
+|Pidgin| https://pidgin.im/ |
+
+
+### Tor (The Onion Router)
+| Name | Website |
+| ---- | ------- |
+|Project site| https://www.torproject.org/ |
+|How it works| https://www.eff.org/torchallenge/what-is-tor/ |
+|Apps that use Tor: Orbot for Android| https://guardianproject.info/apps/orbot/ |
+
+### VoIP
+| Name | Website |
+| ---- | ------- |
+|BurnerApp| http://www.burnerapp.com/ |
+
+### Password Generators
+| Name | Website |
+| ---- | ------- |
+|LastPass| http://lastpass.com/generatepassword.php |
+|Norton| http://identitysafe.norton.com/password-generator/ |
+
