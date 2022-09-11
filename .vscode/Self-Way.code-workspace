@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Self-Way",
+			"path": "../Self-Way"
+		}
+	],
+	"settings": {
+		"projectManager.git.baseFolders": [
+			"Self-Way"
+		]
+	}
+}
