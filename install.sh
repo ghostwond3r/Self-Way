@@ -82,7 +82,7 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}-- Installing Packages \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y git wget kali-linux-labs gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+apt install -y git md2term wget kali-linux-labs gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
 printf "$Blue" "{+}----Done \n\n\n"
 
 sleep 1

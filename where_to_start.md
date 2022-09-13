@@ -1,3 +1,5 @@
+# Where to start 
+
 | **Take your time, it's faster**
 
 So now you are probably wondering what the hell to do ? Where to start ? Well if you follow the instructions and take the time to understand them (I mean REALLY understand), then everything will be alright! But, if you try to skip some step, be aware that things can go very bad... not only for your computer but also your real life.
@@ -69,11 +71,19 @@ Now time to practice, read and answer the questions:
 md /opt/utilities/practice_term.md
 ```
 
-### Editor
+### Editor **NANO**
 
-**NANO**
+You can access the cheatsheet here:
+```
+md /opt/Utilities/NANO.md
+```
 
-**VIM**
+### Editor **VIM**
+
+You can access the cheatsheet here:
+```
+md /opt/Utilities/VIM.md
+```
 
 </br>
 
@@ -122,21 +132,23 @@ md /opt/anonymity/CS_anonymity/Masked_Man.md
 
 # PART C - Getting start
 
-**The phases of an attack**  
+**Information Gathering**
+
+1. Unearth initial information: What/ Who is the target ?  
+2. Locate the network range: What is the attack surface ?  
+3. Ascertain active machines: What hosts are alive ?  
+4. Open ports / access points: How can they be accessed ?  
+5. Detect operating systems: What platform are they ?  
+6. Uncover services on ports: What software can be attacked ?  
+7. Map the network Tie it all together, document, and form a strategy.
+
+**The phases of an attack**
+
 1. Reconnaissance Information gathering, physical and social engineering, locate network range  
 2. Scanning - Enumerating Live hosts, access points, accounts and policies, vulnerability assessment  
 3. Gaining Access Breech systems, plant malicious code, backdoors  
 4. Maintaining Access Rootkits, unpatched systems  
 5. Clearing Tracks IDS evasion, log manipulation, decoy traffic
-
-**Information Gathering**  
-1. Unearth initial information What/ Who is the target?  
-2. Locate the network range What is the attack surface?  
-3. Ascertain active machines What hosts are alive?  
-4. Open ports / access points How can they be accessed?  
-5. Detect operating systems What platform are they?  
-6. Uncover services on ports What software can be attacked?  
-7. Map the network Tie it all together, document, and form a strategy.
 
 </br>
 
