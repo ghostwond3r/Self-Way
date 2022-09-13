@@ -1,5 +1,11 @@
 ## Self-Way  / Do it - Learn it
 
+> We have focused on teaching as a skill and forgotten what Socrates knew: teaching is a gift, learning is a skill.
+
+<p align="center">
+   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/189808209-05f59a97-c0a3-4590-aa55-ca26278b8542.jpg"
+</p>
+  
 What is it 
 
 * Project developed for NBP
@@ -9,10 +15,6 @@ What is it
 * Each ressources have been write in Markdown.
 * To read Markdown from CLI, **md2term** will be add during the installation and an alias will be create: `alias md="md2term -f`
 * To access guide you simply use: `md <MARKDOWN FILE>`
-
-</br>
-
-> We have focused on teaching as a skill and forgotten what Socrates knew: teaching is a gift, learning is a skill.
 
 </br>
 
