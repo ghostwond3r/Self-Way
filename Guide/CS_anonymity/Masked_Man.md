@@ -155,6 +155,15 @@ Probably one of the most popular, secure private messaging apps that combines:
 ```
 > Download [Signal](https://signal.org/)
 
+### Matrix
+
+Matrix provides:
+``` 
+* end-to-end-encryption via the Olm and Megolm cryptographic ratchets 
+* only the intended recipients can ever decrypt your messages
+* while warning if any unexpected devices are added to the conversation
+```
+> Download [Matrix](https://matrix.org/)
 
 ### Session
 
@@ -427,11 +436,17 @@ Screenshot of your computer or phone: where we see YOUR actual TIME ZONE
 
 ## VPN (Virtual Private Network)
 
+Well I won't give you many choice of VPN, Mullvad is the way to go. If you want to know why, then here a good articles about it: https://www.vpnmentor.com/reviews/mullvad-vpn/
+
+Here I made a guide to install it on Kali Linux:
+
 * [Install Mullvad on Kali](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/install_Mullvad_Kali.md)
 
 </br>
 
 ## VM (Virtual Machine)
+
+VMs are isolated from the rest of the system, and multiple VMs can exist on a single piece of hardware, like a server. They can be moved between host servers depending on demand or to use resources more efficiently. VMs allow multiple different operating systems to run simultaneously on a single computer. Each operating system runs in the same way an operating system or application normally would on the host hardware, so the end user experience emulated within the VM is nearly identical to a real-time operating system experience running on a physical machine.  
 
 > [VirtualBox](https://www.virtualbox.org/)
 
@@ -453,9 +468,8 @@ Screenshot of your computer or phone: where we see YOUR actual TIME ZONE
 
 * age is a simple, modern and secure CLI file encryption tool and Go library. It features small explicit keys, no config options, and UNIX-style composability
 
-Ressources:
+Some ressources:
 
-* [Dual-Boot Arch + Windows Encrypted](https://gist.github.com/CodingCellist/c505e98628d0be6a7b200247659fd752#creating-an-encrypted-shared-partition)
 * [PDF - Create & Use VeraCrypt](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/VeraCryptUserguide.pdf)
 * [Video Tutorial VeraCrypt - HackerSploit](https://youtu.be/cxo8xosH_TI)
 
@@ -497,13 +511,56 @@ When all the setup is done, you can browse and access any website.
 
 ## VPS
 
-A virtual private server, also known as a VPS, acts as an isolated, virtual environment on a physical server, which is owned and operated by a cloud or web hosting provider. VPS hosting uses virtualization technology to split a single physical machine into multiple private server environments that share the resources.
+A virtual private server, also known as a VPS, acts as an isolated, virtual environment on a physical server, which is owned and operated by a cloud or web hosting provider. Here some criteria to look for:
+
+* Anonymous registrations
+* Offshore jurisdiction
+* Offshore server location choices
+* Payment anonymity
+* Live-chat availability, speed, and quality of help
+* Server features Speed, Free migrations, DDoS protection, etc
+* Acceptable Use Policy (AUP)
+* Pricing, obviously
+* And refund policies
+
+Some VPS:
+
+* [Bit Launch](https://bitlaunch.io/anonymous-vps/)
+* [Cherry Servers](https://www.cherryservers.com/pricing/virtual-servers)
+* [Shinjiru](https://www.shinjiru.com/offshore-web-hosting/virtual-private-server/)
+* [WebCare 360](https://webcare360.com/offshore-vps-servers.html)
+* [Host Winds](https://www.hostwinds.com/vps/unmanaged-linux)
+* [Liberty VPS](https://libertyvps.net/)
+* [Vsys](https://vsys.host/vps-hosting)
+* [VPS Server](https://www.vpsserver.com/bitcoin-vps/)
+* [Pi VPS](https://pivps.com/linux-vps/)
+* [Elder Node](https://eldernode.com/bitcoin-vps/)
 
 </br>
 
 ## Cryptocurrency
 
-* Cryptocurrency is an increasingly popular payment method, but contrary to popular belief, it’s not always anonymous. With Bitcoin, for example, all payments are completely transparent. If you want to make anonymous payments, use a cryptocurrency like Monero, which hides the sender, receiver, and amount sent using three different privacy technologies.
+Cryptocurrency is an increasingly popular payment method, but contrary to popular belief, it’s not always anonymous. With Bitcoin, for example, all payments are completely transparent. If you want to make anonymous payments, use a cryptocurrency like Monero, which hides the sender, receiver, and amount sent using three different privacy technologies.
+
+Sonme tips:
+
+* Use Two-Factor Authentication for Your Exchange
+* Use an Authenticator app
+* Withdraw Your Crypto
+* Back Up Your Seed Words Properly
+* Use a Strong Password to Protect Your Crypto
+* Use a Different Password for Your Wallet
+* Use a Hardware Wallet If Possible
+* Check the URL (Avoid Fake Software)
+* Fake Web Apps:
+  * Use only Dapps you trust 
+  * Make sure you use only the official website for an app
+  * Check the lock icon to the left of the URL
+  * Double check contract addresses
+* Don’t Enter Your Seed Words on a Website
+* Avoid Public Wi-Fi
+* Subscribe to a VPN Service
+* Be Wary of Emailed Files
 
 </br>
 
@@ -512,44 +569,34 @@ A virtual private server, also known as a VPS, acts as an isolated, virtual envi
 **Best Digital Practices for Whistleblowing**
 
 1. Dont use your work phones
-
-* To protect your anonymity, use your home phone as opposed to the phone in your office or organization.
+   * To protect your anonymity, use your home phone as opposed to the phone in your office or organization.
 
 2. Don’t work on your home or work Internet
-
-* If you’re using your home device on a public Wi-Fi network like at a coffee shop, use a VPN, or Virtual Private Network. VPNs hide your web traffic and IP address, encrypting your activity.
+   * If you’re using your home device on a public Wi-Fi network like at a coffee shop, use a VPN, or Virtual Private Network. VPNs hide your web traffic and IP address, encrypting your activity.
 
 3. Create accounts with fake names
-
-* For any email, social media or messaging apps you may be using to communicate about your whistleblowing, create new accounts with fake information.
+   * For any email, social media or messaging apps you may be using to communicate about your whistleblowing, create new accounts with fake information.
 
 4. Stay on task
-
-* When you’re working on your whistleblowing by using the Internet at all, make sure you don’t do other online activities simultaneously, like checking your email or shopping online.
+   * When you’re working on your whistleblowing by using the Internet at all, make sure you don’t do other online activities simultaneously, like checking your email or shopping online.
 
 5. Use a secure browser
-
-* We recommend using Tor instead of your regular web browser, as it lets users remain anonymous.
+   * We recommend using Tor instead of your regular web browser, as it lets users remain anonymous.
 
 6. Use encrypted messaging apps
-
-* Instead of using your phone’s default messaging app like iMessage, use an encrypted app like TextSecure
+   * Instead of using your phone’s default messaging app like iMessage, use an encrypted app like TextSecure
 
 7. Check phone settings
-
-* You may not know this, but your phone is most likely tracking you at all times.
+   * You may not know this, but your phone is most likely tracking you at all times.
 
 8. Here’s how to change your settings:
-
-* iOS: Under Settings, click on Bluetooth and toggle the switch off. Next under Settings, go to Privacy then Location Services and toggle the switch to off.
-* Android: In Settings, click Connected Devices, Connection Preferences, then Bluetooth and turn it off. Also in Settings click on Google, Manage Your Google Account, Data and Personalization then Activity Controls and turn it off.
+   * iOS: Under Settings, click on Bluetooth and toggle the switch off. Next under Settings, go to Privacy then Location Services and toggle the switch to off.
+   * Android: In Settings, click Connected Devices, Connection Preferences, then Bluetooth and turn it off. Also in Settings click on Google, Manage Your Google Account, Data and Personalization then Activity Controls and turn it off.
 
 9. Hide your screen
-
-* Hacking isn’t the only way that people can get your credentials; they can also do it the old-fashioned way by peaking over your screen15. To hide your web activity in a flash, you’ll need to know the device’s keyboard shortcut you can press to hide your web windows or tabs.
+   * Hacking isn’t the only way that people can get your credentials; they can also do it the old-fashioned way by peaking over your screen15. To hide your web activity in a flash, you’ll need to know the device’s keyboard shortcut you can press to hide your web windows or tabs.
 
 10. Here are the shortcuts for the most popular computer brands:
-
 ```
 Mac: Command-H
 Windows: Windows + D
@@ -560,8 +607,7 @@ Lenovo: Ctrl-W
 ```
 
 11. Close accounts on public computers
-
-* If you’re using a public computer, make sure to completely log out of your accounts and remove any devices or software that you used on it.
+    * If you’re using a public computer, make sure to completely log out of your accounts and remove any devices or software that you used on it.
 
 </br>
 
