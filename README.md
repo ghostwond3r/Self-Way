@@ -1,11 +1,10 @@
 <p align="center">
-   <img width="3000" height="100" src="https://user-images.githubusercontent.com/64184513/190310811-440a01ec-d768-423d-acd2-1ab627d47e58.png"
+   <img width="2500" height="100" src="https://user-images.githubusercontent.com/64184513/190313691-2f55d4a5-7a76-42c1-b51b-f7151ee84652.png"
 </p>
    
 <p align="center">
   NewBloodProject
-
-</br>
+</pr>
 
 ## What is it 
 
