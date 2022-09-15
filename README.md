@@ -1,14 +1,14 @@
-## Self-Way  / Do it - Learn it
-
-> We have focused on teaching as a skill and forgotten what Socrates knew: teaching is a gift, learning is a skill.
-
 <p align="center">
-   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/64184513/189808209-05f59a97-c0a3-4590-aa55-ca26278b8542.jpg"
+   <img width="2500" height="100" src="https://user-images.githubusercontent.com/64184513/190313691-2f55d4a5-7a76-42c1-b51b-f7151ee84652.png"
 </p>
-  
-What is it 
+   
+<p align="center">
+  NewBloodProject
+</pr>
 
-* Project developed for NBP
+## What is it 
+
+* Project developed for NBP - but open for everyone.
 * Automated installation and configuration of an ethical hacking environment.
 * Built to learn on your own.
 * Includes guides, tutorials and cheat sheets in each category.
@@ -48,4 +48,6 @@ chmod +x install.sh
 
 When the installation is completed, you will find the next instructions in the file "where_to_start.md". To read it from your terminal directly, use this command: `md /Self-Way/where_to_start.md `
 
-### I dedicate this tool for the [NewBloodProject](https://twitter.com/NewBloodProject?s=20&t=ewLDaon99QR9BW4M_FxCUQ) -- wondR <3
+---------------------------------------------------
+
+| The NewBloodProject is my way to be the change I want to see - WondR <3
