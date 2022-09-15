@@ -1,9 +1,10 @@
 #!/bin/bash
-# Made by wond'R 
-# Last update: August 20 2022
-# Tested on: Kali Linux v2022.2
+# Made by wondR 
+# Last update: September 2022
+# Tested on: Kali Linux v2022.3
 # You must run this script as ROOT
 # TURN OFF THE SCREEN SAVER!
+
 Yellow="\033[0;33m" # Yellow
 Blue="\033[0;34m"   # Blue
 
@@ -14,38 +15,25 @@ clear
 
 lolcat -a <<"EOF"
 
-=================== The Capacity To Learn Is A Gift
+=================== / The Capacity To Learn Is A Gift /
 
-======== The Ability To Learn Is A Skill
+======== / The Ability To Learn Is A Skill /
 
-========================= The Willingness To Learn Is A Choice
+========================= / The Willingness To Learn Is A Choice /
 
-                                                                                                                
-   d888888o.   8 8888888888   8 8888         8 8888888888 `8.`888b                 ,8' .8.   `8.`8888.      ,8' 
- .`8888:' `88. 8 8888         8 8888         8 8888        `8.`888b               ,8' .888.   `8.`8888.    ,8'  
- 8.`8888.   Y8 8 8888         8 8888         8 8888         `8.`888b             ,8' :88888.   `8.`8888.  ,8'   
- `8.`8888.     8 8888         8 8888         8 8888          `8.`888b     .b    ,8' . `88888.   `8.`8888.,8'    
-  `8.`8888.    8 888888888888 8 8888         8 888888888888   `8.`888b    88b  ,8' .8. `88888.   `8.`88888'     
-   `8.`8888.   8 8888         8 8888         8 8888            `8.`888b .`888b,8' .8`8. `88888.   `8. 8888      
-    `8.`8888.  8 8888         8 8888         8 8888             `8.`888b8.`8888' .8' `8. `88888.   `8 8888      
-8b   `8.`8888. 8 8888         8 8888         8 8888              `8.`888`8.`88' .8'   `8. `88888.   8 8888      
-`8b.  ;8.`8888 8 8888         8 8888         8 8888               `8.`8' `8,`' .888888888. `88888.  8 8888      
- `Y8888P ,88P' 8 888888888888 8 888888888888 8 8888                `8.`   `8' .8'       `8. `88888. 8 8888      
+  ____     U _____ u    _        _____                                    _        __   __ 
+ / __"| u  \| ___"|/   |"|      |" ___|                  __        __ U  /"\  u    \ \ / / 
+<\___ \/    |  _|"   U | | u   U| |_  u      U  u        \"\      /"/  \/ _ \/      \ V /  
+ u___) |    | |___    \| |/__  \|  _|/       /___\       /\ \ /\ / /\  / ___ \     U_|"|_u 
+ |____/>>   |_____|    |_____|  |_|         |__"__|     U  \ V  V /  U/_/   \_\      |_|   
+  )(  (__)  <<   >>    //  \\   )(\\,-                  .-,_\ /\ /_,-. \\    >>  .-,//|(_  
+ (__)      (__) (__)  (_")("_) (__)(_/                   \_)-'  '-(_/ (__)  (__)  \_) (__) 
 
-=====\\ Dedicated for NBP <3
-                            _  _ ____ _ _ _                 
-                            |\ | |___ | | |                 
-                            | \| |___ |_|_|                 
-                            ___  _    ____ ____ ___         
-                            |__] |    |  | |  | |  \        
-                            |__] |___ |__| |__| |__/        
-                            ___  ____ ____  _ ____ ____ ___ 
-                            |__] |__/ |  |  | |___ |     |  
-                            |    |  \ |__| _| |___ |___  |  
+=====\\ Dedicated for NBP // made by wondR //
                                 
 EOF
 
-sleep 2
+sleep 1
 
 current_date=$(date)
 printf "$Yellow" "Starting at $current_date"
@@ -118,18 +106,28 @@ git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ &
 git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
 git clone https://github.com/GhostPack/SharpUp /opt/recon/SharpUp/ && \
 git clone https://github.com/GhostPack/Seatbelt /opt/recon/Seatbelt/
-# Dorking
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Dorking \n"
+printf "$Yellow" "--------------------------------------------------\n\n"
 apt -y install bed doona ohrwurm siparmyknife spike wapiti 
-mkdir /opt/recon/dorking/ && \
-git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/recon/dorking/dorker/ && \
-git clone https://github.com/GerbenJavado/LinkFinder.git /opt/recon/dorking/LinkFinder/ && \
-git clone https://github.com/s0md3v/Photon.git /opt/recon/dorking/Photon/ && \
-# Fuzzing
+mkdir /opt/dorking/ && \
+git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
+git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
+git clone https://github.com/s0md3v/Photon.git /opt/dorking/Photon/
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Fuzzing \n"
+printf "$Yellow" "--------------------------------------------------\n\n"
 apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
-mkdir /opt/recon/fuzzing/ && \
-git clone https://github.com/ffuf/ffuf.git /opt/recon/fuzzing/ffuf/ && \
-git clone https://github.com/wireghoul/dotdotpwn.git /opt/recon/fuzzing/dotdotpwn/ && \
-git clone https://github.com/tlsfuzzer/tlsfuzzer.git /opt/recon/fuzzing/tlsfuzzer/
+mkdir /opt/fuzzing/ && \
+git clone https://github.com/ffuf/ffuf.git /opt/fuzzing/ffuf/ && \
+git clone https://github.com/wireghoul/dotdotpwn.git /opt/fuzzing/dotdotpwn/ && \
+git clone https://github.com/tlsfuzzer/tlsfuzzer.git /opt/fuzzing/tlsfuzzer/
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -147,16 +145,20 @@ git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
-git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/ && \
-# WebApp
-apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
-mkdir /opt/vulns/webapp/ && \
-git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/vulns/webapp/domain-to-webapp/ && \
-git clone https://github.com/sqlmapproject/sqlmap.git /opt/vulns/webapp/sqlmap/ && \
-git clone https://github.com/s0md3v/Corsy.git /opt/vulns/webapp/Corsy/ && \
-git clone https://github.com/R0X4R/Garud.git /opt/vulns/webapp/Garud/ && \
+git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
 printf "$Blue" "{+}----Done \n\n\n"
 
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----WebApp \n"
+printf "$Yellow" "--------------------------------------------------\n"
+apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
+mkdir /opt/webapp/ && \
+git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/domain-to-webapp/ && \
+git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
+git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
+git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ 
+printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
@@ -250,10 +252,14 @@ git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/soci
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
 git clone https://github.com/sherlock-project/sherlock.git /opt/se/sherlock/ && \
 git clone https://github.com/BLINKING-IDIOT/Aliens_eye /opt/se/Aliens_eye/
-# Reversing
+
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Reversing \n"
+printf "$Yellow" "--------------------------------------------------\n"
 apt install -y apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
-mkdir /opt/se/reversing/ && \
-git clone https://github.com/gchq/CyberChef.git /opt/se/reversing/CyberChef/
+mkdir /opt/reversing/ && \
+git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -386,6 +392,30 @@ printf "$Yellow" "--------------------------------------------------\n"
 cd $ROOT_DIR/
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 printf "$Blue" "{+}----Done \n\n\n"
+
+# -----------------------------------------------------
+# Move guide into their folder
+# -----------------------------------------------------
+
+mv /Self-Way/Guide/CS_anonymity /opt/anonymity/
+mv /Self-Way/Guide/CS_cracking/ /opt/cracking/
+mv /Self-Way/Guide/CS_ddos/ /opt/ddos/
+mv /Self-Way/Guide/CS_dorking/ /opt/dorking/
+mv /Self-Way/Guide/CS_exploitation/ /opt/exploitation/
+mv /Self-Way/Guide/CS_forensics/ /opt/forensics/
+mv /Self-Way/Guide/CS_fuzzing/ /opt/fuzzing/
+mv /Self-Way/Guide/CS_recon/ /opt/recon/
+mv /Self-Way/Guide/CS_social_engineering/ /opt/se/
+mv /Self-Way/Guide/CS_vulns/ /opt/vulns/
+mv /Self-Way/Guide/CS_webapp/ /opt/webapp/
+mv /Self-Way/Guide/CS_wireless/ /opt/wireless/
+mv /Self-Way/Guide/WL_cracking/ /opt/cracking/
+mv /Self-Way/Guide/WL_dorking/ /opt/dorking/
+mv /Self-Way/Guide/WL_webapp/ /opt/webapp/
+mv /Self-Way/Shell/ /opt/exploitation/
+mv /Self-Way/Utilities/ /opt/
+mv /Self-Way/Payload_List/ /opt/
+
 
 # -------------------------------------------------------
 # Settings
