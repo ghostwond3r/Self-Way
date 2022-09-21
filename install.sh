@@ -342,10 +342,19 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Docker \n"
 printf "$Yellow" "--------------------------------------------------\n"
-# enable and start docker
-systemctl stop docker &>/dev/null
-echo '{"bip":"172.16.199.1/24"}' >/etc/docker/daemon.json
-systemctl enable docker --now
+# install and start docker
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+apt update -y
+apt-get install docker-ce docker-ce-cli containerd.io -y
+apt-cache madison docker-ce -y
+
+curl -L "https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
+chmod +x /usr/local/bin/docker-compose \
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 printf "$Blue" "{+}----Done \n\n\n"
 
 
