@@ -23,9 +23,13 @@ So now you are probably wondering what the hell to do ? Where to start ? Well if
 - Exploitation
 - Forensics / anti
 - Fuzzing
+- Post-Exploitation
 - Payload
 - Recon / info gathering
+- Reporting
+- Reversing
 - Shell
+- Sniffing
 - Social engineering
 - Utilities
 - Vulnerability
