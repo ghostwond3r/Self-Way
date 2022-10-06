@@ -369,6 +369,10 @@ apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common 
 mkdir /opt/sniffing/ && \
 printf "$Blue" "{+}----Done \n\n\n"
 
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Utilities \n"
+printf "$Yellow" "--------------------------------------------------\n"
+
 
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Vulnerability \n"
@@ -448,7 +452,6 @@ mv /Self-Way/Guide/WL_webapp/ /opt/webapp/
 mv /Self-Way/Shell/ /opt/exploitation/
 mv /Self-Way/Utilities/ /opt/
 mv /Self-Way/Payload_List/ /opt/
-
 
 # -------------------------------------------------------
 # Settings
