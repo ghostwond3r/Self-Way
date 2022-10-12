@@ -468,6 +468,22 @@ VMs are isolated from the rest of the system, and multiple VMs can exist on a si
 
 * age is a simple, modern and secure CLI file encryption tool and Go library. It features small explicit keys, no config options, and UNIX-style composability
 
+[Hat.sh](https://hat.sh/) 
+
+* A Free, Fast, Secure and Serverless File Encryption.
+
+[Stegcloak](https://stegcloak.surge.sh/) 
+
+* Hide secrets with invisible characters in plain text securely using passwords.
+
+[Picocrypt](https://github.com/HACKERALERT/Picocrypt/) 
+
+* A very small (hence "Pico"), very simple, yet very secure file encryption tool.
+
+[Photok](https://github.com/leonlatsch/Photok) 
+
+* Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others.
+
 Some ressources:
 
 * [PDF - Create & Use VeraCrypt](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/VeraCryptUserguide.pdf)
