@@ -3,12 +3,10 @@
 </p>
    
 <p align="center">
-  NewBloodProject - Group Learning - Open Source Community
+ ☆ NewBloodProject ☆
 </pr>
 
-## What is it 
-
-* Custom Kali Linux ISO
+* A custom Kali Linux ISO
 * Project developed for NBP - but is open for everyone.
 * Built to learn ethical hacking on your own.
 * Includes guides, tutorials, cheat sheets and tools.
