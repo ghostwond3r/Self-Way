@@ -1,8 +1,7 @@
-## CS = CheatSheet
 
-## WL = WordLists
 
-# Here you will find all tutorial that are going to be in your own directory after the installation.
+
+**Here you will find all tutorial that will build the Guide**
 
 Include:
 
@@ -13,6 +12,7 @@ Include:
 * exploitation
 * forensics
 * fuzzing
+* osint
 * post_exploitation
 * recon
 * reporting
