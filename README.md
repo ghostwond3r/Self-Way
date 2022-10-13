@@ -3,51 +3,74 @@
 </p>
    
 <p align="center">
-  NewBloodProject
+  NewBloodProject - Group Learning - Open Source Community
 </pr>
 
 ## What is it 
 
-* Project developed for NBP - but open for everyone.
-* Automated installation and configuration of an ethical hacking environment.
-* Built to learn on your own.
-* Includes guides, tutorials and cheat sheets in each category.
+* Custom Kali Linux ISO
+* Project developed for NBP - but is open for everyone.
+* Built to learn ethical hacking on your own.
+* Includes guides, tutorials, cheat sheets and tools.
 * Each ressources have been write in Markdown.
-* To read Markdown from CLI, **md2term** will be add during the installation and an alias will be create: `alias md="md2term -f`
-* To access guide you simply use: `md <MARKDOWN FILE>`
+* The Guide is accessible directly in command line (thanks to Glow).
 
 </br>
 
-### Before starting
+### Step 1
 
-1. To be able to use this tool, you must have previously installed VirtualBox with Kali Linux on it. If you haven't already, you can find the instructions here: https://github.com/NeverWonderLand/kali-inst-guide
+1. You will need VirtualBox (or VMware) to use this ISO. You can find the instructions here for VirtualBox: https://github.com/NeverWonderLand/kali-inst-guide
 
-2. Once you have your Kali Linux started, then you can proceed to the installation. First you need to open a ROOT terminal, you can find it in menu of the left top corner, type "term" and choose the red one. It will prompt you for the password, it is the default one: kali
+2. Once you have your Kali ready, start it and login with user `kali` and password `kali`. 
 
-3. It is important that you update kali before starting the installation, for this type this command:
-`apt-get update && apt-get upgrade -y`
+3. First you need to open a ROOT terminal, you can find it in menu of the left top corner, type "term" and choose the red one. It will prompt you for the password, it is the default one: `kali`.
 
-</br>
-
-### Installation of the tool
-
-Type these command one by one
+4. It is important that you update your system regularly, for this use these this command:
 ```
-cd /
-git clone https://github.com/NeverWonderLand/Self-Way
-cd Self-Way
+apt update && apt upgrade -y
+apt dist-upgrade -y
+apt full-upgrade -y
+
+# and then cleanup 
+
+apt auroremove -y
+```
+
+</br>
+
+### Step 2
+
+In the same terminal, type these command one by one
+```
 chmod +x install.sh
 ./install.sh
 ```
 
-* Take note that the installation can take around 3 hours, so to avoid to have to watch the screen the whole time, turn off the screen saver in the same menu as you opened the terminal and search for "power management" then turn it off.
+> To avoid to have to watch the screen the whole time, turn off the screen saver. To do this go in the kali menu and search for "power management" then turn it all off.
+
+> Make a reboot when its finish by typing `reboot` in the terminal and press `ENTER`
 
 </br>
 
-### After the installation
+### Step 3
 
-When the installation is completed, you will find the next instructions in the file "where_to_start.md". To read it from your terminal directly, use this command: `md /Self-Way/where_to_start.md `
+Once all is complete; 
+* open the folder `Guide` on the Desktop
+* right click inside the folder and choose `open a terminal here`
+* in the terminal, type the command `glow` 
+
+> Now you are in the Guide book! to navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
+
+> To get start learning open the file `where_to_start.md`.
+
+# GOOD LUCK ! 
 
 ---------------------------------------------------
+
+> As I decided to make it as an ISO instead of an automated installation, the ISO will be updated following a new version of kali.
+
+> The older version of the ISO will still available under the Outdated folder, but I recommend to uss always the latest ISO if you are new to Linux, to avoid many issues.
+
+--------------------------------------
 
 | The NewBloodProject is my way to be the change I want to see - WondR <3
