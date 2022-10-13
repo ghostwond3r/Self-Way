@@ -3,10 +3,10 @@
 </p>
    
 <p align="center">
- ☆ NewBloodProject ☆
+ NewBloodProject
 </pr>
 
-</br>
+</br></br>
 
 * A custom Kali Linux ISO
 * Project developed for NBP - but is open for everyone.
