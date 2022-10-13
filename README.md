@@ -6,6 +6,8 @@
  ☆ NewBloodProject ☆
 </pr>
 
+</br>
+
 * A custom Kali Linux ISO
 * Project developed for NBP - but is open for everyone.
 * Built to learn ethical hacking on your own.
