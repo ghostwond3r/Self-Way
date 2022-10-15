@@ -1,9 +1,6 @@
 #!/bin/bash
-# Made by wondR 
-# Last update: September 2022
-# Tested on: Kali Linux v2022.3
-# You must run this script as ROOT
-# TURN OFF THE SCREEN SAVER!
+# Custom Kali ISO - Made by wondR 
+# Last update: Oct 2022
 
 Yellow="\033[0;33m" # Yellow
 Blue="\033[0;34m"   # Blue
@@ -300,6 +297,32 @@ printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Lateral Movement \n"
+printf "$Yellow" "--------------------------------------------------\n"
+mkdir /opt/lateral/ && \
+git clone https://github.com/byt3bl33d3r/CrackMapExec /opt/lateral/CrackMapExec/ && \
+git clone https://github.com/byt3bl33d3r/DeathStar /opt/lateral/DeathStar/ && \
+git clone https://github.com/SpiderLabs/portia /opt/lateral/portia/ && \
+git clone https://github.com/DanMcInerney/icebreaker /opt/lateral/icebreaker/ && \
+git clone https://github.com/360-Linton-Lab/WMIHACKER /opt/lateral/WMIHACKER/ && \
+git clone https://github.com/Hackndo/WebclientServiceScanner /opt/lateral/WebclientServiceScanner/ && \
+git clone https://github.com/juliourena/SharpNoPSExec /opt/lateral/SharpNoPSExec
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Pivot \n"
+printf "$Yellow" "--------------------------------------------------\n"
+mkdir /opt/pivot/ && \
+git clone https://github.com/p3nt4/Invoke-SocksProxy /opt/pivot/Invoke-SocksProxy/ && \
+git clone https://github.com/sensepost/reGeorg /opt/pivot/reGeorg/ && \
+git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history /opt/pivot/bypass-firewalls-by-DNS-history/ && \
+git clone https://github.com/sysdream/ligolo /opt/pivot/ligolo/ && \
+git clone https://github.com/klsecservices/rpivot /opt/pivot
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Post-Exploitation \n"
 printf "$Yellow" "--------------------------------------------------\n"
 apt install -y kali-tools-post-exploitation
@@ -307,6 +330,11 @@ mkdir /opt/post-exploit/ && \
 git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/post-exploit/Covenant && \
 git clone https://github.com/n1nj4sec/pupy/ /opt/post-exploit/pupy/ && \
 git clone https://github.com/SafeBreach-Labs/SirepRAT /opt/post-exploit/SirepRAT/ && \
+git clone https://github.com/bohops/SharpRDPHijack /opt/post-exploit/SharpRDPHijack/ && \
+git clone https://github.com/klsecservices/Invoke-Vnc /opt/post-exploit/Invoke-Vnc/ && \
+git clone https://github.com/GhostPack/Lockless /opt/post-exploit/Lockless/ && \
+git clone https://github.com/swisskyrepo/SharpLAPS /opt/post-exploit/SharpLAPS/ && \
+git clone https://github.com/n00py/LAPSDumper /opt/post-exploit/LAPSDumper/ && \
 git clone https://github.com/PowerShellMafia/PowerSploit.git/
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -322,10 +350,6 @@ git clone https://github.com/tahmed11/DeepScan.git /opt/recon/DeepScan/ && \
 git clone https://github.com/kakawome/Lethe.git /opt/recon/Lethe/ && \
 git clone https://github.com/NeverWonderLand/tellme.git /opt/recon/tellme/ && \
 git clone https://github.com/carlospolop/PEASS-ng /opt/recon/PEASS-ng/ && \
-git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/recon/linux-exploit-suggester-2/ && \
-git clone https://github.com/rebootuser/LinEnum.git /opt/recon/LinEnum/ && \
-git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/recon/linux-smart-enumeration && \
-git clone https://github.com/linted/linuxprivchecker.git /opt/recon/linuxprivchecker && \
 git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ && \
 git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
 git clone https://github.com/GhostPack/SharpUp /opt/recon/SharpUp/ && \
@@ -388,6 +412,11 @@ git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
+git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
+git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
+git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
+git clone https://github.com/linted/linuxprivchecker.git /opt/vulns/linuxprivchecker && \
+git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
 git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -400,7 +429,10 @@ mkdir /opt/webapp/ && \
 git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/domain-to-webapp/ && \
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
 git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
-git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ 
+git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ && \
+git clone https://github.com/Tuhinshubhra/CMSeeK /opt/webapp/CMSeek/ && \
+git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
+git clone https://github.com/Ekultek/WhatWaf /opt/webapp/WhatWaf
 printf "$Blue" "{+}----Done \n\n\n"
 
 
