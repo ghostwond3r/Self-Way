@@ -303,6 +303,18 @@ printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----Industrial Control System \n"
+printf "$Yellow" "--------------------------------------------------\n"
+mkdir /opt/ics/ && \
+git clone https://gitlab.com/jhcastel/attkfinder.git /opt/ics/attkfinder/ && \
+git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
+git clone https://github.com/dark-lbp/isf/ /opt/ics/isf/ && \
+git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
+git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/ && \
+
+
+
+printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Lateral Movement \n"
 printf "$Yellow" "--------------------------------------------------\n"
 mkdir /opt/lateral/ && \
@@ -400,7 +412,7 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Recon \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
-apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkituniscan xsser knockpy urlextractor pompem dirsearch oscanner  
+apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 mkdir /opt/recon/ && \
 git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
 git clone https://github.com/mschwager/fierce /opt/recon/fierce/ && \
@@ -459,7 +471,8 @@ printf "$Blue" "{+}----Reversing \n"
 printf "$Yellow" "--------------------------------------------------\n"
 apt install -y apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
 mkdir /opt/reversing/ && \
-git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/
+git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/ && \
+git clone https://github.com/m4b/bingrep.git /opt/reversing/ 
 printf "$Blue" "{+}----Done \n\n\n"
 
 
