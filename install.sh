@@ -66,7 +66,7 @@ apt-get dist-upgrade -y
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}-- Installing Packages \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y git md2term wget kali-linux-labs gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+apt install -y git md2term wget tor kali-linux-labs gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -161,6 +161,11 @@ Starting services..
 "
 printf "$Blue" "{+}----Done \n\n\n"
 
+# Glow
+mkdir -p /etc/apt/keyrings
+curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
+apt update && sudo apt install glow
 
 
 lolcat -a <<"EOF"
@@ -212,7 +217,8 @@ mkdir /opt/ddos/ && \
 git clone https://github.com/NeverWonderLand/Impulse.git /opt/ddos/Impulse/ && \
 git clone https://github.com/kamorin/DHCPig /opt/ddos/DHCPig/ && \
 git clone https://github.com/shekyan/slowhttptest /opt/ddos/slowhttptest/ && \
-git clone 
+git clone https://github.com/gkbrk/slowloris /opt/ddos/slowloris/ && \
+git clone https://github.com/jseidl/GoldenEye /opt/ddos/GoldenEye/ && \
 git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
 git clone https://github.com/firstapostle/Blood /opt/ddos/Blood/ && \
@@ -223,7 +229,7 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Dorking \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
-apt -y install bed doona ohrwurm siparmyknife spike wapiti 
+apt -y install bed doona ohrwurm siparmyknife  
 mkdir /opt/dorking/ && \
 git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
 git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
@@ -235,7 +241,7 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Exploitation \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y metasploit-framework ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
+apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
 mkdir /opt/exploitation/ && \
 git clone https://github.com/Kevin-Robertson/Inveigh /opt/exploitation/Inveigh/ && \
 git clone https://github.com/bettercap/bettercap.git /opt/exploitation/bettercap/ && \
@@ -410,6 +416,7 @@ git clone https://github.com/angryip/ipscan /opt/recon/ipscan/ && \
 git clone https://github.com/diyan/pywinrm /opt/recon/pywinrm/ && \
 git clone https://github.com/gitnepal/isup /opt/recon/isup/ && \
 git clone https://github.com/AlgoSecure/iotmap /opt/recon/iotmap/ && \
+git clone https://github.com/UltimateHackers/Striker /opt/recon/Striker/ && \
 git clone https://github.com/Wh1t3Fox/polenum /opt/recon/polenum/ && \
 git clone https://github.com/dafthack/HostRecon /opt/recon/HostRecon/ && \
 git clone https://github.com/ropnop/kerbrute /opt/recon/kerbrute/ && \
@@ -521,6 +528,8 @@ git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
 git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ && \
 git clone https://github.com/Tuhinshubhra/CMSeeK /opt/webapp/CMSeek/ && \
 git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
+git clone http://www.github.com/Cvar1984/sqlscan /opt/webapp/sqlscan/ && \
+git clone https://github.com/wpscanteam/wpscan /opt/webapp/wpscan/ && \
 git clone https://github.com/Ekultek/WhatWaf /opt/webapp/WhatWaf
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -532,6 +541,7 @@ apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm p
 mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
 git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
+git clone https://github.com/reverse-shell/routersploit /opt/wireless/routersploit/ && \
 git clone https://github.com/t6x/reaver-wps-fork-t6x.git /opt/wireless/reaver-wps-fork-t6x/ && \
 # Install reaver
 cd /opt/wireless/reaver-wps-fork-t6x*
