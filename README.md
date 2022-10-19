@@ -1,12 +1,7 @@
 <p align="center">
-   <img width="2500" height="100" src="https://user-images.githubusercontent.com/64184513/190313691-2f55d4a5-7a76-42c1-b51b-f7151ee84652.png"
+   <img width="1000" height="200" src="https://user-images.githubusercontent.com/64184513/196823734-1a3dc12e-8ab3-4999-8fca-88fb7b6b5381.png"
 </p>
-   
-<p align="center">
- NewBloodProject
-</pr>
 
-</br></br>
 
 * A custom Kali Linux ISO
 * Project developed for NBP - but is open for everyone.
