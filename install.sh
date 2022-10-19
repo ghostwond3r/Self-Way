@@ -285,8 +285,8 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Forensics / Anti-Forensics \n"
 printf "$Yellow" "--------------------------------------------------\n"
-mkdir /opt/forensics/ && \
 apt install -y autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
+mkdir /opt/forensics/ && \
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -444,6 +444,13 @@ printf "$Blue" "{+}----Reporting \n"
 printf "$Yellow" "--------------------------------------------------\n"
 mkdir /opt/reporting/ && \
 apt install -y dradis eyewitness faraday pipal metagoofil
+git clone https://github.com/SabyasachiRana/WebMap.git /opt/reporting/WebMap/ && \
+git clone https://github.com/pwndoc/pwndoc.git /opt/reporting/pwndoc/ && \
+# envizon
+git clone https://github.com/evait-security/envizon
+cd envizon/docker/envizon_local
+echo SECRET_KEY_BASE="$(echo $(openssl rand -hex 64) | tr -d '\n')" > .envizon_secret.env
+sudo docker-compose up
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -463,15 +470,18 @@ apt install -y set king-phisher wifiphisher
 mkdir /opt/se/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
-git clone https://github.com/rsmusllp/king-phisher /opt/se/
-git clone https://github.com/TheKevinWang/MacroPhishing /opt/se/
-git clone https://github.com/ring0lab/catphish /opt/se/
-git clone https://github.com/Raikia/FiercePhish /opt/se/
-git clone https://github.com/drk1wi/Modlishka /opt/se/
-git clone https://github.com/vpn/SMSSpoof /opt/se/
-git clone https://github.com/ustayready/CredSniper /opt/se/
-git clone https://github.com/ryhanson/phishery /opt/se/
-git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn /opt/se/
+git clone https://github.com/rsmusllp/king-phisher /opt/se/king-phisher/ && \
+git clone https://github.com/TheKevinWang/MacroPhishing /opt/se/MacroPhishing/ && \
+git clone https://github.com/ring0lab/catphish /opt/se/catphish/ && \
+git clone https://github.com/Raikia/FiercePhish /opt/se/FiercePhish/ && \
+git clone https://github.com/drk1wi/Modlishka /opt/se/Modlishka/ && \
+git clone https://github.com/vpn/SMSSpoof /opt/se/SMSSpoof/ && \
+git clone https://github.com/ustayready/CredSniper /opt/se/CredSniper/ && \
+git clone https://github.com/ryhanson/phishery /opt/se/phishery/ && \
+git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn /opt/se/HiddenEyeReborn/ && \
+git clone https://github.com/curi0usJack/luckystrike /opt/se/luckystrike/
+printf "$Blue" "{+}----Done \n\n\n"
+
 
 
 printf "$Yellow" "--------------------------------------------------\n"
