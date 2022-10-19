@@ -323,6 +323,28 @@ printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----OSINT \n"
+printf "$Yellow" "--------------------------------------------------\n"
+mkdir /opt/osint/ && \
+git clone https://github.com/laramies/theHarvester /opt/osint/theHarvester/ && \
+git clone https://github.com/lanmaster53/recon-ng /opt/osint/recon-ng/ && \
+git clone https://github.com/m4ll0k/Infoga /opt/osint/Infoga/ && \
+git clone https://github.com/sundowndev/PhoneInfoga /opt/osint/PhoneInfoga/ && \
+git clone https://github.com/smicallef/spiderfoot /opt/osint/spiderfoot/ && \
+git clone https://github.com/DataSploit/datasploit /opt/osint/datasploit/ && \
+git clone https://github.com/sherlock-project/sherlock /opt/osint/sherlock/ && \
+git clone https://github.com/evilsocket/xray /opt/osint/xray/ && \
+git clone https://github.com/SimplySecurity/SimplyEmail /opt/osint/SimplyEmail/ && \
+git clone https://github.com/thewhiteh4t/FinalRecon /opt/osint/FinalRecon/ && \
+git clone https://github.com/hmaverickadams/breach-parse /opt/osint/breach-parse/ && \
+git clone https://github.com/khast3x/h8mail /opt/osint/h8mail/ && \
+git clone https://github.com/qeeqbox/social-analyzer /opt/osint/social-analyzer/ && \
+git clone https://github.com/projectdiscovery/uncover /opt/osint/uncover/ && \
+git clone https://github.com/BLINKING-IDIOT/Aliens_eye /opt/osint/Aliens_eye/
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Post-Exploitation \n"
 printf "$Yellow" "--------------------------------------------------\n"
 apt install -y kali-tools-post-exploitation
@@ -344,12 +366,16 @@ printf "$Blue" "{+}----Recon \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
 apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkituniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 mkdir /opt/recon/ && \
+git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
 git clone https://github.com/portcullislabs/udp-proto-scanner.git /opt/recon/udp-proto-scanner/ && \
 git clone https://github.com/AlisamTechnology/ATSCAN.git /opt/recon/ATSCAN/ && \
 git clone https://github.com/tahmed11/DeepScan.git /opt/recon/DeepScan/ && \
 git clone https://github.com/kakawome/Lethe.git /opt/recon/Lethe/ && \
 git clone https://github.com/NeverWonderLand/tellme.git /opt/recon/tellme/ && \
 git clone https://github.com/carlospolop/PEASS-ng /opt/recon/PEASS-ng/ && \
+git clone https://github.com/rebootuser/LinEnum.git /opt/recon/LinEnum/ && \
+git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/recon/linux-smart-enumeration && \
+git clone https://github.com/linted/linuxprivchecker.git /opt/recon/linuxprivchecker && \
 git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ && \
 git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
 git clone https://github.com/GhostPack/SharpUp /opt/recon/SharpUp/ && \
@@ -382,8 +408,6 @@ mkdir /opt/se/ && \
 git clone https://github.com/BullsEye0/ghost_eye.git /opt/se/ghost_eye/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
-git clone https://github.com/sherlock-project/sherlock.git /opt/se/sherlock/ && \
-git clone https://github.com/BLINKING-IDIOT/Aliens_eye /opt/se/Aliens_eye/
 
 
 printf "$Yellow" "--------------------------------------------------\n"
@@ -417,6 +441,7 @@ git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
 git clone https://github.com/linted/linuxprivchecker.git /opt/vulns/linuxprivchecker && \
 git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
+git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
 printf "$Blue" "{+}----Done \n\n\n"
 
