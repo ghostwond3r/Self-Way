@@ -215,6 +215,9 @@ printf "$Yellow" "--------------------------------------------------\n"
 apt install -y t50 goldeneye 
 mkdir /opt/ddos/ && \
 git clone https://github.com/NeverWonderLand/Impulse.git /opt/ddos/Impulse/ && \
+git clone https://github.com/kamorin/DHCPig /opt/ddos/DHCPig/ && \
+git clone https://github.com/shekyan/slowhttptest /opt/ddos/slowhttptest/ && \
+git clone 
 git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
 git clone https://github.com/firstapostle/Blood /opt/ddos/Blood/ && \
@@ -229,6 +232,7 @@ apt -y install bed doona ohrwurm siparmyknife spike wapiti
 mkdir /opt/dorking/ && \
 git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
 git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
+git clone https://github.com/humblelad/Shodan-Dorks /opt/dorking/Shodan-Dorks/ && \
 git clone https://github.com/s0md3v/Photon.git /opt/dorking/Photon/
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -240,7 +244,9 @@ apt install -y metasploit-framework ibombshell htshells evil-winrm powershell-em
 mkdir /opt/exploitation/ && \
 git clone https://github.com/Kevin-Robertson/Inveigh /opt/exploitation/Inveigh/ && \
 git clone https://github.com/bettercap/bettercap.git /opt/exploitation/bettercap/ && \
-git clone https://github.com/ropnop/kerbrute /opt/exploitation/kerbrute/
+git clone https://github.com/ropnop/kerbrute /opt/exploitation/kerbrute/ && \
+git clone https://github.com/brianb/mdbtools /opt/exploitation/mdbtools/ && \
+git clone https://github.com/1N3/Findsploit /opt/exploitation/Findsploit/ 
 # shell
 mkdir /opt/exploitation/shell/ && \
 git clone https://github.com/machine1337/mafiahacks.git /opt/exploitation/shell/mafiahacks/ && \
@@ -289,6 +295,7 @@ printf "$Yellow" "--------------------------------------------------\n\n"
 apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
 mkdir /opt/fuzzing/ && \
 git clone https://github.com/ffuf/ffuf.git /opt/fuzzing/ffuf/ && \
+git clone http://www.aldeid.com/wiki/Bed /opt/fuzzing/Bed/ && \
 git clone https://github.com/wireghoul/dotdotpwn.git /opt/fuzzing/dotdotpwn/ && \
 git clone https://github.com/tlsfuzzer/tlsfuzzer.git /opt/fuzzing/tlsfuzzer/
 printf "$Blue" "{+}----Done \n\n\n"
@@ -304,6 +311,7 @@ git clone https://github.com/SpiderLabs/portia /opt/lateral/portia/ && \
 git clone https://github.com/DanMcInerney/icebreaker /opt/lateral/icebreaker/ && \
 git clone https://github.com/360-Linton-Lab/WMIHACKER /opt/lateral/WMIHACKER/ && \
 git clone https://github.com/Hackndo/WebclientServiceScanner /opt/lateral/WebclientServiceScanner/ && \
+git clone https://github.com/anthemtotheego/SharpExec /opt/lateral/SharpExec/ && \
 git clone https://github.com/juliourena/SharpNoPSExec /opt/lateral/SharpNoPSExec
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -317,6 +325,35 @@ git clone https://github.com/sensepost/reGeorg /opt/pivot/reGeorg/ && \
 git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history /opt/pivot/bypass-firewalls-by-DNS-history/ && \
 git clone https://github.com/sysdream/ligolo /opt/pivot/ligolo/ && \
 git clone https://github.com/klsecservices/rpivot /opt/pivot
+printf "$Blue" "{+}----Done \n\n\n"
+
+
+printf "$Yellow" "--------------------------------------------------\n"
+printf "$Blue" "{+}----PrivEsc \n"
+printf "$Yellow" "--------------------------------------------------\n"
+mkdir /opt/privesc/ && \
+mkdir /opt/privesc/windows/ && \
+git clone https://github.com/GhostPack/SharpUp /opt/privesc/windows/SharpUp/ && \
+git clone https://github.com/GhostPack/Seatbelt /opt/privesc/windows/Seatbelt/ && \
+git clone https://github.com/jmhickman/Fetters /opt/privesc/windows/Fetters/ && \
+git clone https://github.com/gladiatx0r/Powerless /opt/privesc/windows/Powerless/ && \
+git clone https://github.com/pentestmonkey/windows-privesc-check /opt/privesc/windows/windows-privesc-check/ && \
+git clone https://github.com/bitsadmin/wesng /opt/privesc/windows/wesng/ && \
+git clone https://github.com/absolomb/WindowsEnum /opt/privesc/windows/WindowsEnum/ && \
+git clone https://github.com/rootm0s/WinPwnage /opt/privesc/windows/WinPwnage/ && \
+git clone https://github.com/411Hall/JAWS /opt/privesc/windows/JAWS/ && \
+git clone https://github.com/SecWiki/windows-kernel-exploits /opt/privesc/windows/windows-kernel-exploits/
+mkdir /opt/privesc/linux/ && \
+git clone https://github.com/redcode-labs/Bashark /opt/privesc/linux/Bashark/ && \
+git clone https://github.com/linted/linuxprivchecker.git /opt/privesc/linux/linuxprivchecker/ && \
+git clone https://github.com/pentestmonkey/unix-privesc-check /opt/privesc/linux/unix-privesc-check/ && \
+git clone https://github.com/initstring/uptux /opt/privesc/linux/uptux/ && \
+git clone https://github.com/SecWiki/linux-kernel-exploits /opt/privesc/linux/linux-kernel-exploits/ && \
+git clone https://github.com/nccgroup/GTFOBLookup /opt/privesc/linux/GTFOBLookup/ && \
+git clone https://github.com/t0thkr1s/gtfo /opt/privesc/linux/gtfo/ && \
+git clone https://github.com/DominicBreuker/pspy /opt/privesc/linux/pspy/ && \
+git clone https://github.com/twelvesec/rootend /opt/privesc/linux/rootend/ && \
+git clone https://github.com/liamg/traitor /opt/privesc/linux/traitor/
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -365,6 +402,27 @@ printf "$Yellow" "--------------------------------------------------\n\n"
 apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkituniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 mkdir /opt/recon/ && \
 git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
+git clone https://github.com/mschwager/fierce /opt/recon/fierce/ && \
+git clone https://github.com/projectdiscovery/shuffledns /opt/recon/shuffledns/ && \
+git clone https://github.com/projectdiscovery/dnsx /opt/recon/dnsx/ && \
+git clone https://github.com/SecureAuthCorp/impacket /opt/recon/impacket/ && \
+git clone https://github.com/BloodHoundAD/BloodHound /opt/recon/BloodHound/ && \
+git clone https://github.com/nyxgeek/ntlmscan /opt/recon/ntlmscan/ && \
+git clone https://github.com/phackt/Invoke-Recon /opt/recon/Invoke-Recon/ && \
+git clone https://github.com/cytopia/smtp-user-enum /opt/recon/smtp-user-enum/ && \
+git clone https://github.com/DinoTools/sslscan /opt/recon/sslscan/ && \
+git clone https://github.com/angryip/ipscan /opt/recon/ipscan/ && \
+git clone https://github.com/diyan/pywinrm /opt/recon/pywinrm/ && \
+git clone https://github.com/gitnepal/isup /opt/recon/isup/ && \
+git clone https://github.com/AlgoSecure/iotmap /opt/recon/iotmap/ && \
+git clone https://github.com/Wh1t3Fox/polenum /opt/recon/polenum/ && \
+git clone https://github.com/dafthack/HostRecon /opt/recon/HostRecon/ && \
+git clone https://github.com/ropnop/kerbrute /opt/recon/kerbrute/ && \
+git clone https://github.com/royhills/arp-scan /opt/recon/arp-scan/ && \
+git clone https://github.com/Zapotek/cdpsnarf /opt/recon/cdpsnarf/ && \
+git clone https://github.com/m0rtem/CloudFail /opt/recon/CloudFail/ && \
+git clone https://github.com/1N3/BlackWidow /opt/recon/BlackWidow/ && \
+git clone https://github.com/projectdiscovery/naabu /opt/recon/naabu/ && \
 git clone https://github.com/portcullislabs/udp-proto-scanner.git /opt/recon/udp-proto-scanner/ && \
 git clone https://github.com/AlisamTechnology/ATSCAN.git /opt/recon/ATSCAN/ && \
 git clone https://github.com/tahmed11/DeepScan.git /opt/recon/DeepScan/ && \
@@ -376,8 +434,6 @@ git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/reco
 git clone https://github.com/linted/linuxprivchecker.git /opt/recon/linuxprivchecker && \
 git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ && \
 git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
-git clone https://github.com/GhostPack/SharpUp /opt/recon/SharpUp/ && \
-git clone https://github.com/GhostPack/Seatbelt /opt/recon/Seatbelt/
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -403,9 +459,17 @@ printf "$Blue" "{+}----S-E \n"
 printf "$Yellow" "--------------------------------------------------\n"
 apt install -y set king-phisher wifiphisher
 mkdir /opt/se/ && \
-git clone https://github.com/BullsEye0/ghost_eye.git /opt/se/ghost_eye/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
+git clone https://github.com/rsmusllp/king-phisher /opt/se/
+git clone https://github.com/TheKevinWang/MacroPhishing /opt/se/
+git clone https://github.com/ring0lab/catphish /opt/se/
+git clone https://github.com/Raikia/FiercePhish /opt/se/
+git clone https://github.com/drk1wi/Modlishka /opt/se/
+git clone https://github.com/vpn/SMSSpoof /opt/se/
+git clone https://github.com/ustayready/CredSniper /opt/se/
+git clone https://github.com/ryhanson/phishery /opt/se/
+git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn /opt/se/
 
 
 printf "$Yellow" "--------------------------------------------------\n"
@@ -415,10 +479,6 @@ apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common 
 mkdir /opt/sniffing/ && \
 printf "$Blue" "{+}----Done \n\n\n"
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Utilities \n"
-printf "$Yellow" "--------------------------------------------------\n"
-
 
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Vulnerability \n"
@@ -426,18 +486,29 @@ printf "$Yellow" "--------------------------------------------------\n"
 apt install -y lynis tlssled nikto pocsuite3 nuclei unix-privesc-check windows-privesc-check yersinia iaxflood inviteflood siege thc-ssl-dos rtpbreak rtpflood rtpinsertsound sctpscan sipp sipsak sipvicious cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch copy-router-config perl-cisco-copyconfig
 mkdir /opt/vulns/ && \
 git clone https://github.com/OWASP/Nettacker.git /opt/vulns/Nettacker/ && \
+git clone https://github.com/greenbone/openvas /opt/vulns/openvas/ && \
+git clone https://github.com/Sneakysecdoggo/Wynis /opt/vulns/Wynis/ && \
+git clone https://github.com/ra1nb0rn/avain /opt/vulns/avain/ && \
+git clone https://github.com/ZupIT/horusec /opt/vulns/horusec/ && \
+git clone https://github.com/1N3/Sn1per /opt/vulns/Sn1per/ && \
+git clone https://github.com/BlackArch/sploitctl /opt/vulns/sploitctl/ && \
+git clone https://github.com/golismero/golismero /opt/vulns/golismero/ && \
+git clone https://github.com/AlessandroZ/BeRoot /opt/vulns/BeRoot/ && \
+git clone https://github.com/littl3field/Audix /opt/vulns/Audix/ && \
+git clone https://github.com/tomac/yersinia /opt/vulns/yersinia/ && \
 git clone https://github.com/OWASP/joomscan.git /opt/vulns/joomscan/ && \
 git clone https://github.com/almandin/fuxploider.git /opt/vulns/fuxploider/ && \
 git clone https://github.com/machine1337/fast-scan.git /opt/vulns/fast-scan/ && \
+git clone https://github.com/hausec/ADAPE-Script /opt/vulns/ADAPE-Script/ && \
 git clone https://github.com/Hypnoze57/RDPChecker /opt/vulns/RDPChecker/ && \
 git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
+git clone https://github.com/whickey-r7/grab_beacon_config /opt/vulns/grab_beacon_config/ && \
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
-git clone https://github.com/linted/linuxprivchecker.git /opt/vulns/linuxprivchecker && \
 git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
@@ -465,6 +536,7 @@ printf "$Yellow" "--------------------------------------------------\n"
 apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
+git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
 git clone https://github.com/t6x/reaver-wps-fork-t6x.git /opt/wireless/reaver-wps-fork-t6x/ && \
 # Install reaver
 cd /opt/wireless/reaver-wps-fork-t6x*
