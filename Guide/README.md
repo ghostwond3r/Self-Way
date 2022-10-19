@@ -1,25 +1,33 @@
-
-
+# Guide
 
 **Here you will find all tutorial that will build the Guide**
 
-Include:
+To read the Guide directly from your terminal:
+```
+1. open the folder 'Guide' on the desktop
+2. right click inside and choose 'open a terminal here'
+3. in the terminal type 'glow'
+4. happy learning!
+```
 
-* anonymity
-* cracking
-* ddos
-* dorking
-* exploitation
-* forensics
-* fuzzing
-* osint
-* post_exploitation
-* recon
-* reporting
-* reversing
-* sniffing
-* social_engineering
-* vulns
-* webapp
-* wireless
+Include section:
 
+* Anonymity
+* Cracking
+* Ddos
+* Exploitation
+* Forensics
+* Fuzzing
+* Google_Dorking
+* OSINT
+* Post_Exploitation
+* Recon
+* Reporting
+* Reversing
+* Sniffing
+* Social_Engineering
+* Vulnerability
+* Web_Application
+* Wireless
+
+> This section will be constantly update.
