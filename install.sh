@@ -31,7 +31,6 @@ lolcat -a <<"EOF"
                                 
 EOF
 
-sleep 1
 
 current_date=$(date)
 printf "$Yellow" "Starting at $current_date"
@@ -57,12 +56,11 @@ cp "/home/$(grep -F 1000:1000 /etc/passwd | cut -d: -f1)/.bashrc" /root/.bashrc
 
 
 printf "$Blue" "Adding sources list.."
-echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
-echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
+echo "deb https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
+echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
 
 # upgrade distro
 apt-get dist-upgrade -y
-printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
@@ -478,37 +476,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 
 cd $ROOT_DIR
 
-
-# -----------------------------------------------------
-# Move guide 
-# -----------------------------------------------------
-
-mv /Self-Way/Guide/CS_anonymity /opt/anonymity/
-mv /Self-Way/Guide/CS_cracking/ /opt/cracking/
-mv /Self-Way/Guide/CS_ddos/ /opt/ddos/
-mv /Self-Way/Guide/CS_dorking/ /opt/dorking/
-mv /Self-Way/Guide/CS_exploitation/ /opt/exploitation/
-mv /Self-Way/Guide/CS_forensics/ /opt/forensics/
-mv /Self-Way/Guide/CS_fuzzing/ /opt/fuzzing/
-mv /Self-Way/Guide/CS_post_exploitation/ /opt/post-exploit/
-mv /Self-Way/Guide/CS_recon/ /opt/recon/
-mv /Self-Way/Guide/CS_reporting/ /opt/reporting/
-mv /Self-Way/Guide/CS_reversing/ /opt/reversing
-mv /Self-Way/Guide/CS_sniffing/ /opt/sniffing
-mv /Self-Way/Guide/CS_social_engineering/ /opt/se/
-mv /Self-Way/Guide/CS_vulns/ /opt/vulns/
-mv /Self-Way/Guide/CS_webapp/ /opt/webapp/
-mv /Self-Way/Guide/CS_wireless/ /opt/wireless/
-
-# Wordlists
-mv /Self-Way/Guide/WL_cracking/ /opt/cracking/
-mv /Self-Way/Guide/WL_dorking/ /opt/dorking/
-mv /Self-Way/Guide/WL_webapp/ /opt/webapp/
-
-# Extras
-mv /Self-Way/Shell/ /opt/exploitation/
-mv /Self-Way/Utilities/ /opt/
-mv /Self-Way/Payload_List/ /opt/
 
 # -------------------------------------------------------
 # Settings
