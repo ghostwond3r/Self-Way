@@ -12,6 +12,31 @@
 
 </br>
 
+**Category of tools;**
+
+* Anonymity
+* Cracking
+* Ddos
+* Exploitation
+* Forensics/Anti-Forensics
+* Fuzzing
+* Google Dorking
+* Industrial Control System (ICS)
+* Lateral Movement
+* OSINT
+* Pivot
+* Post-Exploitation
+* Recon
+* Reporting
+* Reversing
+* Sniffing
+* Social-Engineering
+* Vulnerability
+* Web Application
+* Wireless
+
+
+
 ### Step 1
 
 1. You will need VirtualBox (or VMware) to use this ISO. You can find the instructions here for VirtualBox: https://github.com/NeverWonderLand/kali-inst-guide
