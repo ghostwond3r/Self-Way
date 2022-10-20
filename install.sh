@@ -1,6 +1,8 @@
 #!/bin/bash
-# Custom Kali ISO - Made by wondR 
+# Made by wondR - for NBP
 # Last update: Oct 2022
+# OS: kali linux 2022.3
+# Run as ROOT && turn off your screen saver!
 
 Yellow="\033[0;33m" # Yellow
 Blue="\033[0;34m"   # Blue
@@ -66,7 +68,61 @@ apt-get dist-upgrade -y
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}-- Installing Packages \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y git md2term wget tor kali-linux-labs gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+# here I decided to just install all packages of kali so nothing is missing but you can put a hashtag before it 
+# and remove the one before the line following so only those packages will be install.
+apt install kali-linux-everything -y
+
+# general (remove hashtag on the next line to install it)
+# apt install -y git wget tor gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+
+# python (remove hashtag on the next line to install it)
+# apt -y install python3-venv python3-xlrd python-xlrd-docs python3-pip python3-wheel 
+
+# anonymity (remove hashtag on the next line to install it)
+# apt -y install macchanger ufw torsocks iptables bleachbit selektor nyx i2p-router i2p secure-delete proxycheck makepasswd
+
+# cracking (remove hashtag on the next line to install it)
+# apt install -y cewl crunch hashcat john medusa ophcrack wordlists seclists chntpw crackle fcrackzip hashid hash-identifier samdump2 hydra patator thc-pptp-bruter mimikatz passing-the-hash rsmangler pdfcrack
+
+# ddos (remove hashtag on the next line to install it)
+# apt install -y t50 goldeneye 
+
+# dorking (remove hashtag on the next line to install it)
+# apt -y install bed doona ohrwurm siparmyknife  
+
+# exploitation (remove hashtag on the next line to install it)
+# apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
+
+# Forensics / Anti-forensics (remove hashtag on the next line to install it)
+# apt install -y autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
+
+# Fuzzing (remove hashtag on the next line to install it)
+# apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
+
+# post-exploitation (remove hashtag on the next line to install it)
+# apt install -y kali-tools-post-exploitation
+
+# recon (remove hashtag on the next line to install it)
+# apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
+
+# reversing (remove hashtag on the next line to install it)
+# apt install -y apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
+
+# social-engineering (remove hashtag on the next line to install it)
+# apt install -y set king-phisher wifiphisher
+
+# sniffing (remove hashtag on the next line to install it)
+# apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common ettercap-graphical mitmproxy netsniff-ng responder wireshark dnschef hexinject tcpflow isr-evilgrade fiked rebind sslsplit tcpreplay
+
+# vulnerability (remove hashtag on the next line to install it)
+# apt install -y lynis tlssled nikto pocsuite3 nuclei unix-privesc-check windows-privesc-check yersinia iaxflood inviteflood siege thc-ssl-dos rtpbreak rtpflood rtpinsertsound sctpscan sipp sipsak sipvicious cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch copy-router-config perl-cisco-copyconfig
+
+# webapp (remove hashtag on the next line to install it)
+# apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
+
+# wireless (remove hashtag on the next line to install it)
+# apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
+
 printf "$Blue" "{+}----Done \n\n\n"
 
 
@@ -79,7 +135,6 @@ cd $ROOT_DIR
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}--Installing Python3 \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt -y install python3-venv python3-xlrd python-xlrd-docs python3-pip python3-wheel 
 python3 -m pip install pipenv
 pip3 install pyReadline habu getips virtualenvwrapper uncompyle6 git-filter-repo python-whois colorama bs4 virtualenv wheel boto3 botocore termcolor requests pycryptodome 
 printf "$Blue" "{+}----Done \n\n\n"
@@ -112,9 +167,14 @@ printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Docker \n"
+printf "$Blue" "{+}----Docker / Docker-compose\n"
 printf "$Yellow" "--------------------------------------------------\n"
-# install and start docker
+# docker
+systemctl stop docker &>/dev/null
+echo '{"bip":"172.16.199.1/24"}' >/etc/docker/daemon.json
+systemctl enable docker --now
+
+# docker-compose
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 apt update -y
@@ -181,7 +241,6 @@ EOF
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Anonymity \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt -y install macchanger ufw tor torsocks iptables bleachbit selektor nyx i2p-router i2p secure-delete proxycheck makepasswd
 mkdir /opt/anonymity/ && \
 git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG /opt/anonymity/TorghostNG/ && \
 git clone https://github.com/sundowndev/covermyass.git /opt/anonymity/covermyass/ && \
@@ -199,7 +258,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Cracking \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y cewl crunch hashcat john medusa ophcrack wordlists seclists chntpw crackle fcrackzip hashid hash-identifier samdump2 hydra patator thc-pptp-bruter mimikatz passing-the-hash rsmangler pdfcrack
 mkdir /opt/cracking/ && \
 git clone https://github.com/fuzzdb-project/fuzzdb.git /opt/cracking/fuzzdb/ && \
 git clone https://github.com/danielmiessler/SecLists.git /opt/cracking/SecLists/ && \
@@ -212,7 +270,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Ddos \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y t50 goldeneye 
 mkdir /opt/ddos/ && \
 git clone https://github.com/NeverWonderLand/Impulse.git /opt/ddos/Impulse/ && \
 git clone https://github.com/kamorin/DHCPig /opt/ddos/DHCPig/ && \
@@ -229,7 +286,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Dorking \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
-apt -y install bed doona ohrwurm siparmyknife  
 mkdir /opt/dorking/ && \
 git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
 git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
@@ -241,7 +297,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Exploitation \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
 mkdir /opt/exploitation/ && \
 git clone https://github.com/Kevin-Robertson/Inveigh /opt/exploitation/Inveigh/ && \
 git clone https://github.com/bettercap/bettercap.git /opt/exploitation/bettercap/ && \
@@ -285,7 +340,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Forensics / Anti-Forensics \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
 mkdir /opt/forensics/ && \
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -293,7 +347,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Fuzzing \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
-apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
 mkdir /opt/fuzzing/ && \
 git clone https://github.com/ffuf/ffuf.git /opt/fuzzing/ffuf/ && \
 git clone http://www.aldeid.com/wiki/Bed /opt/fuzzing/Bed/ && \
@@ -310,8 +363,8 @@ git clone https://gitlab.com/jhcastel/attkfinder.git /opt/ics/attkfinder/ && \
 git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
 git clone https://github.com/dark-lbp/isf/ /opt/ics/isf/ && \
 git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
-git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/ && \
-
+git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/
+printf "$Blue" "{+}----Done \n\n\n"
 
 
 printf "$Yellow" "--------------------------------------------------\n"
@@ -395,7 +448,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Post-Exploitation \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y kali-tools-post-exploitation
 mkdir /opt/post-exploit/ && \
 git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/post-exploit/Covenant && \
 git clone https://github.com/n1nj4sec/pupy/ /opt/post-exploit/pupy/ && \
@@ -412,7 +464,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Recon \n"
 printf "$Yellow" "--------------------------------------------------\n\n"
-apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 mkdir /opt/recon/ && \
 git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
 git clone https://github.com/mschwager/fierce /opt/recon/fierce/ && \
@@ -469,7 +520,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Reversing \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
 mkdir /opt/reversing/ && \
 git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/ && \
 git clone https://github.com/m4b/bingrep.git /opt/reversing/ 
@@ -479,7 +529,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----S-E \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y set king-phisher wifiphisher
 mkdir /opt/se/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
@@ -500,7 +549,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Sniffing \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common ettercap-graphical mitmproxy netsniff-ng responder wireshark dnschef hexinject tcpflow isr-evilgrade fiked rebind sslsplit tcpreplay
 mkdir /opt/sniffing/ && \
 printf "$Blue" "{+}----Done \n\n\n"
 
@@ -508,7 +556,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Vulnerability \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y lynis tlssled nikto pocsuite3 nuclei unix-privesc-check windows-privesc-check yersinia iaxflood inviteflood siege thc-ssl-dos rtpbreak rtpflood rtpinsertsound sctpscan sipp sipsak sipvicious cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch copy-router-config perl-cisco-copyconfig
 mkdir /opt/vulns/ && \
 git clone https://github.com/OWASP/Nettacker.git /opt/vulns/Nettacker/ && \
 git clone https://github.com/greenbone/openvas /opt/vulns/openvas/ && \
@@ -543,7 +590,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----WebApp \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
 mkdir /opt/webapp/ && \
 git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/domain-to-webapp/ && \
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
@@ -560,7 +606,6 @@ printf "$Blue" "{+}----Done \n\n\n"
 printf "$Yellow" "--------------------------------------------------\n"
 printf "$Blue" "{+}----Wireless \n"
 printf "$Yellow" "--------------------------------------------------\n"
-apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
 git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
