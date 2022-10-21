@@ -463,6 +463,14 @@ git clone https://github.com/klsecservices/Invoke-Vnc /opt/post-exploit/Invoke-V
 git clone https://github.com/GhostPack/Lockless /opt/post-exploit/Lockless/ && \
 git clone https://github.com/swisskyrepo/SharpLAPS /opt/post-exploit/SharpLAPS/ && \
 git clone https://github.com/n00py/LAPSDumper /opt/post-exploit/LAPSDumper/ && \
+git clone https://github.com/Mr-Un1k0d3r/SCShell /opt/post-exploit/SCShell/ && \
+git clone https://github.com/gentilkiwi/mimikatz /opt/post-exploit/mimikatz/ && \
+git clone https://github.com/djhohnstein/SharpWeb /opt/post-exploit/SharpWeb/ && \
+git clone https://github.com/aas-n/spraykatz /opt/post-exploit/spraykatz/ && \
+git clone https://github.com/BC-SECURITY/Starkiller /opt/post-exploit/Starkiller/ && \
+git clone https://github.com/BishopFox/sliver /opt/post-exploit/sliver/ && \
+git clone https://github.com/offsecginger/koadic /opt/post-exploit/ && \
+git clone https://github.com/d4rk007/RedGhost /opt/post-exploit/RedGhost/ && \
 git clone https://github.com/PowerShellMafia/PowerSploit.git/
 echo "{+}----Done \n\n\n"
 

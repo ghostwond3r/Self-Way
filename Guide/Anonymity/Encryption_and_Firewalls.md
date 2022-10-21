@@ -1,0 +1,31 @@
+## Encryption and Firewalls/IDS
+
+1. [Steghide](http://steghide.sourceforge.net)
+2. [VeraCrypt](https://www.veracrypt.fr/)
+3. [LUKS](https://gitlab.com/cryptsetup/cryptsetup/)
+4. [OpenSSL](https://www.openssl.org) || [LibreSSL](https://www.libressl.org/)
+5. [GnuPG (OpenPGP implementation)](https://www.gnupg.org/)
+6. [KeePassXC](https://keepassxc.org/)
+7. [BitWarden](https://bitwarden.com)
+8. [IPTables](https://www.netfilter.org/projects/iptables/index.html)
+9. [UFW (Uncomplicated Firewall)](https://launchpad.net/ufw) && [UFW-Extras](https://github.com/xyproto/ufw-extras) && [GUFW](https://gufw.org/) (GUI Firewall Desktop App)
+10. [OpenVPN](https://openvpn.net/index.php/open-source.html)
+11. [WireGuard](https://www.wireguard.com/)
+12. [IPSec/IKEv2](https://www.strongswan.org) (This protocol is preinstalled in Windows and most SmartPhones nowadays)
+13. [Red Team Tool Countermeasure](https://github.com/fireeye/red_team_tool_countermeasures)
+14. [TorghostNG](https://github.com/84KaliPleXon3/GitHackTools-TorghostNG)
+15. [WindowsFirewallRuleset](https://github.com/metablaster/WindowsFirewallRuleset)
+16. [CrypTool](https://www.cryptool.org/en/ct2/)
+17. [kalitorify](https://github.com/BrainfuckSec/kalitorify)
+18. [Python Fernet](https://github.com/pyca/cryptography) -> [Fernet Documentation](https://cryptography.io/en/latest/)
+19. [Yara-Rules (to detect malicous behaviour)](https://github.com/InQuest/yara-rules)
+20. [Dcode](https://www.dcode.fr/en)
+21. [sha256-animation (helps you understand SHA256 visually)](https://github.com/in3rsha/sha256-animation)
+22. [Enigma Breaker](https://github.com/mikepound/enigma)
+23. [AMSITrigger](https://github.com/RythmStick/AMSITrigger)
+24. [Security Onion (SGUIL)](https://securityonionsolutions.com/) -> [Documentation](https://docs.securityonion.net/en/2.3/) && [Github Repo](https://github.com/Security-Onion-Solutions/securityonion)
+25. [OutGuess](https://github.com/resurrecting-open-source-projects/outguess)
+26. [python-codext](https://github.com/dhondta/python-codext/)
+
+
+> Taken from https://github.com/ghostsec420/SCPA

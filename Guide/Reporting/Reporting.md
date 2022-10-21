@@ -1,1 +1,30 @@
-# Reporting
+## Reporting Tools
+
+1. [Rekall](http://www.rekall-forensic.com)
+2. [Sleuth and Autopsy](https://www.sleuthkit.org)
+3. [USBRip](https://github.com/snovvcrash/usbrip)
+4. [Sherloq](https://github.com/GuidoBartoli/sherloq)
+5. [CaseFile](https://gitlab.com/kalilinux/packages/casefile)
+6. [CutyCapt](http://cutycapt.sourceforge.net) && [Backup](https://gitlab.com/kalilinux/packages/cutycapt)
+7. [dos2unix](http://freshmeat.sourceforge.net/projects/dos2unix) && [Backup](https://gitlab.com/kalilinux/packages/dos2unix)
+8. [Dradis](https://dradisframework.com/ce/)
+9. [MagicTree](https://www.gremwell.com/)
+10. [Metagoofil](http://www.edge-security.com/metagoofil.php)
+11. [Nipper-ng](https://code.google.com/archive/p/nipper-ng/)
+12. [Pipal](https://digi.ninja/projects/pipal.php)
+13. [CyberChef](https://github.com/gchq/cyberchef)
+14. [PoSh-R2](https://github.com/WiredPulse/PoSh-R2) (Powershell incident responder script)
+15. [Attack_Monitor](https://github.com/yarox24/attack_monitor)
+16. [Meerkat](https://github.com/TonyPhipps/Meerkat)
+17. [LaZangeForensic](https://github.com/AlessandroZ/LaZagneForensic)
+18. [WriteHat](https://github.com/blacklanternsecurity/writehat)
+19. [Ciphey](https://github.com/Ciphey/Ciphey)
+20. [Network Forensics and Network Security Monitoring (NETRESEC)](https://www.netresec.com/index.ashx)
+21. [Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)
+22. [Gowitness](https://github.com/sensepost/gowitness)
+23. [http-screenshot-html](https://github.com/afxdub/http-screenshot-html)
+24. [Atomic-Red-Team](https://github.com/redcanaryco/atomic-red-team)
+25. [rustywitness](https://github.com/swanandx/rustywitness)
+
+
+> Taken from https://github.com/ghostsec420/SCPA
