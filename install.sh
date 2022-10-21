@@ -69,6 +69,9 @@ echo "--------------------------------------------------\n"
 # and remove the one before the line following so only those packages will be install.
 apt install kali-linux-everything -y
 
+# packages not includes in the "everything"
+apt install -y forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates rizin secure-delete tcpxtract time-decode unhide-gui wipe
+
 # general (remove hashtag on the next line to install it)
 # apt install -y git wget tor gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
 
