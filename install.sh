@@ -65,63 +65,57 @@ apt-get dist-upgrade -y
 echo "--------------------------------------------------\n"
 echo "{+}-- Installing Packages \n"
 echo "--------------------------------------------------\n"
-# here I decided to just install all packages of kali so nothing is missing but you can put a hashtag before it 
-# and remove the one before the line following so only those packages will be install.
-apt install kali-linux-everything -y
 
-# packages not includes in the "everything"
-apt install -y forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates rizin secure-delete tcpxtract time-decode unhide-gui wipe
+# general 
+apt install -y git wget apt-rdepends sipcalc unbound gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
 
-# general (remove hashtag on the next line to install it)
-# apt install -y git wget tor gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+# python 
+apt -y install python3-venv python3-xlrd python-xlrd-docs python3-pip python3-wheel 
 
-# python (remove hashtag on the next line to install it)
-# apt -y install python3-venv python3-xlrd python-xlrd-docs python3-pip python3-wheel 
+# anonymity 
+apt -y install tor haproxy psad nghttp2 nghttp2-proxy node-configurable-http-proxy node-http-proxy macchanger ufw torsocks iptables bleachbit selektor nyx i2p-router i2p secure-delete proxycheck makepasswd
 
-# anonymity (remove hashtag on the next line to install it)
-# apt -y install macchanger ufw torsocks iptables bleachbit selektor nyx i2p-router i2p secure-delete proxycheck makepasswd
+# cracking 
+apt install -y cewl crunch hashcat john medusa ophcrack wordlists seclists chntpw crackle fcrackzip hashid hash-identifier samdump2 hydra patator thc-pptp-bruter mimikatz passing-the-hash rsmangler pdfcrack
 
-# cracking (remove hashtag on the next line to install it)
-# apt install -y cewl crunch hashcat john medusa ophcrack wordlists seclists chntpw crackle fcrackzip hashid hash-identifier samdump2 hydra patator thc-pptp-bruter mimikatz passing-the-hash rsmangler pdfcrack
+# ddos 
+apt install -y t50 goldeneye 
 
-# ddos (remove hashtag on the next line to install it)
-# apt install -y t50 goldeneye 
+# dorking 
+apt -y install bed doona ohrwurm siparmyknife  
 
-# dorking (remove hashtag on the next line to install it)
-# apt -y install bed doona ohrwurm siparmyknife  
+# exploitation 
+apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
 
-# exploitation (remove hashtag on the next line to install it)
-# apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
+# Forensics / Anti-forensics 
+apt install -y secure-delete tcpxtract time-decode unhide-gui forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
 
-# Forensics / Anti-forensics (remove hashtag on the next line to install it)
-# apt install -y autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
+# Fuzzing 
+apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
 
-# Fuzzing (remove hashtag on the next line to install it)
-# apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
+# post-exploitation 
+apt install -y kali-tools-post-exploitation
 
-# post-exploitation (remove hashtag on the next line to install it)
-# apt install -y kali-tools-post-exploitation
+# recon 
+apt -y install ike-scan walldns legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 
-# recon (remove hashtag on the next line to install it)
-# apt -y install ike-scan legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
+# reversing 
+apt install -y ferret miller rizin rizin-cutter apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
 
-# reversing (remove hashtag on the next line to install it)
-# apt install -y apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
+# social-engineering 
+apt install -y set king-phisher wifiphisher
 
-# social-engineering (remove hashtag on the next line to install it)
-# apt install -y set king-phisher wifiphisher
+# sniffing 
+apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common ettercap-graphical mitmproxy netsniff-ng responder wireshark dnschef hexinject tcpflow isr-evilgrade fiked rebind sslsplit tcpreplay
 
-# sniffing (remove hashtag on the next line to install it)
-# apt install -y bettercap sniffit bettercap-caplets bettercap-ui ettercap-common ettercap-graphical mitmproxy netsniff-ng responder wireshark dnschef hexinject tcpflow isr-evilgrade fiked rebind sslsplit tcpreplay
+# vulnerability 
+apt install -y lynis tlssled nikto pocsuite3 nuclei unix-privesc-check windows-privesc-check yersinia iaxflood inviteflood siege thc-ssl-dos rtpbreak rtpflood rtpinsertsound sctpscan sipp sipsak sipvicious cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch copy-router-config perl-cisco-copyconfig
 
-# vulnerability (remove hashtag on the next line to install it)
-# apt install -y lynis tlssled nikto pocsuite3 nuclei unix-privesc-check windows-privesc-check yersinia iaxflood inviteflood siege thc-ssl-dos rtpbreak rtpflood rtpinsertsound sctpscan sipp sipsak sipvicious cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch copy-router-config perl-cisco-copyconfig
+# webapp 
+apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
 
-# webapp (remove hashtag on the next line to install it)
-# apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy cutycapt dirb dirbuster cadaver davtest whatweb sublist3r gobuster apache-users hurl jboss-autopwn jsql jsql-injection
-
-# wireless (remove hashtag on the next line to install it)
-# apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
+# wireless 
+apt install -y ostinato aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 
 echo "{+}----Done \n\n\n"
 
@@ -182,6 +176,7 @@ apt update -y
 curl -L "https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
 chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
 echo "{+}----Done \n\n\n"
 
 
@@ -198,18 +193,19 @@ wget -nc http://apt.metasploit.com/metasploit-framework.gpg.key
 cat metasploit-framework.gpg.key | gpg --dearmor  > metasploit-framework.gpg
 install -o root -g root -m 644 metasploit-framework.gpg /etc/apt/trusted.gpg.d/
 apt-get update
+
 # Initializing Metasploit Database
 systemctl start postgresql
 systemctl enable postgresql
 msfdb init
 echo "{+}----Done \n\n\n"
 
-
 # starting service
 service postgresql start
 service tor start
 service mysql start
 /etc/init.d/apache2 start
+
 echo "
 Starting services.. 
 ======================
