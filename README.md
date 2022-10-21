@@ -26,6 +26,7 @@
 * OSINT
 * Pivot
 * Post-Exploitation
+* Privilege Escalation
 * Recon
 * Reporting
 * Reversing
@@ -39,13 +40,19 @@
 
 ### Step 1
 
-1. You will need VirtualBox (or VMware) to use this ISO. You can find the instructions here for VirtualBox: https://github.com/NeverWonderLand/kali-inst-guide
+1. Download VirtualBox and the extension pack here: 
 
-2. Once you have your Kali ready, start it and login with user `kali` and password `kali`. 
+2. Download the swOS here:
 
-3. First you need to open a ROOT terminal, you can find it in menu of the left top corner, type "term" and choose the red one. It will prompt you for the password, it is the default one: `kali`.
+3. Import swOS in VirtualBox and just start it. 
 
-4. It is important that you update your system regularly, for this use these this command:
+4. The credentials: 
+
+      to login as normal user : 'nbp / nbp'
+
+      to login as root : 'root / nbp'
+
+5. Open a terminal as root. It is important that you update your system regularly, for this use these this command :
 ```
 apt update && apt upgrade -y
 apt dist-upgrade -y
@@ -62,6 +69,7 @@ apt auroremove -y
 
 In the same terminal, type these command one by one
 ```
+cd /
 chmod +x install.sh
 ./install.sh
 ```

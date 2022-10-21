@@ -520,7 +520,7 @@ echo "{+}----Reversing \n"
 echo "--------------------------------------------------\n"
 mkdir /opt/reversing/ && \
 git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/ && \
-git clone https://github.com/m4b/bingrep.git /opt/reversing/ 
+git clone https://github.com/m4b/bingrep.git /opt/reversing/bingrep/
 echo "{+}----Done \n\n\n"
 
 
@@ -543,11 +543,12 @@ git clone https://github.com/curi0usJack/luckystrike /opt/se/luckystrike/
 echo "{+}----Done \n\n\n"
 
 
-
 echo "--------------------------------------------------\n"
 echo "{+}----Sniffing \n"
 echo "--------------------------------------------------\n"
 mkdir /opt/sniffing/ && \
+git clone https://github.com/DanMcInerney/net-creds.git /opt/sniffing/net-creds/ && \
+git clone https://github.com/kpcyrd/sniffglue.git /opt/sniffing/sniffglue/
 echo "{+}----Done \n\n\n"
 
 
