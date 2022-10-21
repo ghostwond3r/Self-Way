@@ -4,9 +4,6 @@
 # OS: kali linux 2022.3
 # Run as ROOT && turn off your screen saver!
 
-Yellow="\033[0;33m" # Yellow
-Blue="\033[0;34m"   # Blue
-
 ROOT_DIR=/root
 
 apt-get install lolcat -y
@@ -35,7 +32,7 @@ EOF
 
 
 current_date=$(date)
-printf "$Yellow" "Starting at $current_date"
+echo "Starting at $current_date"
 
 # check if we are ROOT
 if [ $EUID -ne 0 ]; then
@@ -57,7 +54,7 @@ cp "/home/$(grep -F 1000:1000 /etc/passwd | cut -d: -f1)/.bashrc" /root/.bashrc
 . /root/.bashrc
 
 
-printf "$Blue" "Adding sources list.."
+echo "Adding sources list.."
 echo "deb https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
 echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
 
@@ -65,9 +62,9 @@ echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | s
 apt-get dist-upgrade -y
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}-- Installing Packages \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}-- Installing Packages \n"
+echo "--------------------------------------------------\n"
 # here I decided to just install all packages of kali so nothing is missing but you can put a hashtag before it 
 # and remove the one before the line following so only those packages will be install.
 apt install kali-linux-everything -y
@@ -123,7 +120,7 @@ apt install kali-linux-everything -y
 # wireless (remove hashtag on the next line to install it)
 # apt install -y aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
 cd $ROOT_DIR
@@ -132,43 +129,43 @@ cd $ROOT_DIR
 # install some needs
 #---------------------
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}--Installing Python3 \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}--Installing Python3 \n"
+echo "--------------------------------------------------\n"
 python3 -m pip install pipenv
 pip3 install pyReadline habu getips virtualenvwrapper uncompyle6 git-filter-repo python-whois colorama bs4 virtualenv wheel boto3 botocore termcolor requests pycryptodome 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Installation & Configuration of GO \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Installation & Configuration of GO \n"
+echo "--------------------------------------------------\n"
 cd $ROOT_DIR/
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Install Rustscan \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Install Rustscan \n"
+echo "--------------------------------------------------\n"
 cargo install rustscan
 apt-get update -y
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Installing gem, will take a while \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Installing gem, will take a while \n"
+echo "--------------------------------------------------\n"
 gem install bundler && bundle config set --locale without test
 gem install rubygems-update
 apt full-upgrade
 gem install wpscan
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Docker / Docker-compose\n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Docker / Docker-compose\n"
+echo "--------------------------------------------------\n"
 # docker
 systemctl stop docker &>/dev/null
 echo '{"bip":"172.16.199.1/24"}' >/etc/docker/daemon.json
@@ -182,12 +179,12 @@ apt update -y
 curl -L "https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
 chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Installation of Metasploit-framework \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Installation of Metasploit-framework \n"
+echo "--------------------------------------------------\n"
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb >msfinstall &&
     chmod 755 msfinstall &&
     ./msfinstall
@@ -202,7 +199,7 @@ apt-get update
 systemctl start postgresql
 systemctl enable postgresql
 msfdb init
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
 # starting service
@@ -219,7 +216,7 @@ Starting services..
 -Mysql
 ...
 "
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 # Glow
 mkdir -p /etc/apt/keyrings
@@ -238,38 +235,38 @@ lolcat -a <<"EOF"
 EOF
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Anonymity \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Anonymity \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/anonymity/ && \
 git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG /opt/anonymity/TorghostNG/ && \
 git clone https://github.com/sundowndev/covermyass.git /opt/anonymity/covermyass/ && \
 git clone https://github.com/keeganjk/kali-anonymous.git /opt/anonymity/kali-anonymous/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Armitage \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Armitage \n"
+echo "--------------------------------------------------\n"
 git clone https://github.com/r00t0v3rr1d3/armitage.git /opt
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Cracking \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Cracking \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/cracking/ && \
 git clone https://github.com/fuzzdb-project/fuzzdb.git /opt/cracking/fuzzdb/ && \
 git clone https://github.com/danielmiessler/SecLists.git /opt/cracking/SecLists/ && \
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git /opt/cracking/PayloadsAllTheThings/ && \
 git clone https://github.com/1N3/IntruderPayloads /opt/cracking/IntruderPayloads/ && \
 git clone https://github.com/vanhauser-thc/thc-hydra.git /opt/cracking/thc-hydra/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Ddos \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Ddos \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/ddos/ && \
 git clone https://github.com/NeverWonderLand/Impulse.git /opt/ddos/Impulse/ && \
 git clone https://github.com/kamorin/DHCPig /opt/ddos/DHCPig/ && \
@@ -280,23 +277,23 @@ git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
 git clone https://github.com/firstapostle/Blood /opt/ddos/Blood/ && \
 git clone https://github.com/UBISOFT-1/AnonymousPAK-DDoS /opt/ddos/AnonymousPAK-DDoS/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Dorking \n"
-printf "$Yellow" "--------------------------------------------------\n\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Dorking \n"
+echo "--------------------------------------------------\n\n"
 mkdir /opt/dorking/ && \
 git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
 git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
 git clone https://github.com/humblelad/Shodan-Dorks /opt/dorking/Shodan-Dorks/ && \
 git clone https://github.com/s0md3v/Photon.git /opt/dorking/Photon/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Exploitation \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Exploitation \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/exploitation/ && \
 git clone https://github.com/Kevin-Robertson/Inveigh /opt/exploitation/Inveigh/ && \
 git clone https://github.com/bettercap/bettercap.git /opt/exploitation/bettercap/ && \
@@ -334,42 +331,43 @@ unzip /opt/exploitation/windows-sys/SysinternalsSuite.zip -d /opt/exploitation/w
 unzip /opt/exploitation/windows-sys/SysinternalsSuite-Nano.zip -d /opt/exploitation/windows-sys/NANO/ && \
 unzip /opt/exploitation/windows-sys/SysinternalsSuite-ARM64.zip -d /opt/exploitation/windows-sys/ARM-64/ && \
 unzip /opt/exploitation/windows-sys/binaries/netcat-win32-1.12.zip -d /opt/exploitation/windows-sys/binaries/nc/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Forensics / Anti-Forensics \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Forensics / Anti-Forensics \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/forensics/ && \
-printf "$Blue" "{+}----Done \n\n\n"
+git clone https://github.com/Neo23x0/Fenrir.git /opt/forensics/Fenrir/ && \
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Fuzzing \n"
-printf "$Yellow" "--------------------------------------------------\n\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Fuzzing \n"
+echo "--------------------------------------------------\n\n"
 mkdir /opt/fuzzing/ && \
 git clone https://github.com/ffuf/ffuf.git /opt/fuzzing/ffuf/ && \
 git clone http://www.aldeid.com/wiki/Bed /opt/fuzzing/Bed/ && \
 git clone https://github.com/wireghoul/dotdotpwn.git /opt/fuzzing/dotdotpwn/ && \
 git clone https://github.com/tlsfuzzer/tlsfuzzer.git /opt/fuzzing/tlsfuzzer/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Industrial Control System \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Industrial Control System \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/ics/ && \
 git clone https://gitlab.com/jhcastel/attkfinder.git /opt/ics/attkfinder/ && \
 git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
 git clone https://github.com/dark-lbp/isf/ /opt/ics/isf/ && \
 git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
 git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Lateral Movement \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Lateral Movement \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/lateral/ && \
 git clone https://github.com/byt3bl33d3r/CrackMapExec /opt/lateral/CrackMapExec/ && \
 git clone https://github.com/byt3bl33d3r/DeathStar /opt/lateral/DeathStar/ && \
@@ -379,24 +377,24 @@ git clone https://github.com/360-Linton-Lab/WMIHACKER /opt/lateral/WMIHACKER/ &&
 git clone https://github.com/Hackndo/WebclientServiceScanner /opt/lateral/WebclientServiceScanner/ && \
 git clone https://github.com/anthemtotheego/SharpExec /opt/lateral/SharpExec/ && \
 git clone https://github.com/juliourena/SharpNoPSExec /opt/lateral/SharpNoPSExec
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Pivot \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Pivot \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/pivot/ && \
 git clone https://github.com/p3nt4/Invoke-SocksProxy /opt/pivot/Invoke-SocksProxy/ && \
 git clone https://github.com/sensepost/reGeorg /opt/pivot/reGeorg/ && \
 git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history /opt/pivot/bypass-firewalls-by-DNS-history/ && \
 git clone https://github.com/sysdream/ligolo /opt/pivot/ligolo/ && \
 git clone https://github.com/klsecservices/rpivot /opt/pivot
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----PrivEsc \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----PrivEsc \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/privesc/ && \
 mkdir /opt/privesc/windows/ && \
 git clone https://github.com/GhostPack/SharpUp /opt/privesc/windows/SharpUp/ && \
@@ -420,12 +418,12 @@ git clone https://github.com/t0thkr1s/gtfo /opt/privesc/linux/gtfo/ && \
 git clone https://github.com/DominicBreuker/pspy /opt/privesc/linux/pspy/ && \
 git clone https://github.com/twelvesec/rootend /opt/privesc/linux/rootend/ && \
 git clone https://github.com/liamg/traitor /opt/privesc/linux/traitor/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----OSINT \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----OSINT \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/osint/ && \
 git clone https://github.com/laramies/theHarvester /opt/osint/theHarvester/ && \
 git clone https://github.com/lanmaster53/recon-ng /opt/osint/recon-ng/ && \
@@ -442,12 +440,12 @@ git clone https://github.com/khast3x/h8mail /opt/osint/h8mail/ && \
 git clone https://github.com/qeeqbox/social-analyzer /opt/osint/social-analyzer/ && \
 git clone https://github.com/projectdiscovery/uncover /opt/osint/uncover/ && \
 git clone https://github.com/BLINKING-IDIOT/Aliens_eye /opt/osint/Aliens_eye/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Post-Exploitation \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Post-Exploitation \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/post-exploit/ && \
 git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/post-exploit/Covenant && \
 git clone https://github.com/n1nj4sec/pupy/ /opt/post-exploit/pupy/ && \
@@ -458,12 +456,12 @@ git clone https://github.com/GhostPack/Lockless /opt/post-exploit/Lockless/ && \
 git clone https://github.com/swisskyrepo/SharpLAPS /opt/post-exploit/SharpLAPS/ && \
 git clone https://github.com/n00py/LAPSDumper /opt/post-exploit/LAPSDumper/ && \
 git clone https://github.com/PowerShellMafia/PowerSploit.git/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Recon \n"
-printf "$Yellow" "--------------------------------------------------\n\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Recon \n"
+echo "--------------------------------------------------\n\n"
 mkdir /opt/recon/ && \
 git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
 git clone https://github.com/mschwager/fierce /opt/recon/fierce/ && \
@@ -499,12 +497,12 @@ git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/reco
 git clone https://github.com/linted/linuxprivchecker.git /opt/recon/linuxprivchecker && \
 git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ && \
 git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Reporting \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Reporting \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/reporting/ && \
 apt install -y dradis eyewitness faraday pipal metagoofil
 git clone https://github.com/SabyasachiRana/WebMap.git /opt/reporting/WebMap/ && \
@@ -514,21 +512,21 @@ git clone https://github.com/evait-security/envizon
 cd envizon/docker/envizon_local
 echo SECRET_KEY_BASE="$(echo $(openssl rand -hex 64) | tr -d '\n')" > .envizon_secret.env
 sudo docker-compose up
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Reversing \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Reversing \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/reversing/ && \
 git clone https://github.com/gchq/CyberChef.git /opt/reversing/CyberChef/ && \
 git clone https://github.com/m4b/bingrep.git /opt/reversing/ 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----S-E \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----S-E \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/se/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
@@ -542,20 +540,20 @@ git clone https://github.com/ustayready/CredSniper /opt/se/CredSniper/ && \
 git clone https://github.com/ryhanson/phishery /opt/se/phishery/ && \
 git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn /opt/se/HiddenEyeReborn/ && \
 git clone https://github.com/curi0usJack/luckystrike /opt/se/luckystrike/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Sniffing \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Sniffing \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/sniffing/ && \
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Vulnerability \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Vulnerability \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/vulns/ && \
 git clone https://github.com/OWASP/Nettacker.git /opt/vulns/Nettacker/ && \
 git clone https://github.com/greenbone/openvas /opt/vulns/openvas/ && \
@@ -584,12 +582,12 @@ git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vuln
 git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----WebApp \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----WebApp \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/webapp/ && \
 git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/domain-to-webapp/ && \
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
@@ -600,12 +598,12 @@ git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
 git clone http://www.github.com/Cvar1984/sqlscan /opt/webapp/sqlscan/ && \
 git clone https://github.com/wpscanteam/wpscan /opt/webapp/wpscan/ && \
 git clone https://github.com/Ekultek/WhatWaf /opt/webapp/WhatWaf
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Wireless \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Wireless \n"
+echo "--------------------------------------------------\n"
 mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
 git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
@@ -617,7 +615,7 @@ cd src
 ./configure
 make
 make install
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 cd $ROOT_DIR
 
@@ -630,9 +628,9 @@ echo "Updating..."
 apt-get update
 apt-get upgrade
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Configuration of tmux... \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Configuration of tmux... \n"
+echo "--------------------------------------------------\n"
 # default tmux config
 cat <<EOF >$HOME/.tmux.conf
     set -g mouse on
@@ -651,13 +649,13 @@ cat <<EOF >$HOME/.tmux.conf
     run '~/.tmux/plugins/tpm/tpm'
 EOF
 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 # =======================================================
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Enabling bash session logging \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Enabling bash session logging \n"
+echo "--------------------------------------------------\n"
 grep -q 'UNDER_SCRIPT' ~/.bashrc || echo "if [[ -z "$UNDER_SCRIPT" && -z "$TMUX" && ! -z "$PS1" ]]; then
     logdir=$HOME/Logs 
     if [ ! -d $logdir ]; then
@@ -670,7 +668,7 @@ grep -q 'UNDER_SCRIPT' ~/.bashrc || echo "if [[ -z "$UNDER_SCRIPT" && -z "$TMUX"
     exit
 fi" >>~/.bashrc
 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 
 echo "Cleaning Up..."
@@ -678,16 +676,16 @@ apt-get autoremove -y
 apt-get autoclean -y
 updatedb
 
-printf "$Yellow" "--------------------------------------------------\n"
-printf "$Blue" "{+}----Setup some iptables rules... \n"
-printf "$Yellow" "--------------------------------------------------\n"
+echo "--------------------------------------------------\n"
+echo "{+}----Setup some iptables rules... \n"
+echo "--------------------------------------------------\n"
 iptables -L -v
 iptables -L
 iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 iptables -A INPUT -p tcp --dport ssh -j ACCEPT
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 iptables-save 
-printf "$Blue" "{+}----Done \n\n\n"
+echo "{+}----Done \n\n\n"
 
 #--------------------------------------------------
 
