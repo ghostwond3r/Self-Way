@@ -239,6 +239,7 @@ echo "{+}----Anonymity \n"
 echo "--------------------------------------------------\n"
 mkdir /opt/anonymity/ && \
 git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG /opt/anonymity/TorghostNG/ && \
+git clone https://github.com/stamparm/fetch-some-proxies /opt/anonymity/fetch-some-proxies/ && \
 git clone https://github.com/sundowndev/covermyass.git /opt/anonymity/covermyass/ && \
 git clone https://github.com/keeganjk/kali-anonymous.git /opt/anonymity/kali-anonymous/
 echo "{+}----Done \n\n\n"
@@ -353,12 +354,20 @@ echo "{+}----Done \n\n\n"
 
 
 echo "--------------------------------------------------\n"
+echo "{+}----katoolin3 \n"
+echo "--------------------------------------------------\n"
+git clone https://github.com/s-h-3-l-l/katoolin3 /opt/katoolin3
+echo "{+}----Done \n\n\n"
+
+
+echo "--------------------------------------------------\n"
 echo "{+}----Industrial Control System \n"
 echo "--------------------------------------------------\n"
 mkdir /opt/ics/ && \
 git clone https://gitlab.com/jhcastel/attkfinder.git /opt/ics/attkfinder/ && \
 git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
 git clone https://github.com/dark-lbp/isf/ /opt/ics/isf/ && \
+git clone https://github.com/dhondta/dronesploit /opt/ics/dronesploit/ && \
 git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
 git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/
 echo "{+}----Done \n\n\n"
@@ -482,6 +491,7 @@ git clone https://github.com/dafthack/HostRecon /opt/recon/HostRecon/ && \
 git clone https://github.com/ropnop/kerbrute /opt/recon/kerbrute/ && \
 git clone https://github.com/royhills/arp-scan /opt/recon/arp-scan/ && \
 git clone https://github.com/Zapotek/cdpsnarf /opt/recon/cdpsnarf/ && \
+git clone https://github.com/yakuza8/peniot /opt/recon/peniot/ && \
 git clone https://github.com/m0rtem/CloudFail /opt/recon/CloudFail/ && \
 git clone https://github.com/1N3/BlackWidow /opt/recon/BlackWidow/ && \
 git clone https://github.com/projectdiscovery/naabu /opt/recon/naabu/ && \
@@ -593,10 +603,14 @@ git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/dom
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
 git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
 git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ && \
+git clone https://github.com/websploit /opt/webapp/websploit/ && \
 git clone https://github.com/Tuhinshubhra/CMSeeK /opt/webapp/CMSeek/ && \
 git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
 git clone http://www.github.com/Cvar1984/sqlscan /opt/webapp/sqlscan/ && \
 git clone https://github.com/wpscanteam/wpscan /opt/webapp/wpscan/ && \
+git clone https://github.com/ron190/jsql-injection /opt/webapp/jsql-injection/ && \
+git clone https://github.com/FSecureLABS/N1QLMap /opt/webapp/N1QLMap/ && \
+git clone https://github.com/Charlie-belmer/nosqli /opt/webapp/nosqli/ && \
 git clone https://github.com/Ekultek/WhatWaf /opt/webapp/WhatWaf
 echo "{+}----Done \n\n\n"
 
