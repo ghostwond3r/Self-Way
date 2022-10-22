@@ -82,7 +82,8 @@ chmod +x install.sh
 
 ### Step 3
 
-Once all is complete; 
+Once all is complete:
+
 * open the folder `Guide` on the Desktop
 * right click inside the folder and choose `open a terminal here`
 * in the terminal, type the command `glow` 

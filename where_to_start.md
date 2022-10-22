@@ -79,21 +79,15 @@ You can access the cheatsheet here: `/Utilities/VIM.md`
 
 # PART B
 
-To setup your network security, refer to the appropriate section here:
+To setup your network, refer to the appropriate section here:
 
-**VPN**
-```
-/Anonymity/install_Mullvad_Kali.md
-```
+**VPN** `/Anonymity/install_Mullvad_Kali.md`
 
-**PROXYCHAINS4**
-```
-/Anonymity/setup_proxychains4.md
-```
+**PROXYCHAINS4** `/Anonymity/setup_proxychains4.md`
 
-**TOR**
+</br>
 
-Tor is use to hide your network in linux and you can simply:
+**Tor** is use to hide your IP address, and you can:
 
 start it:
 ```
@@ -110,15 +104,17 @@ service tor restart
 
 | Note: if you connect to Tor before connecting to your VPN, then your VPN will cover the fact that you are using Tor. This can be useful while browsing on Internet, since some website block IP behind Tor.
 
+</br>
+
 **If you have some issues with your connection**
 
 1. Make sure you have follow the step in the guide of Kali installation in VirtualBox (https://github.com/NeverWonderLand/kali-inst-guide)
 2. restart your network: `service NetworkManager restart`
 3. reboot your kali: `reboot`
 
-**Topics: Anons**
+### Topics: Anonymous - the good behavior
 
-Take the time to read: `/Anonymity/Masked_Man.md`
+* Take the time to read: `/Anonymity/Masked_Man.md`
 
 </br>
 
