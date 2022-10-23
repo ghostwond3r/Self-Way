@@ -7,7 +7,7 @@ Being Anonymous doesn't just end with wearing a mask... Our name comes from its 
 </br>
 Anonymity is necessary to us for protection purposes.
 </br>
-Without this, we fall, and ourwhole life with it, perhaps the life of your loved ones too...
+Without this, we fall, and our whole life with it, perhaps the life of your loved ones too...
 </br>
 If you choose the voice of Anonymous, then master the art of anonymity.
 </br>
