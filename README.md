@@ -3,12 +3,11 @@
 </p>
 
 
-* A custom Kali Linux ISO
-* Project developed for NBP - but is open for everyone.
+* Project developed for NBP - NewBloodProject
 * Built to learn ethical hacking on your own.
 * Includes guides, tutorials, cheat sheets and tools.
 * Each ressources have been write in Markdown.
-* The Guide is accessible directly in command line (thanks to Glow).
+* The Guide is accessible directly from command line (thanks to Glow).
 
 </br>
 
@@ -40,19 +39,9 @@
 
 ### Step 1
 
-1. Download VirtualBox and the extension pack here: 
+1. Download VirtualBox and install kali inside. You can find the instruction to do it here : 
 
-2. Download the swOS here:
-
-3. Import swOS in VirtualBox and just start it. 
-
-4. The credentials: 
-
-      to login as normal user : 'nbp / nbp'
-
-      to login as root : 'root / nbp'
-
-5. Open a terminal as root. It is important that you update your system regularly, for this use these this command :
+2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
 ```
 apt update && apt upgrade -y
 apt dist-upgrade -y
@@ -63,13 +52,16 @@ apt full-upgrade -y
 apt auroremove -y
 ```
 
-</br>
-
 ### Step 2
 
-In the same terminal, type these command one by one
+1. Clone this repo :
 ```
-cd /
+git clone https://github.com/NeverWonderLand/Self-Way.git
+```
+
+2. Install it :
+```
+cd Self-Way
 chmod +x install.sh
 ./install.sh
 ```
@@ -80,7 +72,7 @@ chmod +x install.sh
 
 </br>
 
-### Step 3
+### Step 2
 
 Once all is complete:
 
@@ -96,9 +88,20 @@ Once all is complete:
 
 ---------------------------------------------------
 
-> As I decided to make it as an ISO instead of an automated installation, the ISO will be updated following a new version of kali.
+> This repo have been build based on many others amazing work:
 
-> The older version of the ISO will still available under the Outdated folder, but I recommend to uss always the latest ISO if you are new to Linux, to avoid many issues.
+<https://github.com/ghostsec420>
+
+<https://github.com/U53RW4R3>
+
+<https://github.com/RoseSecurity>
+
+<https://github.com/thehackingsage>
+
+<https://github.com/Anon-Planet/thgtoa>
+
+
+> If you see some of your works here and want your name adds just message me and I will add it !
 
 --------------------------------------
 

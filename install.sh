@@ -88,7 +88,7 @@ apt -y install bed doona ohrwurm siparmyknife
 apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
 
 # Forensics / Anti-forensics 
-apt install -y secure-delete tcpxtract time-decode unhide-gui forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
+apt install -y tcpxtract time-decode unhide-gui forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
 
 # Fuzzing 
 apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
@@ -100,7 +100,7 @@ apt install -y kali-tools-post-exploitation
 apt -y install ike-scan walldns legion cloud-enum httprint maltego netdiscover nmap p0f recon-ng spiderfoot dnsenum dnsmap dnsrecon dnstracer dnswalk fierce urlcrazy firewalk lbd wafw00f arping fping hping3 masscan zmap ncat thc-ipv6 unicornscan theharvester netmask enum4linux polenum nbtscan nbtscan-unixwiz smbmap smtp-user-enum swaks braa onesixtyone snmp ssldump sslh sslscan sslyze fragrouter ftester arp-scan t50 ipv6-toolkit uniscan xsser knockpy urlextractor pompem dirsearch oscanner  
 
 # reversing 
-apt install -y ferret miller rizin rizin-cutter apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter metacam
+apt install -y ferret miller rizin apktool bytecode-viewer clang dex2jar edb-debugger javasnoop ollydbg radare2 radare2-cutter
 
 # social-engineering 
 apt install -y set king-phisher wifiphisher
@@ -641,6 +641,10 @@ echo "{+}----Done \n\n\n"
 
 cd $ROOT_DIR
 
+# move guide
+
+mv /Self-Way/Guide /home/kali/Desktop
+mv /Self-Way/wallpaper /home/kali/Desktop
 
 # -------------------------------------------------------
 # Settings
