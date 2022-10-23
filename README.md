@@ -39,7 +39,7 @@
 
 ### Step 1
 
-1. Download VirtualBox and install kali inside. You can find the instruction to do it here : 
+1. Download VirtualBox and install kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
 
 2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
 ```
