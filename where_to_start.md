@@ -12,6 +12,8 @@ So now you are probably wondering what the hell to do ? Where to start ? Well if
 
 **PART C - Getting start:** Where to start with your first target.
 
+> Once you finish with this file, you can go to 'how_to_use_tools.md'
+
 </br>
 
 # PART A
@@ -65,6 +67,49 @@ sudo apt-get update && apt-get upgrade -y
 
 Now time to practice here: `/Utilities/practice_term.md`
 
+The first thing to do now is to add a user:
+```
+┌──(root㉿kali)-[~]
+└─# adduser nbp
+Adding user `nbp' ...
+Adding new group `nbp' (1001) ...
+Adding new user `nbp' (1001) with group `nbp (1001)' ...
+Creating home directory `/home/nbp' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for nbp
+Enter the new value, or press ENTER for the default
+        Full Name []: 
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] y
+Adding new user `nbp' to supplemental / extra groups `users' ...
+Adding user `nbp' to group `users' ...
+```
+
+Once its done :
+```
+reboot -f
+```
+
+Then log in with your new user. 
+
+Once logged in your account will have no configuration or sudo rights.
+To have sudo and group rights from this new user, add them to the appropriate groups.
+```
+┌──(nbp㉿nbp)-[~]
+└─$ su -
+Password:
+┌──(root㉿nbp)-[~]
+└─# usermod -aG adm,sudo,disk,cdrom,audio nbp
+┌──(root㉿nbp)-[~]
+└─# reboot -f
+```
+
 </br>
 
 ### Editor **NANO**
@@ -82,6 +127,8 @@ You can access the cheatsheet here: `/Utilities/VIM.md`
 To setup your network, refer to the appropriate section here:
 
 **VPN** `/Anonymity/install_Mullvad_Kali.md`
+
+> Whatever the VPN you use, the process of the installation will be very similar. Just look on the website provider for the installation process on Linux.
 
 **PROXYCHAINS4** `/Anonymity/setup_proxychains4.md`
 

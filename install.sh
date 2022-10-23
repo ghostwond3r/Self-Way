@@ -62,12 +62,12 @@ echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | s
 apt-get dist-upgrade -y
 
 
-echo "--------------------------------------------------\n"
+echo "--------------------------------------------------"\n
 echo "{+}-- Installing Packages \n"
 echo "--------------------------------------------------\n"
 
 # general 
-apt install -y git wget apt-rdepends sipcalc unbound gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
+apt install -y git wget libavutil56 sipcalc unbound gnupg2 build-essential cron-apt binutils-dev vim unzip libssl-dev autoconf automake libtool npm graphviz golang konsole xclip freerdp2-x11 powershell gcc rustc fpc gdc ldc ca-certificates lsb-release gem software-properties-common debian-keyring cargo geany gdebi tmux libffi-dev docker.io aptitude libunwind-dev awscli sidguesser sqlitebrowser sqsh 
 
 # python 
 apt -y install python3-venv python3-xlrd python-xlrd-docs python3-pip python3-wheel 
@@ -130,7 +130,7 @@ echo "--------------------------------------------------\n"
 echo "{+}--Installing Python3 \n"
 echo "--------------------------------------------------\n"
 python3 -m pip install pipenv
-pip3 install pyReadline habu getips virtualenvwrapper uncompyle6 git-filter-repo python-whois colorama bs4 virtualenv wheel boto3 botocore termcolor requests pycryptodome 
+pip3 install impacket==0.9.23 neo4j==4.1.1 pylnk3==0.3.0 xmltodict==0.12.0 pyReadline habu getips virtualenvwrapper uncompyle6 git-filter-repo python-whois colorama bs4 virtualenv wheel boto3 botocore termcolor requests pycryptodome 
 echo "{+}----Done \n\n\n"
 
 
@@ -141,6 +141,7 @@ cd $ROOT_DIR/
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 echo "{+}----Done \n\n\n"
 
+source /root/.zshrc
 
 echo "--------------------------------------------------\n"
 echo "{+}----Install Rustscan \n"
@@ -643,8 +644,8 @@ cd $ROOT_DIR
 
 # move guide
 
-mv /Self-Way/Guide /home/kali/Desktop
-mv /Self-Way/wallpaper /home/kali/Desktop
+mv /root/Self-Way/Guide /home/kali/Desktop
+mv /root/Self-Way/wallpaper /home/kali/Desktop
 
 # -------------------------------------------------------
 # Settings
