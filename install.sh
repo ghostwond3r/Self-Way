@@ -646,6 +646,7 @@ cd $ROOT_DIR
 
 mv /root/Self-Way/Guide /home/kali/Desktop
 mv /root/Self-Way/wallpaper /home/kali/Desktop
+mv /root/Self-Way/Wordlist /opt
 
 # -------------------------------------------------------
 # Settings

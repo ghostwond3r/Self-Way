@@ -67,49 +67,6 @@ sudo apt-get update && apt-get upgrade -y
 
 Now time to practice here: `/Utilities/practice_term.md`
 
-The first thing to do now is to add a user:
-```
-┌──(root㉿kali)-[~]
-└─# adduser nbp
-Adding user `nbp' ...
-Adding new group `nbp' (1001) ...
-Adding new user `nbp' (1001) with group `nbp (1001)' ...
-Creating home directory `/home/nbp' ...
-Copying files from `/etc/skel' ...
-New password: 
-Retype new password: 
-passwd: password updated successfully
-Changing the user information for nbp
-Enter the new value, or press ENTER for the default
-        Full Name []: 
-        Room Number []: 
-        Work Phone []: 
-        Home Phone []: 
-        Other []: 
-Is the information correct? [Y/n] y
-Adding new user `nbp' to supplemental / extra groups `users' ...
-Adding user `nbp' to group `users' ...
-```
-
-Once its done :
-```
-reboot -f
-```
-
-Then log in with your new user. 
-
-Once logged in your account will have no configuration or sudo rights.
-To have sudo and group rights from this new user, add them to the appropriate groups.
-```
-┌──(nbp㉿nbp)-[~]
-└─$ su -
-Password:
-┌──(root㉿nbp)-[~]
-└─# usermod -aG adm,sudo,disk,cdrom,audio nbp
-┌──(root㉿nbp)-[~]
-└─# reboot -f
-```
-
 </br>
 
 ### Editor **NANO**
