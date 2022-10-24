@@ -141,7 +141,7 @@ cd $ROOT_DIR/
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 echo "{+}----Done \n\n\n"
 
-source /root/.zshrc
+source /root/.bashrc
 
 echo "--------------------------------------------------\n"
 echo "{+}----Install Rustscan \n"
