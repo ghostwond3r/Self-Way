@@ -595,7 +595,6 @@ git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nu
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
 git clone https://github.com/whickey-r7/grab_beacon_config /opt/vulns/grab_beacon_config/ && \
-git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
 git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
@@ -612,7 +611,6 @@ git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/dom
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
 git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
 git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ && \
-git clone https://github.com/websploit /opt/webapp/websploit/ && \
 git clone https://github.com/Tuhinshubhra/CMSeeK /opt/webapp/CMSeek/ && \
 git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
 git clone http://www.github.com/Cvar1984/sqlscan /opt/webapp/sqlscan/ && \
