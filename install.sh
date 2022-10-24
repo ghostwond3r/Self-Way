@@ -629,13 +629,7 @@ mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
 git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
 git clone https://github.com/reverse-shell/routersploit /opt/wireless/routersploit/ && \
-git clone https://github.com/t6x/reaver-wps-fork-t6x.git /opt/wireless/reaver-wps-fork-t6x/ && \
-# Install reaver
-cd /opt/wireless/reaver-wps-fork-t6x*
-cd src
-./configure
-make
-make install
+git clone https://github.com/t6x/reaver-wps-fork-t6x.git /opt/wireless/reaver-wps-fork-t6x/ 
 echo "{+}----Done \n\n\n"
 
 cd $ROOT_DIR
