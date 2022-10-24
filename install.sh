@@ -249,7 +249,7 @@ echo "{+}----Done \n\n\n"
 echo "--------------------------------------------------\n"
 echo "{+}----Armitage \n"
 echo "--------------------------------------------------\n"
-git clone https://github.com/r00t0v3rr1d3/armitage.git /opt
+git clone https://github.com/r00t0v3rr1d3/armitage.git /opt/armitage
 echo "{+}----Done \n\n\n"
 
 
