@@ -25,22 +25,22 @@ We cannot categorize an idea that has no owner. Each word become true and echo i
 
 </br>
 
-1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#behavior)
-2. [Authentication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#authentication)
-3. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#what-is-considered-as-private-data)
-4. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#communication)
-5. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#security-for-android-phone)
-6. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#social-media)
-7. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#browsing)
-8. [Search engines](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#search-engine)
-9. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vpn-virtual-private-network)
-10. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vm-virtual-machine)
-11. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#encryption)
-12. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#proxy)
-13. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#vps-virtual-private-server)
-14. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#cryptocurrency)
-15. [Whistleblowing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#whistleblowing)
-16. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/CS_anonymity/Masked_Man.md#utilities)
+1. [Behavior](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#1-behavior)
+2. [Authentication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#2-authentication)
+3. [What is considered as private data](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#3-what-is-considered-as-private-data)
+4. [Communication](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#4-communication)
+5. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#phone-security)
+6. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#social-media)
+7. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#browsing)
+8. [Search engines](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#search-engines)
+9. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#vpn-virtual-private-network)
+10. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#vm-virtual-machine)
+11. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#encryption)
+12. [Proxy](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#proxy)
+13. [VPS (Virtual Private Server)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#vps)
+14. [Cryptocurrency](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#cryptocurrency)
+15. [Whistleblowing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#whistleblowing)
+16. [Utilities](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#utilities)
 
 ## 1. Behavior
 
