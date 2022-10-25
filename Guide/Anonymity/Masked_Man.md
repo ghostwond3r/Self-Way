@@ -32,7 +32,7 @@ We cannot categorize an idea that has no owner. Each word become true and echo i
 5. [Security for Android phone](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#phone-security)
 6. [Social Media](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#social-media)
 7. [Browsing](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#browsing)
-8. [Search engines](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#search-engines)
+8. [Search engines](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#search-engine)
 9. [VPN (Virtual Private Network)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#vpn-virtual-private-network)
 10. [VM (Virtual Machine)](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#vm-virtual-machine)
 11. [Encryption](https://github.com/NeverWonderLand/Self-Way/blob/main/Guide/Anonymity/Masked_Man.md#encryption)
