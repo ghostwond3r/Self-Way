@@ -6,7 +6,7 @@
 * Project developed for NBP - NewBloodProject
 * Built to learn ethical hacking on your own.
 * Includes guides, tutorials, cheat sheets and tools.
-* Each ressource has been written in Markdown.
+* Each resource has been written in Markdown.
 * The Guide is accessible directly from command line (thanks to Glow).
 
 </br>
