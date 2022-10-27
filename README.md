@@ -6,7 +6,7 @@
 * Project developed for NBP - NewBloodProject
 * Built to learn ethical hacking on your own.
 * Includes guides, tutorials, cheat sheets and tools.
-* Each ressources have been write in Markdown.
+* Each ressource has been written in Markdown.
 * The Guide is accessible directly from command line (thanks to Glow).
 
 </br>
@@ -42,7 +42,7 @@
 
 ### Step 1
 
-1. Download VirtualBox and install kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
+1. Download VirtualBox and install Kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
 
 2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
 ```
@@ -52,7 +52,7 @@ apt full-upgrade -y
 
 # and then cleanup 
 
-apt auroremove -y
+apt autoremove -y
 ```
 
 ### Step 2
@@ -69,7 +69,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-> To avoid to have to watch the screen the whole time, turn off the screen saver. To do this go in the kali menu and search for "power management" then turn it all off.
+> To avoid to having to watch the screen the whole time, turn off the screen saver. To do this go in the Kali menu and search for "power management" then turn it all off.
 
 > Make a reboot when its finish by typing `reboot` in the terminal and press `ENTER`
 
@@ -83,15 +83,15 @@ Once all is complete:
 * right click inside the folder and choose `open a terminal here`
 * in the terminal, type the command `glow` 
 
-> Now you are in the Guide book! to navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
+> Now you are in the Guide book! To navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
 
-> To get start learning open the file `where_to_start.md`.
+> To get started learning open the file `where_to_start.md`.
 
 # GOOD LUCK ! 
 
 ---------------------------------------------------
 
-> This repo have been build based on many others amazing work:
+> This repo have been build based on many others' amazing work:
 
 <https://github.com/ghostsec420>
 
@@ -104,7 +104,7 @@ Once all is complete:
 <https://github.com/Anon-Planet/thgtoa>
 
 
-> If you see some of your works here and want your name adds just message me and I will add it !
+> If you see some of your works here and want your name added just message me and I will add it !
 
 --------------------------------------
 
