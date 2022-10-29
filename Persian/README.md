@@ -1,6 +1,6 @@
- <p align="center">
-   <img width="1000" height="300" src="https://user-
-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
+<p align="center">
+   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
+</p>
 
 این پروژه برای NBP - New Blood Project  طراحی شده است.
 
@@ -38,9 +38,7 @@ images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654
 
 
 <p align="center">
-   <img width="1000" height="300" src="https://user-
-images.githubusercontent.com/64184513/197375113-7bc79077-fb0d-44fc-b654-
-5311cdc65778.jpg"
+   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197375113-7bc79077-fb0d-44fc-b654-5311cdc65778.jpg"
 </p>
 
 
@@ -51,12 +49,8 @@ https://github.com/NeverWonderLand/kali-inst-guide
 
 ۲. یک ترمینال ROOT (رنگ قرمز در منوی کالی) را باز کنید. این مهم است که شما قبل از نصب هر چیزی سیستم خود را به روز کنید:
 ```
-apt update && apt upgrade -y
-apt dist-upgrade -y
-apt full-upgrade -y
-# and then cleanup
-
- apt auroremove -y
+apt update && apt full-upgrade -y
+apt autoremove -y
 ```
 
 ### مرحله ی دوم 
@@ -96,11 +90,11 @@ chmod +x install.sh
 ---------------------------------------------------
 
 > این مخزن بر اساس بسیاری از کارهای فوق العاده ی دیگر ساخته شده است :
-<https://github.com/ghostsec420>
-<https://github.com/U53RW4R3>
-<https://github.com/RoseSecurity>
-<https://github.com/thehackingsage>
-<https://github.com/Anon-Planet/thgtoa>
+* https://github.com/ghostsec420
+* https://github.com/U53RW4R3
+* https://github.com/RoseSecurity
+* https://github.com/thehackingsage
+* https://github.com/Anon-Planet/thgtoa
 
 >  اگر  بعضی از کارهای خودتان را در اینجا میبینید و میخواهید نام شما به این پروژه اضافه شود فقط به من پیام دهید و من نام شما را اضافه خواهم کرد 
 
