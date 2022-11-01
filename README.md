@@ -48,12 +48,7 @@
 
 2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
 ```
-apt update && apt upgrade -y
-apt dist-upgrade -y
-apt full-upgrade -y
-
-# and then cleanup 
-
+apt update && apt full-upgrade -y
 apt autoremove -y
 ```
 
@@ -61,6 +56,7 @@ apt autoremove -y
 
 1. Clone this repo :
 ```
+cd /root
 git clone https://github.com/NeverWonderLand/Self-Way.git
 ```
 
