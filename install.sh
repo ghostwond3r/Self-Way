@@ -45,8 +45,8 @@ shopt -s expand_aliases
 
 # skip prompts in apt-upgrade...
 export DEBIAN_FRONTEND=noninteractive
-alias apt-get='yes "" | apt-get -o Dpkg::Options::="--force-confdef" -y'
-apt-get update
+alias apt='yes "" | apt -o Dpkg::Options::="--force-confdef" -y'
+apt update
 
 # fix bashrc
 cp /root/.bashrc /root/.bashrc.bak
@@ -55,12 +55,14 @@ cp "/home/$(grep -F 1000:1000 /etc/passwd | cut -d: -f1)/.bashrc" /root/.bashrc
 
 
 echo "Adding sources list.."
-echo "deb https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
-echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
+echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
+echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
 
-# upgrade distro
-apt-get dist-upgrade -y
+# upgrade
+apt full-upgrade -y
 
+# clean
+apt autoremove -y
 
 echo "--------------------------------------------------"\n
 echo "{+}-- Installing Packages \n"
@@ -88,7 +90,7 @@ apt -y install bed doona ohrwurm siparmyknife
 apt install -y ibombshell htshells evil-winrm powershell-empire msfpc exploitdb shellnoob termineter beef-xss merlin-agent merlin-server koadic kerberoast routersploit payloadsallthethings upx-ucl linux-exploit-suggester weevely websploit themole shellfire poshc2 phpsploit pacu 
 
 # Forensics / Anti-forensics 
-apt install -y tcpxtract time-decode unhide-gui forensics-extra forensics-extra-gui forensics-full forensics-samples-all grr-client-templates autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
+apt install -y tcpxtract time-decode unhide-gui grr-client-templates autopsy binwalk mat2 wipe bulk-extractor chkrootkit foremost hashdeep rkhunter yara extundelete magicrescue recoverjpeg safecopy scalpel scrounge-ntfs guymager pdfid pdf-parser python3-pdfminer metacam
 
 # Fuzzing 
 apt -y install dotdotpwn ffuf libfuzzer-14-dev sfuzz zzuf
@@ -137,17 +139,16 @@ echo "{+}----Done \n\n\n"
 echo "--------------------------------------------------\n"
 echo "{+}----Installation & Configuration of GO \n"
 echo "--------------------------------------------------\n"
-cd $ROOT_DIR/
+cd $ROOT_DIR
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 echo "{+}----Done \n\n\n"
 
-source /root/.bashrc
 
 echo "--------------------------------------------------\n"
 echo "{+}----Install Rustscan \n"
 echo "--------------------------------------------------\n"
 cargo install rustscan
-apt-get update -y
+apt update -y
 echo "{+}----Done \n\n\n"
 
 
@@ -162,22 +163,13 @@ echo "{+}----Done \n\n\n"
 
 
 echo "--------------------------------------------------\n"
-echo "{+}----Docker / Docker-compose\n"
+echo "{+}----Docker\n"
 echo "--------------------------------------------------\n"
 # docker
 systemctl stop docker &>/dev/null
 echo '{"bip":"172.16.199.1/24"}' >/etc/docker/daemon.json
 systemctl enable docker --now
-
-# docker-compose
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-
-apt update -y
-
-curl -L "https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
-chmod +x /usr/local/bin/docker-compose
-ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-
+apt update
 echo "{+}----Done \n\n\n"
 
 
@@ -193,7 +185,7 @@ echo 'deb http://apt.metasploit.com/ lucid main' > /etc/apt/sources.list.d/metas
 wget -nc http://apt.metasploit.com/metasploit-framework.gpg.key
 cat metasploit-framework.gpg.key | gpg --dearmor  > metasploit-framework.gpg
 install -o root -g root -m 644 metasploit-framework.gpg /etc/apt/trusted.gpg.d/
-apt-get update
+apt update
 
 # Initializing Metasploit Database
 systemctl start postgresql
@@ -207,15 +199,6 @@ service tor start
 service mysql start
 /etc/init.d/apache2 start
 
-echo "
-Starting services.. 
-======================
--PostgreSQL
--Tor
--Apache
--Mysql
-...
-"
 echo "{+}----Done \n\n\n"
 
 # Glow
@@ -645,8 +628,8 @@ mv /root/Self-Way/Wordlist /opt
 # -------------------------------------------------------
 
 echo "Updating..."
-apt-get update
-apt-get upgrade
+apt update
+apt upgrade
 
 echo "--------------------------------------------------\n"
 echo "{+}----Configuration of tmux... \n"
@@ -671,7 +654,6 @@ EOF
 
 echo "{+}----Done \n\n\n"
 
-# =======================================================
 
 echo "--------------------------------------------------\n"
 echo "{+}----Enabling bash session logging \n"
@@ -692,8 +674,8 @@ echo "{+}----Done \n\n\n"
 
 
 echo "Cleaning Up..."
-apt-get autoremove -y
-apt-get autoclean -y
+apt autoremove -y
+apt autoclean -y
 updatedb
 
 echo "--------------------------------------------------\n"
