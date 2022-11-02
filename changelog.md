@@ -1,4 +1,10 @@
-:heavy_plus_sign:= Added   || :x:= Removed   || :file_folder:= Directory Modified    || :pencil2:= Method Modified
+:heavy_plus_sign:= Added
+
+:x:= Removed
+
+:file_folder:= Directory Modified
+
+:pencil2:= Method Modified
 
 
 
