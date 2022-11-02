@@ -505,11 +505,7 @@ mkdir /opt/reporting/ && \
 apt install -y dradis eyewitness faraday pipal metagoofil
 git clone https://github.com/SabyasachiRana/WebMap.git /opt/reporting/WebMap/ && \
 git clone https://github.com/pwndoc/pwndoc.git /opt/reporting/pwndoc/ && \
-# envizon
-git clone https://github.com/evait-security/envizon
-cd envizon/docker/envizon_local
-echo SECRET_KEY_BASE="$(echo $(openssl rand -hex 64) | tr -d '\n')" > .envizon_secret.env
-sudo docker-compose up
+git clone https://github.com/evait-security/envizon /opt/reporting/envizon/
 echo "{+}----Done \n\n\n"
 
 
