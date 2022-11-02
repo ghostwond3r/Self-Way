@@ -1,12 +1,13 @@
 #!/bin/bash
-# Made by wondR - for NBP
-# Last update: Oct 2022
+# Made by: wondR
+# Last update: Nov 02 2022
 # OS: kali linux 2022.3
 # Run as ROOT && turn off your screen saver!
+# Revision 1.1 / see changelog.txt
 
 ROOT_DIR=/root
 
-apt-get install lolcat -y
+apt install lolcat -y
 clear
 
 lolcat -a <<"EOF"
@@ -58,10 +59,8 @@ echo "Adding sources list.."
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
 
-# upgrade
-apt full-upgrade -y
 
-# clean
+apt full-upgrade -y
 apt autoremove -y
 
 echo "--------------------------------------------------"\n
@@ -120,13 +119,9 @@ apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy 
 apt install -y ostinato aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 
 echo "{+}----Done \n\n\n"
-
+clear
 
 cd $ROOT_DIR
-
-#---------------------
-# install some needs
-#---------------------
 
 echo "--------------------------------------------------\n"
 echo "{+}--Installing Python3 \n"
@@ -181,7 +176,7 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
     ./msfinstall
 
 # to avoide issue with apt-key 
-echo 'deb http://apt.metasploit.com/ lucid main' > /etc/apt/sources.list.d/metasploit-framework.list
+echo 'deb http://apt.metasploit.com/ kali main' > /etc/apt/sources.list.d/metasploit-framework.list
 wget -nc http://apt.metasploit.com/metasploit-framework.gpg.key
 cat metasploit-framework.gpg.key | gpg --dearmor  > metasploit-framework.gpg
 install -o root -g root -m 644 metasploit-framework.gpg /etc/apt/trusted.gpg.d/
@@ -191,22 +186,24 @@ apt update
 systemctl start postgresql
 systemctl enable postgresql
 msfdb init
-echo "{+}----Done \n\n\n"
 
 # starting service
 service postgresql start
 service tor start
 service mysql start
 /etc/init.d/apache2 start
-
 echo "{+}----Done \n\n\n"
 
-# Glow
-mkdir -p /etc/apt/keyrings
-curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
-echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
-apt update && sudo apt install glow
+echo "--------------------------------------------------\n"
+echo "{+}----Installation of Glow \n"
+echo "--------------------------------------------------\n"
+go install github.com/charmbracelet/glow@latest
+git clone https://github.com/charmbracelet/glow.git
+cd glow
+go build
+echo "{+}----Done \n\n\n"
 
+cd $ROOT_DIR
 
 lolcat -a <<"EOF"
 
@@ -550,6 +547,14 @@ echo "--------------------------------------------------\n"
 mkdir /opt/sniffing/ && \
 git clone https://github.com/DanMcInerney/net-creds.git /opt/sniffing/net-creds/ && \
 git clone https://github.com/kpcyrd/sniffglue.git /opt/sniffing/sniffglue/
+echo "{+}----Done \n\n\n"
+
+
+echo "--------------------------------------------------\n"
+echo "{+}----System \n"
+echo "--------------------------------------------------\n"
+mkdir /opt/system/ && \
+git clone https://github.com/Dewalt-arch/pimpmykali.git /opt/system/pimpmykali/
 echo "{+}----Done \n\n\n"
 
 
