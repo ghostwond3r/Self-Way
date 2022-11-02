@@ -3,7 +3,7 @@
 # Last update: Nov 02 2022
 # OS: kali linux 2022.3
 # Run as ROOT && turn off your screen saver!
-# Revision 1.1 / see changelog.txt
+# Revision 1.1 / see changelog.md
 
 ROOT_DIR=/root
 
