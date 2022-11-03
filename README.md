@@ -43,7 +43,7 @@
 </p>
 
 
-### Step 1
+## Step 1
 
 1. Download VirtualBox and install Kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
 
@@ -53,7 +53,7 @@ apt update && apt full-upgrade -y
 apt autoremove -y
 ```
 
-### Step 2
+## Step 2
 
 1. Clone this repo :
 ```
@@ -74,7 +74,7 @@ chmod +x install.sh
 
 </br>
 
-### Step 3
+## Step 3
 
 Once all is complete:
 
@@ -86,8 +86,9 @@ Once all is complete:
 
 > To get started learning open the file `where_to_start.md`.
 
+</br>
 
-### Possible issues
+## Possible issues
 
 If the command 'glow' is not found, follow these steps and it should work:
 ```
