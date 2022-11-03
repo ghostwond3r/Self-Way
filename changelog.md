@@ -14,7 +14,7 @@
 
 | **Permissions** :pencil2:
 
-      attribuated permission on directory Guide, wallpaper and Wordlist for non-root user.
+      giving permission on directory Guide, wallpaper and Wordlist for non-root user.
 
 02 NOV 2022
 
