@@ -86,6 +86,21 @@ Once all is complete:
 
 > To get started learning open the file `where_to_start.md`.
 
+
+### Issues
+
+If the command 'glow' is not found, follow these steps and it should work:
+```
+cd /root/glow
+go build
+```
+
+If you cant open the folder Guide and wallpaper, open a terminal and enter there commands:
+```
+chmod 777 /home/kali/Desktop/Guide
+chmod 777 /home/kali/Desktop/wallpaper
+
+
 # GOOD LUCK ! 
 
 ---------------------------------------------------
