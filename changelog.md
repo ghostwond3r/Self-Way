@@ -4,11 +4,19 @@
 
 :file_folder:= Directory Modified
 
-:pencil2:= Method Modified
+:pencil2:= Modification
 
 
 
-## Revision 1.1 - 02 NOV 2022
+## Revision 1.1 
+
+03 NOV 2022
+
+| **Permissions** :pencil2:
+
+      attribuated permission on directory Guide, wallpaper and Wordlist for non-root user.
+
+02 NOV 2022
 
 | **Glow** :pencil2:
 
