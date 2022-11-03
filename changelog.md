@@ -12,6 +12,10 @@
 
 03 NOV 2022
 
+| **README.md** :pencil2:
+
+      added section "Possible issues".
+
 | **Permissions** :pencil2:
 
       giving permission on directory Guide, wallpaper and Wordlist for non-root user.
