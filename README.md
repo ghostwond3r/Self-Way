@@ -74,7 +74,7 @@ chmod +x install.sh
 
 </br>
 
-### Step 2
+### Step 3
 
 Once all is complete:
 
@@ -87,7 +87,7 @@ Once all is complete:
 > To get started learning open the file `where_to_start.md`.
 
 
-### Issues
+### Possible issues
 
 If the command 'glow' is not found, follow these steps and it should work:
 ```
