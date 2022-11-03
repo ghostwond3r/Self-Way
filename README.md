@@ -1,18 +1,16 @@
 [English](https://github.com/NeverWonderLand/Self-Way/blob/main/README.md) | [Persian](https://github.com/NeverWonderLand/Self-Way/blob/main/Persian/README.md)
 
-<p align="center">
-   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
-</p>
-
-
-* Project developed for NBP - NewBloodProject
 * Built to learn ethical hacking on your own.
 * Includes guides, tutorials, cheat sheets and tools.
 * Each resource has been written in Markdown.
 * The Guide is accessible directly from command line (thanks to Glow).
 
-</br>
-
+<p align="center">
+   <img width="9000" height="200" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
+</p>
+   
+> This repository is still in work and will continue to be updated. For more details see the changelog.
+   
 **Category of tools;**
 
 * Anonymity
@@ -38,10 +36,7 @@
 * Web Application
 * Wireless
 
-<p align="center">
-   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197375113-7bc79077-fb0d-44fc-b654-5311cdc65778.jpg"
-</p>
-
+</br>
 
 ## Step 1
 
@@ -52,6 +47,8 @@
 apt update && apt full-upgrade -y
 apt autoremove -y
 ```
+
+</br>
 
 ## Step 2
 
@@ -100,7 +97,7 @@ If you cant open the folder Guide and wallpaper, open a terminal and enter there
 ```
 chmod 777 /home/kali/Desktop/Guide
 chmod 777 /home/kali/Desktop/wallpaper
-
+```
 
 # GOOD LUCK ! 
 
