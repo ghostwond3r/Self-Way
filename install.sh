@@ -623,6 +623,9 @@ cd $ROOT_DIR
 mv /root/Self-Way/Guide /home/kali/Desktop
 mv /root/Self-Way/wallpaper /home/kali/Desktop
 mv /root/Self-Way/Wordlist /opt
+chmod 777 /home/kali/Desktop/Guide
+chmod 777 /home/kali/Desktop/wallpaper
+chmod 777 /opt/Wordlist
 
 # -------------------------------------------------------
 # Settings
