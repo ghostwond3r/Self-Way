@@ -16,7 +16,7 @@
 
       added section "Possible issues".
 
-| **Permissions** :pencil2:
+| **install.sh** :pencil2:
 
       giving permission on directory Guide, wallpaper and Wordlist for non-root user.
 
