@@ -211,11 +211,10 @@ echo -e "\n $blue {+}----Done \n\n\n"
 echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Glow \n"
 echo -e "\n $cyan --------------------------------------------------\n"
-cd $ROOT_DIR
-go install github.com/charmbracelet/glow@latest
-git clone https://github.com/charmbracelet/glow.git
-cd glow
-go build
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
+sudo apt update && sudo apt install glow
 echo -e "\n $blue {+}----Done \n\n\n"
 
 lolcat -a <<"EOF"
