@@ -233,8 +233,6 @@ echo -e "\n $green {+}----Anonymity \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/anonymity/ && \
 git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG /opt/anonymity/TorghostNG/ && \
-git clone https://github.com/stamparm/fetch-some-proxies /opt/anonymity/fetch-some-proxies/ && \
-git clone https://github.com/sundowndev/covermyass.git /opt/anonymity/covermyass/ && \
 git clone https://github.com/keeganjk/kali-anonymous.git /opt/anonymity/kali-anonymous/
 echo -e "\n $blue {+}----Done \n\n\n"
 
@@ -577,7 +575,6 @@ git clone https://github.com/tomac/yersinia /opt/vulns/yersinia/ && \
 git clone https://github.com/OWASP/joomscan.git /opt/vulns/joomscan/ && \
 git clone https://github.com/almandin/fuxploider.git /opt/vulns/fuxploider/ && \
 git clone https://github.com/machine1337/fast-scan.git /opt/vulns/fast-scan/ && \
-git clone https://github.com/hausec/ADAPE-Script /opt/vulns/ADAPE-Script/ && \
 git clone https://github.com/Hypnoze57/RDPChecker /opt/vulns/RDPChecker/ && \
 git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
