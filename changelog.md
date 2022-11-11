@@ -12,6 +12,10 @@
 
 10 NOV 2022
 
+| **README.md** :pencil2:
+
+      updated the Persian file to add section "Possible Issues".
+
 | **tmux.md** :heavy_plus_sign: :pencil2:
 
       added file in /Utilities for tmux and added to the index list (README.md in /Guide)
