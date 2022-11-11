@@ -8,8 +8,6 @@
 
 </br>
 
-## Revision 1.1 
-
 11 NOV 2022
 
 | **updating_SW.md** :heavy_plus_sign:
