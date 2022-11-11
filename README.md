@@ -9,8 +9,10 @@
    <img width="9000" height="200" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
 </p>
 
-### A complete translation is in progress to make a separate repository in Persian. Due to the actual filtering of Internet in Iran, the installation script need some adgustment. If you are in Iran and try to install this version (English), you will be facing some issues and it is not recommended, especially if you are just starting out with Linux.
-   
+*A complete translation is in progress to make a separate repository in Persian. Due to the actual filtering of Internet in Iran, the installation script need some adgustment. If you are in Iran and try to install this version (English), you will be facing some issues and it is not recommended, especially if you are just starting out with Linux.*
+
+</br>
+
 **Category of tools;**
 
 * Anonymity
