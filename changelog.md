@@ -13,7 +13,8 @@
 | **updating_SW.md** :heavy_plus_sign:
 
       created file with instruction for updating after the installation.
-      
+
+<hr>
 10 NOV 2022
 
 | **README.md** :pencil2:
@@ -24,6 +25,7 @@
 
       added file in /Utilities for tmux and added to the index list (README.md in /Guide)
 
+<hr>
 03 NOV 2022
 
 | **README.md** :pencil2:
@@ -34,6 +36,7 @@
 
       giving permission on directory Guide, wallpaper and Wordlist for non-root user.
 
+<hr>
 02 NOV 2022
 
 | **Glow** :pencil2:
