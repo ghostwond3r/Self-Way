@@ -13,6 +13,10 @@ To read the Guide directly from your terminal:
 ## Index
 
 ```
+├── where_to_start.md
+|
+├── how_to_use_tools.md
+|
 ├── Anonymity
 │       ├── Encryption_and_Firewalls.md
 │       ├── Get_Your_External_IP.md
@@ -104,6 +108,21 @@ To read the Guide directly from your terminal:
 │
 ├── Social_Engineering
 │       └── Ressources.md
+│
+├── Utilities
+│       ├── ASCII_Table.txt
+│       ├── Labs.md
+│       ├── Local_Web_Server.md
+│       ├── NANO.md
+│       ├── VIM.md
+│       ├── aliases.txt
+│       ├── bash.md
+│       ├── github-git-advanced-cheat-sheet.md
+│       ├── important_files.md
+│       ├── practice_term.md
+│       ├── term_basics.md
+│       ├── tmux.md
+│       └── what_is_HTTP.md
 │
 ├── Vulnerability
 │       └── Vulnerability.md
