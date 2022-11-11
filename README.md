@@ -8,8 +8,8 @@
 <p align="center">
    <img width="9000" height="200" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
 </p>
-   
-> This repository is still in work and will continue to be updated. For more details see the changelog.
+
+### A complete translation is in progress to make a separate repository for Persian. Due to the actual filtering of Internet in Iran, the installation script need some adgustment. If you are in Iran and try to one the script here, you will face few issues and it is not recommended if you just start with Linux.
    
 **Category of tools;**
 
@@ -119,5 +119,7 @@ chmod 777 /home/kali/Desktop/wallpaper
 > If you see some of your works here and want your name added just message me and I will add it !
 
 --------------------------------------
+
+> This repository is still in work and will continue to be updated. For more details see the changelog.
 
 | The NewBloodProject is my way to be the change I want to see - WondR <3
