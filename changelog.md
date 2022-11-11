@@ -6,9 +6,15 @@
 
 :pencil2:= Modification
 
-
+</br>
 
 ## Revision 1.1 
+
+10 NOV 2022
+
+| **tmux.md** :heavy_plus_sign: :pencil2:
+
+      added file in /Utilities for tmux and added to the index list (README.md in /Guide)
 
 03 NOV 2022
 
