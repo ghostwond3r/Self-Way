@@ -1,16 +1,14 @@
 [English](https://github.com/NeverWonderLand/Self-Way/blob/main/README.md) | [Persian](https://github.com/NeverWonderLand/Self-Way/blob/main/Persian/README.md)
 
+* ساخته شده برای یادگیری هک اخلاقی به تنهایی.
+* شامل راهنماها، آموزش ها، برگه های تقلب و ابزار است.
+* هر منبع در Markdown نوشته شده است.
+* راهنما مستقیماً از خط فرمان (به لطف Glow) قابل دسترسی است.
+
 <p align="center">
    <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
 </p>
-
-این پروژه برای NBP - New Blood Project  طراحی شده است.
-
-*  این پروژه برای یادگیری هک اخلاقی به تنهایی ساخته ده است.
-شامل راهنماها، آموزش ها، برگه های تقلب و ابزار است.
-هر منبع در Markdown نوشته شده است.
-راهنما مستقیماً از خط فرمان (به لطف Glow) قابل دسترسی است.
-
+ توجه :    برای یک مخزن کامل و جداگانه ترجمه شده به فارسی کار در حال انجام است.
 
 
 
@@ -20,7 +18,7 @@
 * ترک خوردن
 * Ddos
 * بهره برداری
-* جرم شناسی رایانه ای / ضد جرم شناسی رایانه ای
+* پزشکی قانونی / ضد پزشکی قانونی
 * گیج کننده
 * Google Dorking
 * سیستم کنترل صنعتی (ICS)
@@ -32,22 +30,17 @@
 * بازبینی
 * گزارش نویسی
 * معکوس کردن
-* بوییدن (sniffing)
+* بوییدن
 * مهندسی اجتماعی
+* سیستم
 *آسیب پذیری
 * برنامه تحت وب
-*بی سیم
-
-
-<p align="center">
-   <img width="1000" height="300" src="https://user-images.githubusercontent.com/64184513/197375113-7bc79077-fb0d-44fc-b654-5311cdc65778.jpg"
-</p>
-
+* بی سیم
 
 
 ### مرحله ی اول 
 ۱. ابتدا VirtualBox را دانلود کرده و کالی لینوکس را در آن نصب کنید. می‌توانید مراحل انجام این کار را از لینک زیر دنبال کنید :
-https://github.com/NeverWonderLand/kali-inst-guide
+https://github.com/NeverWonderLand/nbp-persian/blob/main/kali_install.md
 
 ۲. یک ترمینال ROOT (رنگ قرمز در منوی کالی) را باز کنید. این مهم است که شما قبل از نصب هر چیزی سیستم خود را به روز کنید:
 ```
