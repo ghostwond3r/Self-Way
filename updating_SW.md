@@ -5,6 +5,8 @@
 
 </br>
 
+**You need to be inside the directory of the Self-Way**
+
 Set the upstream URL
 ```
 git remote add upstream https://github.com/NeverWonderLand/Self-Way
