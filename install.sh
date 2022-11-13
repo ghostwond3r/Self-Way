@@ -268,7 +268,7 @@ git clone https://github.com/gkbrk/slowloris /opt/ddos/slowloris/ && \
 git clone https://github.com/jseidl/GoldenEye /opt/ddos/GoldenEye/ && \
 git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
-git clone https://github.com/firstapostle/Blood /opt/ddos/Blood/ && \
+git clone https://github.com/firstapostle/Blood.git /opt/ddos/Blood/ && \
 git clone https://github.com/UBISOFT-1/AnonymousPAK-DDoS /opt/ddos/AnonymousPAK-DDoS/
 echo -e "\n $blue {+}----Done \n\n\n"
 
