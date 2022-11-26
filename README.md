@@ -44,10 +44,10 @@
 
 1. Download VirtualBox and install Kali inside. You can find the instruction to do it here : https://github.com/NeverWonderLand/kali-inst-guide
 
-2. Open a ROOT terminal (the red one in the kali menu). It is important that you update your system before installing anything :
+2. Open the terminal and update your system:
 ```
-apt update && apt full-upgrade -y
-apt autoremove -y
+sudo apt update && apt full-upgrade -y
+sudo apt autoremove -y
 ```
 
 </br>
@@ -56,7 +56,7 @@ apt autoremove -y
 
 1. Clone this repo :
 ```
-cd /root
+sudo -su
 git clone https://github.com/NeverWonderLand/Self-Way.git
 ```
 

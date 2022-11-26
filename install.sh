@@ -126,7 +126,6 @@ apt install -y burpsuite webscarab watobo commix skipfish sqlmap wpscan zaproxy 
 # wireless 
 apt install -y ostinato aircrack-ng chirp cowpatty fern-wifi-cracker kismet mfoc mfterm pixiewps reaver wifite bully wifi-honey bluelog btscanner redfang spooftooph ubertooth ubertooth-firmware gnuradio gqrx-sdr rfcat rfdump rtlsdr-scanner
 
-clear
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -173,7 +172,6 @@ echo -e "\n $blue {+}----Done \n\n\n"
 echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Docker\n"
 echo -e "\n $cyan --------------------------------------------------\n"
-# docker
 systemctl stop docker &>/dev/null
 echo '{"bip":"172.16.199.1/24"}' >/etc/docker/daemon.json
 systemctl enable docker --now
@@ -220,10 +218,13 @@ echo -e "\n $blue {+}----Done \n\n\n"
 
 lolcat -a <<"EOF"
 
-   \O/# O/ |_O_|'\   /`\O/  |_O  |_O    \O/  O/'\   /`   '\   /`\O/ \O/|_O  |_O_|
-.___Y  <|   _|    \ /   Y_   _|>  _|>.___Y  <|   \ /       \ /  _Y  _Y  _|>  _|  
-    |  / \_|  \    X   /  |_|  \_|  \    |  / \   Y   ---   X _| |_| |_|  \_|  \ 
-    |__| |_   |_  /O\./   |_   |_   |_   |__| |_ /O        /O\#  |_  |_   |_   |_
+ ______   ______     ______     __         ______    
+/\__  _\ /\  __ \   /\  __ \   /\ \       /\  ___\   
+\/_/\ \/ \ \ \/\ \  \ \ \/\ \  \ \ \____  \ \___  \  
+   \ \_\  \ \_____\  \ \_____\  \ \_____\  \/\_____\ 
+    \/_/   \/_____/   \/_____/   \/_____/   \/_____/                                                                                                                                   
+
+\\ PROCEEDING TO THE INSTALLATION... 
 
 EOF
 
