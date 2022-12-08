@@ -56,13 +56,13 @@ sudo apt autoremove -y
 
 1. Clone this repo :
 ```
-sudo -su
-git clone https://github.com/NeverWonderLand/Self-Way.git
+sudo git clone https://github.com/NeverWonderLand/Self-Way.git /home/kali/Desktop/Self-Way
 ```
 
 2. Install it :
 ```
-cd Self-Way
+sudo su
+cd /Desktop/Self-Way
 chmod +x install.sh
 ./install.sh
 ```
@@ -74,32 +74,37 @@ chmod +x install.sh
 </br>
 
 ## Step 3
-
-Once all is complete:
-
-* open the folder `Guide` on the Desktop
-* right click inside the folder and choose `open a terminal here`
-* in the terminal, type the command `glow` 
-
-> Now you are in the Guide book! To navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
-
-> To get started learning open the file `where_to_start.md`.
-
-</br>
-
-## Possible issues
-
-If the command 'glow' is not found, follow these steps and it should work:
+Install `glow` if you want to be able to access the Guide through the command line directly. You can also check it from github directly, or open it with any editor too, it's up to you.
 ```
-cd /root/glow
+go install github.com/charmbracelet/glow@latest
+git clone https://github.com/charmbracelet/glow.git
+cd glow
 go build
 ```
 
-If you cant open the folder Guide and wallpaper, open a terminal and enter there commands:
-```
-chmod 777 /home/kali/Desktop/Guide
-chmod 777 /home/kali/Desktop/wallpaper
-```
+## Step 4
+Once all is complete:
+
+Option A - GUI:
+
+* open the folder `Self-Way` on the Desktop and then open `Guide`
+* right click inside the folder and choose `open a terminal here`
+* you need to be root to use `glow`: `sudo su`
+* type the command `glow` 
+
+Option B - CLI
+
+* open the terminal and switch to root: `sudo su`
+* navigate to the directory of the `Guide`: `cd /home/kali/Desktop/Self-Way/Guide`
+* type the command `glow` 
+
+
+> Now you are in the Guide book! To navigate inside, use your arrow on the keyboard and select with `ENTER`. To exit just press `q`. You can always let this terminal open and then open a new one to make your work!
+
+> To get started learning go to `where_to_start.md`
+
+</br>
+
 
 # GOOD LUCK ! 
 
