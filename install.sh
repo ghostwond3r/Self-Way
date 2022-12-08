@@ -206,16 +206,6 @@ service mysql start
 
 echo -e "\n $blue {+}----Done \n\n\n"
 
-echo -e "\n $cyan --------------------------------------------------\n"
-echo -e "\n $green {+}----Glow \n"
-echo -e "\n $cyan --------------------------------------------------\n"
-go install github.com/charmbracelet/glow@latest
-git clone https://github.com/charmbracelet/glow.git
-cd glow
-go build
-
-echo -e "\n $blue {+}----Done \n\n\n"
-
 lolcat -a <<"EOF"
 
  ______   ______     ______     __         ______    
@@ -234,8 +224,9 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Anonymity \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/anonymity/ && \
-git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG /opt/anonymity/TorghostNG/ && \
-git clone https://github.com/keeganjk/kali-anonymous.git /opt/anonymity/kali-anonymous/
+git clone https://github.com/84KaliPleXon3/GitHackTools-TorghostNG.git /opt/anonymity/TorghostNG/ && \
+git clone https://github.com/keeganjk/kali-anonymous.git /opt/anonymity/kali-anonymous/ && \
+git clone https://github.com/Und3rf10w/kali-anonsurf.git /opt/anonymity/kali-anonsurf/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -253,7 +244,7 @@ mkdir /opt/cracking/ && \
 git clone https://github.com/fuzzdb-project/fuzzdb.git /opt/cracking/fuzzdb/ && \
 git clone https://github.com/danielmiessler/SecLists.git /opt/cracking/SecLists/ && \
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git /opt/cracking/PayloadsAllTheThings/ && \
-git clone https://github.com/1N3/IntruderPayloads /opt/cracking/IntruderPayloads/ && \
+git clone https://github.com/1N3/IntruderPayloads.git /opt/cracking/IntruderPayloads/ && \
 git clone https://github.com/vanhauser-thc/thc-hydra.git /opt/cracking/thc-hydra/
 echo -e "\n $blue {+}----Done \n\n\n"
 
@@ -262,15 +253,46 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Ddos \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/ddos/ && \
-git clone https://github.com/NeverWonderLand/Impulse.git /opt/ddos/Impulse/ && \
-git clone https://github.com/kamorin/DHCPig /opt/ddos/DHCPig/ && \
-git clone https://github.com/shekyan/slowhttptest /opt/ddos/slowhttptest/ && \
-git clone https://github.com/gkbrk/slowloris /opt/ddos/slowloris/ && \
-git clone https://github.com/jseidl/GoldenEye /opt/ddos/GoldenEye/ && \
+git clone https://github.com/kamorin/DHCPig.git /opt/ddos/DHCPig/ && \
+git clone https://github.com/shekyan/slowhttptest.git /opt/ddos/slowhttptest/ && \
 git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
 git clone https://github.com/firstapostle/Blood.git /opt/ddos/Blood/ && \
-git clone https://github.com/UBISOFT-1/AnonymousPAK-DDoS /opt/ddos/AnonymousPAK-DDoS/
+git clone https://github.com/UBISOFT-1/AnonymousPAK-DDoS.git /opt/ddos/AnonymousPAK-DDoS/ && \
+git clone https://github.com/alexnest-ua/MHDDoS.git /opt/ddos/MHDDoS/ && \
+git clone https://github.com/quitten/doser.py.git /opt/ddos/doser.py/ && \
+git clone https://github.com/D4Vinci/PyFlooder.git /opt/ddos/PyFlooder/ && \
+git clone https://github.com/Tmpertor/Raven-Storm.git /opt/ddos/Raven-Storm/ && \
+git clone https://github.com/AsjadOooO/Zero-attacker.git /opt/ddos/Zero-attacker/ && \
+git clone https://github.com/HyukIsBack/KARMA-DDoS.git /opt/ddos/KARMA-DDoS/ && \
+git clone https://github.com/CruelDev69/DDoS-Attacker.git /opt/ddos/DDoS-Attacker/ && \
+git clone https://github.com/HC133/Pummel.git /opt/ddos/Pummel/ && \
+git clone https://github.com/swagkarna/Annon-DOS.git /opt/ddos/Annon-DOS/ && \
+git clone https://github.com/Leeon123/CC-attack.git /opt/ddos/CC-attack/ && \
+git clone https://github.com/Leeon123/golang-httpflood.git /opt/ddos/golang-httpflood/ && \
+git clone https://github.com/Leeon123/Simple-SYN-Flood.git /opt/ddos/Simple-SYN-Flood/ && \
+git clone https://github.com/sepehrdaddev/Xerxes.git /opt/ddos/Xerxes/ && \
+git clone https://github.com/EmreOvunc/Python-SYN-Flood-Attack-Tool.git /opt/ddos/Python-SYN-Flood-Attack-Tool/ && \
+git clone https://github.com/lilmond/sudos.git /opt/ddos/sudos/ && \
+git clone https://github.com/electr0lulz/madkatty.git /opt/ddos/madkatty/ && \
+git clone https://github.com/iamaamir/ihulk.py.git /opt/ddos/ihulk.py/ && \
+git clone https://github.com/JPLeoRX/tor-flood-attack.git /opt/ddos/tor-flood-attack/ && \
+git clone https://github.com/1x019/DDoS-Japan-v3.0-Src.git /opt/ddos/DDoS-Japan-v3.0-Src/ && \
+git clone https://github.com/narcochan/cow-flooder.git /opt/ddos/cow-flooder/ && \
+git clone https://github.com/Hyperclaw79/HULK-v3.git /opt/ddos/HULK-v3/ && \
+git clone https://github.com/bjarneo/rip.git /opt/ddos/rip/ && \
+git clone https://github.com/merkjinx/saddam-plus-plus.git /opt/ddos/saddam-plus-plus/ && \
+git clone https://github.com/R3tr074/Burn-Byte.git /opt/ddos/Burn-Byte/ && \
+git clone https://github.com/lucthienphong1120/5xDDoS.git /opt/ddos/5xDDoS/ && \
+git clone https://github.com/epsylon/ufonet.git /opt/ddos/ufonet/ && \
+git clone https://github.com/mytechnotalent/turbo-attack.git /opt/ddos/turbo-attack/ && \
+git clone https://github.com/palahsu/DDoS-Ripper.git /opt/ddos/DDoS-Ripper/ && \
+git clone https://github.com/ebankoff/Beast_Bomber.git /opt/ddos/Beast_Bomber/ && \
+git clone https://github.com/hoaan1995/ZxCDDoS.git /opt/ddos/ZxCDDoS/ && \
+git clone https://github.com/sahilchaddha/rudyjs.git /opt/ddos/rudyjs/ && \
+git clone https://github.com/Red-company/RDDoS_Tool.git /opt/ddos/RDDoS_Tool/ && \
+git clone https://github.com/DrizzleRisk/NTPDoser.git /opt/ddos/NTPDoser/ && \
+git clone https://github.com/billythegoat356/Rufus.git /opt/ddos/Rufus/ 
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -278,9 +300,9 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Dorking \n"
 echo -e "\n $cyan --------------------------------------------------\n\n"
 mkdir /opt/dorking/ && \
-git clone https://github.com/FrancescoDiSalesGithub/dorker /opt/dorking/dorker/ && \
+git clone https://github.com/FrancescoDiSalesGithub/dorker.git /opt/dorking/dorker/ && \
 git clone https://github.com/GerbenJavado/LinkFinder.git /opt/dorking/LinkFinder/ && \
-git clone https://github.com/humblelad/Shodan-Dorks /opt/dorking/Shodan-Dorks/ && \
+git clone https://github.com/humblelad/Shodan-Dorks.git /opt/dorking/Shodan-Dorks/ && \
 git clone https://github.com/s0md3v/Photon.git /opt/dorking/Photon/
 echo -e "\n $blue {+}----Done \n\n\n"
 
@@ -289,17 +311,17 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Exploitation \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/exploitation/ && \
-git clone https://github.com/Kevin-Robertson/Inveigh /opt/exploitation/Inveigh/ && \
+git clone https://github.com/Kevin-Robertson/Inveigh.git /opt/exploitation/Inveigh/ && \
 git clone https://github.com/bettercap/bettercap.git /opt/exploitation/bettercap/ && \
-git clone https://github.com/ropnop/kerbrute /opt/exploitation/kerbrute/ && \
-git clone https://github.com/brianb/mdbtools /opt/exploitation/mdbtools/ && \
-git clone https://github.com/1N3/Findsploit /opt/exploitation/Findsploit/ 
+git clone https://github.com/ropnop/kerbrute.git /opt/exploitation/kerbrute/ && \
+git clone https://github.com/brianb/mdbtools.git /opt/exploitation/mdbtools/ && \
+git clone https://github.com/1N3/Findsploit.git /opt/exploitation/Findsploit/ 
 # shell
 mkdir /opt/exploitation/shell/ && \
 git clone https://github.com/machine1337/mafiahacks.git /opt/exploitation/shell/mafiahacks/ && \
 git clone https://github.com/BlackArch/webshells.git /opt/exploitation/shell/webshells/ && \
 git clone https://github.com/t0thkr1s/revshellgen.git /opt/exploitation/shell/revshellgen/ && \
-git clone https://github.com/nil0x42/phpsploit /opt/exploitation/shell/phpsploit/
+git clone https://github.com/nil0x42/phpsploit.git /opt/exploitation/shell/phpsploit/
 # pwncat
 python3 -m venv /opt/exploitation/pwncat
 /opt/exploitation/pwncat/bin/pip install 'git+https://github.com/calebstewart/pwncat'
@@ -332,7 +354,7 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Forensics / Anti-Forensics \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/forensics/ && \
-git clone https://github.com/Neo23x0/Fenrir.git /opt/forensics/Fenrir/ && \
+git clone https://github.com/Neo23x0/Fenrir.git /opt/forensics/Fenrir/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -348,20 +370,13 @@ echo -e "\n $blue {+}----Done \n\n\n"
 
 
 echo -e "\n $cyan --------------------------------------------------\n"
-echo -e "\n $green {+}----katoolin3 \n"
-echo -e "\n $cyan --------------------------------------------------\n"
-git clone https://github.com/s-h-3-l-l/katoolin3 /opt/katoolin3
-echo -e "\n $blue {+}----Done \n\n\n"
-
-
-echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Industrial Control System \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/ics/ && \
 git clone https://gitlab.com/jhcastel/attkfinder.git /opt/ics/attkfinder/ && \
 git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
-git clone https://github.com/dark-lbp/isf/ /opt/ics/isf/ && \
-git clone https://github.com/dhondta/dronesploit /opt/ics/dronesploit/ && \
+git clone https://github.com/dark-lbp/isf.git /opt/ics/isf/ && \
+git clone https://github.com/dhondta/dronesploit.git /opt/ics/dronesploit/ && \
 git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
 git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/
 echo -e "\n $blue {+}----Done \n\n\n"
@@ -371,14 +386,14 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Lateral Movement \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/lateral/ && \
-git clone https://github.com/byt3bl33d3r/CrackMapExec /opt/lateral/CrackMapExec/ && \
-git clone https://github.com/byt3bl33d3r/DeathStar /opt/lateral/DeathStar/ && \
-git clone https://github.com/SpiderLabs/portia /opt/lateral/portia/ && \
-git clone https://github.com/DanMcInerney/icebreaker /opt/lateral/icebreaker/ && \
-git clone https://github.com/360-Linton-Lab/WMIHACKER /opt/lateral/WMIHACKER/ && \
-git clone https://github.com/Hackndo/WebclientServiceScanner /opt/lateral/WebclientServiceScanner/ && \
-git clone https://github.com/anthemtotheego/SharpExec /opt/lateral/SharpExec/ && \
-git clone https://github.com/juliourena/SharpNoPSExec /opt/lateral/SharpNoPSExec
+git clone https://github.com/byt3bl33d3r/CrackMapExec.git /opt/lateral/CrackMapExec/ && \
+git clone https://github.com/byt3bl33d3r/DeathStar.git /opt/lateral/DeathStar/ && \
+git clone https://github.com/SpiderLabs/portia.git /opt/lateral/portia/ && \
+git clone https://github.com/DanMcInerney/icebreaker.git /opt/lateral/icebreaker/ && \
+git clone https://github.com/360-Linton-Lab/WMIHACKER.git /opt/lateral/WMIHACKER/ && \
+git clone https://github.com/Hackndo/WebclientServiceScanner.git /opt/lateral/WebclientServiceScanner/ && \
+git clone https://github.com/anthemtotheego/SharpExec.git /opt/lateral/SharpExec/ && \
+git clone https://github.com/juliourena/SharpNoPSExec.git /opt/lateral/SharpNoPSExec/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -386,11 +401,11 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Pivot \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/pivot/ && \
-git clone https://github.com/p3nt4/Invoke-SocksProxy /opt/pivot/Invoke-SocksProxy/ && \
-git clone https://github.com/sensepost/reGeorg /opt/pivot/reGeorg/ && \
-git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history /opt/pivot/bypass-firewalls-by-DNS-history/ && \
-git clone https://github.com/sysdream/ligolo /opt/pivot/ligolo/ && \
-git clone https://github.com/klsecservices/rpivot /opt/pivot
+git clone https://github.com/p3nt4/Invoke-SocksProxy.git /opt/pivot/Invoke-SocksProxy/ && \
+git clone https://github.com/sensepost/reGeorg.git /opt/pivot/reGeorg/ && \
+git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history.git /opt/pivot/bypass-firewalls-by-DNS-history/ && \
+git clone https://github.com/sysdream/ligolo.git /opt/pivot/ligolo/ && \
+git clone https://github.com/klsecservices/rpivot.git /opt/pivot/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -399,27 +414,27 @@ echo -e "\n $green {+}----PrivEsc \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/privesc/ && \
 mkdir /opt/privesc/windows/ && \
-git clone https://github.com/GhostPack/SharpUp /opt/privesc/windows/SharpUp/ && \
-git clone https://github.com/GhostPack/Seatbelt /opt/privesc/windows/Seatbelt/ && \
-git clone https://github.com/jmhickman/Fetters /opt/privesc/windows/Fetters/ && \
-git clone https://github.com/gladiatx0r/Powerless /opt/privesc/windows/Powerless/ && \
-git clone https://github.com/pentestmonkey/windows-privesc-check /opt/privesc/windows/windows-privesc-check/ && \
-git clone https://github.com/bitsadmin/wesng /opt/privesc/windows/wesng/ && \
-git clone https://github.com/absolomb/WindowsEnum /opt/privesc/windows/WindowsEnum/ && \
-git clone https://github.com/rootm0s/WinPwnage /opt/privesc/windows/WinPwnage/ && \
-git clone https://github.com/411Hall/JAWS /opt/privesc/windows/JAWS/ && \
-git clone https://github.com/SecWiki/windows-kernel-exploits /opt/privesc/windows/windows-kernel-exploits/
+git clone https://github.com/GhostPack/SharpUp.git /opt/privesc/windows/SharpUp/ && \
+git clone https://github.com/GhostPack/Seatbelt.git /opt/privesc/windows/Seatbelt/ && \
+git clone https://github.com/jmhickman/Fetters.git /opt/privesc/windows/Fetters/ && \
+git clone https://github.com/gladiatx0r/Powerless.git /opt/privesc/windows/Powerless/ && \
+git clone https://github.com/pentestmonkey/windows-privesc-check.git /opt/privesc/windows/windows-privesc-check/ && \
+git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/wesng/ && \
+git clone https://github.com/absolomb/WindowsEnum.git /opt/privesc/windows/WindowsEnum/ && \
+git clone https://github.com/rootm0s/WinPwnage.git /opt/privesc/windows/WinPwnage/ && \
+git clone https://github.com/411Hall/JAWS.git /opt/privesc/windows/JAWS/ && \
+git clone https://github.com/SecWiki/windows-kernel-exploits.git /opt/privesc/windows/windows-kernel-exploits/
 mkdir /opt/privesc/linux/ && \
-git clone https://github.com/redcode-labs/Bashark /opt/privesc/linux/Bashark/ && \
+git clone https://github.com/redcode-labs/Bashark.git /opt/privesc/linux/Bashark/ && \
 git clone https://github.com/linted/linuxprivchecker.git /opt/privesc/linux/linuxprivchecker/ && \
-git clone https://github.com/pentestmonkey/unix-privesc-check /opt/privesc/linux/unix-privesc-check/ && \
-git clone https://github.com/initstring/uptux /opt/privesc/linux/uptux/ && \
-git clone https://github.com/SecWiki/linux-kernel-exploits /opt/privesc/linux/linux-kernel-exploits/ && \
-git clone https://github.com/nccgroup/GTFOBLookup /opt/privesc/linux/GTFOBLookup/ && \
-git clone https://github.com/t0thkr1s/gtfo /opt/privesc/linux/gtfo/ && \
-git clone https://github.com/DominicBreuker/pspy /opt/privesc/linux/pspy/ && \
-git clone https://github.com/twelvesec/rootend /opt/privesc/linux/rootend/ && \
-git clone https://github.com/liamg/traitor /opt/privesc/linux/traitor/
+git clone https://github.com/pentestmonkey/unix-privesc-check.git /opt/privesc/linux/unix-privesc-check/ && \
+git clone https://github.com/initstring/uptux.git /opt/privesc/linux/uptux/ && \
+git clone https://github.com/SecWiki/linux-kernel-exploits.git /opt/privesc/linux/linux-kernel-exploits/ && \
+git clone https://github.com/nccgroup/GTFOBLookup.git /opt/privesc/linux/GTFOBLookup/ && \
+git clone https://github.com/t0thkr1s/gtfo.git /opt/privesc/linux/gtfo/ && \
+git clone https://github.com/DominicBreuker/pspy.git /opt/privesc/linux/pspy/ && \
+git clone https://github.com/twelvesec/rootend.git /opt/privesc/linux/rootend/ && \
+git clone https://github.com/liamg/traitor.git /opt/privesc/linux/traitor/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -427,21 +442,21 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----OSINT \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/osint/ && \
-git clone https://github.com/laramies/theHarvester /opt/osint/theHarvester/ && \
-git clone https://github.com/lanmaster53/recon-ng /opt/osint/recon-ng/ && \
-git clone https://github.com/m4ll0k/Infoga /opt/osint/Infoga/ && \
-git clone https://github.com/sundowndev/PhoneInfoga /opt/osint/PhoneInfoga/ && \
-git clone https://github.com/smicallef/spiderfoot /opt/osint/spiderfoot/ && \
-git clone https://github.com/DataSploit/datasploit /opt/osint/datasploit/ && \
-git clone https://github.com/sherlock-project/sherlock /opt/osint/sherlock/ && \
-git clone https://github.com/evilsocket/xray /opt/osint/xray/ && \
-git clone https://github.com/SimplySecurity/SimplyEmail /opt/osint/SimplyEmail/ && \
-git clone https://github.com/thewhiteh4t/FinalRecon /opt/osint/FinalRecon/ && \
-git clone https://github.com/hmaverickadams/breach-parse /opt/osint/breach-parse/ && \
-git clone https://github.com/khast3x/h8mail /opt/osint/h8mail/ && \
-git clone https://github.com/qeeqbox/social-analyzer /opt/osint/social-analyzer/ && \
-git clone https://github.com/projectdiscovery/uncover /opt/osint/uncover/ && \
-git clone https://github.com/BLINKING-IDIOT/Aliens_eye /opt/osint/Aliens_eye/
+git clone https://github.com/laramies/theHarvester.git /opt/osint/theHarvester/ && \
+git clone https://github.com/lanmaster53/recon-ng.git /opt/osint/recon-ng/ && \
+git clone https://github.com/m4ll0k/Infoga.git /opt/osint/Infoga/ && \
+git clone https://github.com/sundowndev/PhoneInfoga.git /opt/osint/PhoneInfoga/ && \
+git clone https://github.com/smicallef/spiderfoot.git /opt/osint/spiderfoot/ && \
+git clone https://github.com/DataSploit/datasploit.git /opt/osint/datasploit/ && \
+git clone https://github.com/sherlock-project/sherlock.git /opt/osint/sherlock/ && \
+git clone https://github.com/evilsocket/xray.git /opt/osint/xray/ && \
+git clone https://github.com/SimplySecurity/SimplyEmail.git /opt/osint/SimplyEmail/ && \
+git clone https://github.com/thewhiteh4t/FinalRecon.git /opt/osint/FinalRecon/ && \
+git clone https://github.com/hmaverickadams/breach-parse.git /opt/osint/breach-parse/ && \
+git clone https://github.com/khast3x/h8mail.git /opt/osint/h8mail/ && \
+git clone https://github.com/qeeqbox/social-analyzer.git /opt/osint/social-analyzer/ && \
+git clone https://github.com/projectdiscovery/uncover.git /opt/osint/uncover/ && \
+git clone https://github.com/BLINKING-IDIOT/Aliens_eye.git /opt/osint/Aliens_eye/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -450,22 +465,22 @@ echo -e "\n $green {+}----Post-Exploitation \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/post-exploit/ && \
 git clone --recurse-submodules https://github.com/cobbr/Covenant /opt/post-exploit/Covenant && \
-git clone https://github.com/n1nj4sec/pupy/ /opt/post-exploit/pupy/ && \
-git clone https://github.com/SafeBreach-Labs/SirepRAT /opt/post-exploit/SirepRAT/ && \
-git clone https://github.com/bohops/SharpRDPHijack /opt/post-exploit/SharpRDPHijack/ && \
-git clone https://github.com/klsecservices/Invoke-Vnc /opt/post-exploit/Invoke-Vnc/ && \
-git clone https://github.com/GhostPack/Lockless /opt/post-exploit/Lockless/ && \
-git clone https://github.com/swisskyrepo/SharpLAPS /opt/post-exploit/SharpLAPS/ && \
-git clone https://github.com/n00py/LAPSDumper /opt/post-exploit/LAPSDumper/ && \
-git clone https://github.com/Mr-Un1k0d3r/SCShell /opt/post-exploit/SCShell/ && \
-git clone https://github.com/gentilkiwi/mimikatz /opt/post-exploit/mimikatz/ && \
-git clone https://github.com/djhohnstein/SharpWeb /opt/post-exploit/SharpWeb/ && \
-git clone https://github.com/aas-n/spraykatz /opt/post-exploit/spraykatz/ && \
-git clone https://github.com/BC-SECURITY/Starkiller /opt/post-exploit/Starkiller/ && \
-git clone https://github.com/BishopFox/sliver /opt/post-exploit/sliver/ && \
-git clone https://github.com/offsecginger/koadic /opt/post-exploit/ && \
-git clone https://github.com/d4rk007/RedGhost /opt/post-exploit/RedGhost/ && \
-git clone https://github.com/PowerShellMafia/PowerSploit.git/
+git clone https://github.com/n1nj4sec/pupy.git /opt/post-exploit/pupy/ && \
+git clone https://github.com/SafeBreach-Labs/SirepRAT.git /opt/post-exploit/SirepRAT/ && \
+git clone https://github.com/bohops/SharpRDPHijack.git /opt/post-exploit/SharpRDPHijack/ && \
+git clone https://github.com/klsecservices/Invoke-Vnc.git /opt/post-exploit/Invoke-Vnc/ && \
+git clone https://github.com/GhostPack/Lockless.git /opt/post-exploit/Lockless/ && \
+git clone https://github.com/swisskyrepo/SharpLAPS.git /opt/post-exploit/SharpLAPS/ && \
+git clone https://github.com/n00py/LAPSDumper.git /opt/post-exploit/LAPSDumper/ && \
+git clone https://github.com/Mr-Un1k0d3r/SCShell.git /opt/post-exploit/SCShell/ && \
+git clone https://github.com/gentilkiwi/mimikatz.git /opt/post-exploit/mimikatz/ && \
+git clone https://github.com/djhohnstein/SharpWeb.git /opt/post-exploit/SharpWeb/ && \
+git clone https://github.com/aas-n/spraykatz.git /opt/post-exploit/spraykatz/ && \
+git clone https://github.com/BC-SECURITY/Starkiller.git /opt/post-exploit/Starkiller/ && \
+git clone https://github.com/BishopFox/sliver.git /opt/post-exploit/sliver/ && \
+git clone https://github.com/offsecginger/koadic.git /opt/post-exploit/ && \
+git clone https://github.com/d4rk007/RedGhost.git /opt/post-exploit/RedGhost/ && \
+git clone https://github.com/PowerShellMafia/PowerSploit.git /opt/post-exploit/PowerSploit/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -473,41 +488,39 @@ echo -e "\n $cyan --------------------------------------------------\n"
 echo -e "\n $green {+}----Recon \n"
 echo -e "\n $cyan --------------------------------------------------\n\n"
 mkdir /opt/recon/ && \
-git clone https://github.com/Tuhinshubhra/RED_HAWK /opt/recon/RED_HAWK/ && \
-git clone https://github.com/mschwager/fierce /opt/recon/fierce/ && \
-git clone https://github.com/projectdiscovery/shuffledns /opt/recon/shuffledns/ && \
-git clone https://github.com/projectdiscovery/dnsx /opt/recon/dnsx/ && \
-git clone https://github.com/SecureAuthCorp/impacket /opt/recon/impacket/ && \
-git clone https://github.com/BloodHoundAD/BloodHound /opt/recon/BloodHound/ && \
-git clone https://github.com/nyxgeek/ntlmscan /opt/recon/ntlmscan/ && \
-git clone https://github.com/phackt/Invoke-Recon /opt/recon/Invoke-Recon/ && \
-git clone https://github.com/cytopia/smtp-user-enum /opt/recon/smtp-user-enum/ && \
-git clone https://github.com/DinoTools/sslscan /opt/recon/sslscan/ && \
-git clone https://github.com/angryip/ipscan /opt/recon/ipscan/ && \
-git clone https://github.com/diyan/pywinrm /opt/recon/pywinrm/ && \
-git clone https://github.com/gitnepal/isup /opt/recon/isup/ && \
-git clone https://github.com/AlgoSecure/iotmap /opt/recon/iotmap/ && \
-git clone https://github.com/UltimateHackers/Striker /opt/recon/Striker/ && \
-git clone https://github.com/Wh1t3Fox/polenum /opt/recon/polenum/ && \
-git clone https://github.com/dafthack/HostRecon /opt/recon/HostRecon/ && \
-git clone https://github.com/ropnop/kerbrute /opt/recon/kerbrute/ && \
-git clone https://github.com/royhills/arp-scan /opt/recon/arp-scan/ && \
-git clone https://github.com/Zapotek/cdpsnarf /opt/recon/cdpsnarf/ && \
-git clone https://github.com/yakuza8/peniot /opt/recon/peniot/ && \
-git clone https://github.com/m0rtem/CloudFail /opt/recon/CloudFail/ && \
-git clone https://github.com/1N3/BlackWidow /opt/recon/BlackWidow/ && \
-git clone https://github.com/projectdiscovery/naabu /opt/recon/naabu/ && \
+git clone https://github.com/Tuhinshubhra/RED_HAWK.git /opt/recon/RED_HAWK/ && \
+git clone https://github.com/mschwager/fierce.git /opt/recon/fierce/ && \
+git clone https://github.com/projectdiscovery/dnsx.git /opt/recon/dnsx/ && \
+git clone https://github.com/SecureAuthCorp/impacket.git /opt/recon/impacket/ && \
+git clone https://github.com/BloodHoundAD/BloodHound.git /opt/recon/BloodHound/ && \
+git clone https://github.com/phackt/Invoke-Recon.git /opt/recon/Invoke-Recon/ && \
+git clone https://github.com/cytopia/smtp-user-enum.git /opt/recon/smtp-user-enum/ && \
+git clone https://github.com/DinoTools/sslscan.git /opt/recon/sslscan/ && \
+git clone https://github.com/angryip/ipscan.git /opt/recon/ipscan/ && \
+git clone https://github.com/diyan/pywinrm.git /opt/recon/pywinrm/ && \
+git clone https://github.com/gitnepal/isup.git /opt/recon/isup/ && \
+git clone https://github.com/AlgoSecure/iotmap.git /opt/recon/iotmap/ && \
+git clone https://github.com/UltimateHackers/Striker.git /opt/recon/Striker/ && \
+git clone https://github.com/Wh1t3Fox/polenum.git /opt/recon/polenum/ && \
+git clone https://github.com/dafthack/HostRecon.git /opt/recon/HostRecon/ && \
+git clone https://github.com/ropnop/kerbrute.git /opt/recon/kerbrute/ && \
+git clone https://github.com/royhills/arp-scan.git /opt/recon/arp-scan/ && \
+git clone https://github.com/Zapotek/cdpsnarf.git /opt/recon/cdpsnarf/ && \
+git clone https://github.com/yakuza8/peniot.git /opt/recon/peniot/ && \
+git clone https://github.com/m0rtem/CloudFail.git /opt/recon/CloudFail/ && \
+git clone https://github.com/1N3/BlackWidow.git /opt/recon/BlackWidow/ && \
+git clone https://github.com/projectdiscovery/naabu.git /opt/recon/naabu/ && \
 git clone https://github.com/portcullislabs/udp-proto-scanner.git /opt/recon/udp-proto-scanner/ && \
 git clone https://github.com/AlisamTechnology/ATSCAN.git /opt/recon/ATSCAN/ && \
 git clone https://github.com/tahmed11/DeepScan.git /opt/recon/DeepScan/ && \
 git clone https://github.com/kakawome/Lethe.git /opt/recon/Lethe/ && \
 git clone https://github.com/NeverWonderLand/tellme.git /opt/recon/tellme/ && \
-git clone https://github.com/carlospolop/PEASS-ng /opt/recon/PEASS-ng/ && \
+git clone https://github.com/carlospolop/PEASS-ng.git /opt/recon/PEASS-ng/ && \
 git clone https://github.com/rebootuser/LinEnum.git /opt/recon/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/recon/linux-smart-enumeration && \
 git clone https://github.com/linted/linuxprivchecker.git /opt/recon/linuxprivchecker && \
 git clone https://github.com/mostaphabahadou/postenum.git /opt/recon/postenum/ && \
-git clone https://github.com/bitsadmin/wesng /opt/recon/wesng/ && \
+git clone https://github.com/bitsadmin/wesng.git /opt/recon/wesng/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -518,7 +531,7 @@ mkdir /opt/reporting/ && \
 apt install -y dradis eyewitness faraday pipal metagoofil
 git clone https://github.com/SabyasachiRana/WebMap.git /opt/reporting/WebMap/ && \
 git clone https://github.com/pwndoc/pwndoc.git /opt/reporting/pwndoc/ && \
-git clone https://github.com/evait-security/envizon /opt/reporting/envizon
+git clone https://github.com/evait-security/envizon.git /opt/reporting/envizon
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -537,16 +550,16 @@ echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/se/ && \
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/se/social-engineer-toolkit/ && \
 git clone https://github.com/Ignitetch/AdvPhishing.git /opt/se/AdvPhishing/ && \
-git clone https://github.com/rsmusllp/king-phisher /opt/se/king-phisher/ && \
-git clone https://github.com/TheKevinWang/MacroPhishing /opt/se/MacroPhishing/ && \
-git clone https://github.com/ring0lab/catphish /opt/se/catphish/ && \
-git clone https://github.com/Raikia/FiercePhish /opt/se/FiercePhish/ && \
-git clone https://github.com/drk1wi/Modlishka /opt/se/Modlishka/ && \
-git clone https://github.com/vpn/SMSSpoof /opt/se/SMSSpoof/ && \
-git clone https://github.com/ustayready/CredSniper /opt/se/CredSniper/ && \
-git clone https://github.com/ryhanson/phishery /opt/se/phishery/ && \
-git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn /opt/se/HiddenEyeReborn/ && \
-git clone https://github.com/curi0usJack/luckystrike /opt/se/luckystrike/
+git clone https://github.com/rsmusllp/king-phisher.git /opt/se/king-phisher/ && \
+git clone https://github.com/TheKevinWang/MacroPhishing.git /opt/se/MacroPhishing/ && \
+git clone https://github.com/ring0lab/catphish.git /opt/se/catphish/ && \
+git clone https://github.com/Raikia/FiercePhish.git /opt/se/FiercePhish/ && \
+git clone https://github.com/drk1wi/Modlishka.git /opt/se/Modlishka/ && \
+git clone https://github.com/vpn/SMSSpoof.git /opt/se/SMSSpoof/ && \
+git clone https://github.com/ustayready/CredSniper.git /opt/se/CredSniper/ && \
+git clone https://github.com/ryhanson/phishery.git /opt/se/phishery/ && \
+git clone https://github.com/Open-Security-Group-OSG/HiddenEyeReborn.git /opt/se/HiddenEyeReborn/ && \
+git clone https://github.com/curi0usJack/luckystrike.git /opt/se/luckystrike/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -564,28 +577,28 @@ echo -e "\n $green {+}----Vulnerability \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/vulns/ && \
 git clone https://github.com/OWASP/Nettacker.git /opt/vulns/Nettacker/ && \
-git clone https://github.com/greenbone/openvas /opt/vulns/openvas/ && \
-git clone https://github.com/Sneakysecdoggo/Wynis /opt/vulns/Wynis/ && \
-git clone https://github.com/ra1nb0rn/avain /opt/vulns/avain/ && \
-git clone https://github.com/ZupIT/horusec /opt/vulns/horusec/ && \
-git clone https://github.com/1N3/Sn1per /opt/vulns/Sn1per/ && \
-git clone https://github.com/BlackArch/sploitctl /opt/vulns/sploitctl/ && \
-git clone https://github.com/golismero/golismero /opt/vulns/golismero/ && \
-git clone https://github.com/AlessandroZ/BeRoot /opt/vulns/BeRoot/ && \
-git clone https://github.com/littl3field/Audix /opt/vulns/Audix/ && \
-git clone https://github.com/tomac/yersinia /opt/vulns/yersinia/ && \
+git clone https://github.com/greenbone/openvas.git /opt/vulns/openvas/ && \
+git clone https://github.com/Sneakysecdoggo/Wynis.git /opt/vulns/Wynis/ && \
+git clone https://github.com/ra1nb0rn/avain.git /opt/vulns/avain/ && \
+git clone https://github.com/ZupIT/horusec.git /opt/vulns/horusec/ && \
+git clone https://github.com/1N3/Sn1per.git /opt/vulns/Sn1per/ && \
+git clone https://github.com/BlackArch/sploitctl.git /opt/vulns/sploitctl/ && \
+git clone https://github.com/golismero/golismero.git /opt/vulns/golismero/ && \
+git clone https://github.com/AlessandroZ/BeRoot.git /opt/vulns/BeRoot/ && \
+git clone https://github.com/littl3field/Audix.git /opt/vulns/Audix/ && \
+git clone https://github.com/tomac/yersinia.git /opt/vulns/yersinia/ && \
 git clone https://github.com/OWASP/joomscan.git /opt/vulns/joomscan/ && \
 git clone https://github.com/almandin/fuxploider.git /opt/vulns/fuxploider/ && \
 git clone https://github.com/machine1337/fast-scan.git /opt/vulns/fast-scan/ && \
-git clone https://github.com/Hypnoze57/RDPChecker /opt/vulns/RDPChecker/ && \
+git clone https://github.com/Hypnoze57/RDPChecker.git /opt/vulns/RDPChecker/ && \
 git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
-git clone https://github.com/whickey-r7/grab_beacon_config /opt/vulns/grab_beacon_config/ && \
+git clone https://github.com/whickey-r7/grab_beacon_config.git /opt/vulns/grab_beacon_config/ && \
 git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
-git clone https://github.com/linuz/Sticky-Keys-Slayer /opt/vulns/Sticky-Keys-Slayer/ && \
+git clone https://github.com/linuz/Sticky-Keys-Slayer.git /opt/vulns/Sticky-Keys-Slayer/ && \
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git /opt/vulns/linux-exploit-suggester-2/ && \
 git clone https://github.com/M4DM0e/BadMod.git /opt/vulns/BadMod/
 echo -e "\n $blue {+}----Done \n\n\n"
@@ -599,14 +612,14 @@ git clone https://github.com/cyberblackhole/domain-to-webapp.git /opt/webapp/dom
 git clone https://github.com/sqlmapproject/sqlmap.git /opt/webapp/sqlmap/ && \
 git clone https://github.com/s0md3v/Corsy.git /opt/webapp/Corsy/ && \
 git clone https://github.com/R0X4R/Garud.git /opt/webapp/Garud/ && \
-git clone https://github.com/Tuhinshubhra/CMSeeK /opt/webapp/CMSeek/ && \
-git clone https://github.com/Dionach/CMSmap /opt/webapp/CMSmap/ && \
-git clone http://www.github.com/Cvar1984/sqlscan /opt/webapp/sqlscan/ && \
-git clone https://github.com/wpscanteam/wpscan /opt/webapp/wpscan/ && \
-git clone https://github.com/ron190/jsql-injection /opt/webapp/jsql-injection/ && \
-git clone https://github.com/FSecureLABS/N1QLMap /opt/webapp/N1QLMap/ && \
-git clone https://github.com/Charlie-belmer/nosqli /opt/webapp/nosqli/ && \
-git clone https://github.com/Ekultek/WhatWaf /opt/webapp/WhatWaf
+git clone https://github.com/Tuhinshubhra/CMSeeK.git /opt/webapp/CMSeek/ && \
+git clone https://github.com/Dionach/CMSmap.git /opt/webapp/CMSmap/ && \
+git clone http://www.github.com/Cvar1984/sqlscan.git /opt/webapp/sqlscan/ && \
+git clone https://github.com/wpscanteam/wpscan.git /opt/webapp/wpscan/ && \
+git clone https://github.com/ron190/jsql-injection.git /opt/webapp/jsql-injection/ && \
+git clone https://github.com/FSecureLABS/N1QLMap.git /opt/webapp/N1QLMap/ && \
+git clone https://github.com/Charlie-belmer/nosqli.git /opt/webapp/nosqli/ && \
+git clone https://github.com/Ekultek/WhatWaf.git /opt/webapp/WhatWaf/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
@@ -615,20 +628,11 @@ echo -e "\n $green {+}----Wireless \n"
 echo -e "\n $cyan --------------------------------------------------\n"
 mkdir /opt/wireless/ && \
 git clone https://github.com/aircrack-ng/aircrack-ng.git /opt/wireless/aircrack-ng/ && \
-git clone https://github.com/wifiphisher/wifiphisher /opt/wireless/wifiphisher/ && \
-git clone https://github.com/reverse-shell/routersploit /opt/wireless/routersploit/ && \
+git clone https://github.com/wifiphisher/wifiphisher.git /opt/wireless/wifiphisher/ && \
+git clone https://github.com/reverse-shell/routersploit.git /opt/wireless/routersploit/ && \
 git clone https://github.com/t6x/reaver-wps-fork-t6x.git /opt/wireless/reaver-wps-fork-t6x/ 
 echo -e "\n $blue {+}----Done \n\n\n"
 
-
-# move guide
-
-mv /root/Self-Way/Guide /home/kali/Desktop
-mv /root/Self-Way/wallpaper /home/kali/Desktop
-mv /root/Self-Way/Wordlist /opt
-chmod 777 /home/kali/Desktop/Guide
-chmod 777 /home/kali/Desktop/wallpaper
-chmod 777 /opt/Wordlist
 
 # -------------------------------------------------------
 # Settings
