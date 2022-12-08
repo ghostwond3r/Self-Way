@@ -8,6 +8,17 @@
 
 </br>
 
+08 DEC 2022
+
+| **README.md** :pencil2:
+
+      added the instructions to install Glow manually
+
+| **install.sh** :x: :heavy_plus_sign:
+
+      removed the installation of Glow so it will need to be done manually - also added tools in the /ddos directory 
+
+<hr>
 11 NOV 2022
 
 | **updating_SW.md** :heavy_plus_sign:
