@@ -1,9 +1,8 @@
 #!/bin/bash
 # Made by wondR 
-# Last update: Nov 2022
-# OS: kali linux 2022.3
+# Last update: Dec 2022
+# OS: kali linux 2022.4
 # Run as ROOT && turn off your screen saver!
-# Revision 1.2
 
 ROOT_DIR=/root
 
