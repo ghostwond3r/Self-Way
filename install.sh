@@ -256,7 +256,6 @@ git clone https://github.com/kamorin/DHCPig.git /opt/ddos/DHCPig/ && \
 git clone https://github.com/shekyan/slowhttptest.git /opt/ddos/slowhttptest/ && \
 git clone https://github.com/7zx/overload.git /opt/ddos/overload/ && \
 git clone https://github.com/H1R0GH057/Anonymous.git /opt/ddos/Anonymous/ && \
-git clone https://github.com/firstapostle/Blood.git /opt/ddos/Blood/ && \
 git clone https://github.com/UBISOFT-1/AnonymousPAK-DDoS.git /opt/ddos/AnonymousPAK-DDoS/ && \
 git clone https://github.com/alexnest-ua/MHDDoS.git /opt/ddos/MHDDoS/ && \
 git clone https://github.com/quitten/doser.py.git /opt/ddos/doser.py/ && \
