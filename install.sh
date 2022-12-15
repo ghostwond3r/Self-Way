@@ -276,10 +276,12 @@ git clone https://github.com/electr0lulz/madkatty.git /opt/ddos/madkatty/ && \
 git clone https://github.com/iamaamir/ihulk.py.git /opt/ddos/ihulk.py/ && \
 git clone https://github.com/JPLeoRX/tor-flood-attack.git /opt/ddos/tor-flood-attack/ && \
 git clone https://github.com/1x019/DDoS-Japan-v3.0-Src.git /opt/ddos/DDoS-Japan-v3.0-Src/ && \
-git clone https://github.com/narcochan/cow-flooder.git /opt/ddos/cow-flooder/ && \
 git clone https://github.com/Hyperclaw79/HULK-v3.git /opt/ddos/HULK-v3/ && \
 git clone https://github.com/bjarneo/rip.git /opt/ddos/rip/ && \
 git clone https://github.com/merkjinx/saddam-plus-plus.git /opt/ddos/saddam-plus-plus/ && \
+git clone https://github.com/Hyperclaw79/HULK-v3.git /opt/ddos/HULK-v3/ && \
+git clone https://github.com/bjarneo/rip.git /opt/ddos/rip/ && \
+git clone https://github.com/merkjinx/saddam-plus-plus.git /opt/ddos/saddam-plus-plus/ && \ 
 git clone https://github.com/R3tr074/Burn-Byte.git /opt/ddos/Burn-Byte/ && \
 git clone https://github.com/lucthienphong1120/5xDDoS.git /opt/ddos/5xDDoS/ && \
 git clone https://github.com/epsylon/ufonet.git /opt/ddos/ufonet/ && \
