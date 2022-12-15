@@ -6,6 +6,16 @@
 
 :pencil2:= Modification
 
+13 DEC 2022
+
+| **PivotingTools.md**/**backdoor.md**/**shell.md**/**FileUploadDownload.md**/**bufferoverflow.md**/**Check_Certificate.md** :heavy_plus_sign:
+
+      added file
+
+| **Exploitation.md** :pencil2:
+
+      updated
+      
 </br>
 
 08 DEC 2022
