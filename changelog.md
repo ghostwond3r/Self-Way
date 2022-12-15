@@ -8,8 +8,14 @@
 
 13 DEC 2022
 
-| **PivotingTools.md**/**backdoor.md**/**shell.md**/**FileUploadDownload.md**/**bufferoverflow.md**/**Check_Certificate.md** :heavy_plus_sign:
-
+|     **PivotingTools.md**
+    - **backdoor.md**
+    - **shell.md**
+    - **FileUploadDownload.md**
+    - **bufferoverflow.md**
+    - **Check_Certificate.md**
+      :heavy_plus_sign: 
+      
       added file
 
 | **Exploitation.md** :pencil2:
