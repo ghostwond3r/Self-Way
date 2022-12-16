@@ -56,7 +56,7 @@ sudo apt autoremove -y
 
 1. Clone this repo :
 ```
-sudo git clone https://github.com/NeverWonderLand/Self-Way.git /home/kali/Desktop/Self-Way
+git clone https://github.com/NeverWonderLand/Self-Way.git /home/kali/Desktop/Self-Way
 ```
 
 2. Install it :
