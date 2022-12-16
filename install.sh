@@ -378,7 +378,11 @@ git clone https://github.com/digitalbond/Redpoint.git /opt/ics/Redpoint/ && \
 git clone https://github.com/dark-lbp/isf.git /opt/ics/isf/ && \
 git clone https://github.com/dhondta/dronesploit.git /opt/ics/dronesploit/ && \
 git clone https://github.com/0x0mar/smod.git /opt/ics/smod/ && \
-git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/
+git clone https://github.com/klsecservices/s7scan.git /opt/ics/s7scan/ && \
+git clone https://github.com/sourceperl/mbtget.git /opt/ics/mbtget/ && \
+git clone https://github.com/atimorin/scada-tools /opt/ics/scada-tools/ && \
+git clone https://github.com/arnaudsoullie/modbus-scanner /opt/ics/modbus-scanner/ && \
+git clone https://github.com/cutaway/goose-IEC61850-scapy /opt/ics/goose-IEC61850-scapy/
 echo -e "\n $blue {+}----Done \n\n\n"
 
 
