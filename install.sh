@@ -363,7 +363,6 @@ echo -e "\n $green {+}----Fuzzing \n"
 echo -e "\n $cyan --------------------------------------------------\n\n"
 mkdir /opt/fuzzing/ && \
 git clone https://github.com/ffuf/ffuf.git /opt/fuzzing/ffuf/ && \
-git clone http://www.aldeid.com/wiki/Bed /opt/fuzzing/Bed/ && \
 git clone https://github.com/wireghoul/dotdotpwn.git /opt/fuzzing/dotdotpwn/ && \
 git clone https://github.com/tlsfuzzer/tlsfuzzer.git /opt/fuzzing/tlsfuzzer/
 echo -e "\n $blue {+}----Done \n\n\n"
