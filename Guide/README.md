@@ -122,7 +122,9 @@ To read the Guide directly from your terminal:
 │       ├── practice_term.md
 │       ├── term_basics.md
 │       ├── tmux.md
-│       └── what_is_HTTP.md
+│       ├── what_is_HTTP.md
+│       ├── echo.md
+│       └── grep.md
 │
 ├── Vulnerability
 │       └── Vulnerability.md
