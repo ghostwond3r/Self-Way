@@ -1,12 +1,16 @@
 <p align="center">
-   <img width="9000" height="200" src="https://user-images.githubusercontent.com/64184513/197416598-573073ff-530b-4132-acb3-d4233654173e.jpg"
+   <img width="8000" height="200" src="https://user-images.githubusercontent.com/64184513/225434767-0aa9ce3f-b1f3-4c46-89de-960d62924d3e.png"
 </p>
 
-* Built to learn ethical hacking on your own.
-* Includes guides, tutorials, cheat sheets and tools.
-* Each resources has been written in Markdown.
-* The Guide is accessible directly from command line (thanks to Glow).
+<hr>
 
+<p align="center">
+Built to learn ethical hacking on your own<br>
+Includes guides, tutorials, cheat sheets and tools<br>
+The guides are accessible directly from CLI
+</p>
+
+<hr>
 <br>
    
 > **For the installation please see the [Wiki](https://github.com/NeverWonderLand/Self-Way/wiki/Installation).**
@@ -61,6 +65,4 @@
 
 --------------------------------------
 
-> This repository is still in work and will continue to be updated. For more details see the changelog.
-
-| The NewBloodProject is my way to be the change I want to see - WondR <3
+*The New Blood Project is my way to be the change I want to see - WondR <3*
