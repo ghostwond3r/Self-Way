@@ -23,11 +23,12 @@ The guides are accessible directly from CLI
 
 * Anonymity
 * Cracking
+* Crawler
 * Ddos
+* Dorking
 * Exploitation
 * Forensics/Anti-Forensics
 * Fuzzing
-* Google Dorking
 * Industrial Control System (ICS)
 * Lateral Movement
 * OSINT
@@ -40,6 +41,7 @@ The guides are accessible directly from CLI
 * Sniffing
 * Social-Engineering
 * System
+* Utilities
 * Vulnerability
 * Web Application
 * Wireless
