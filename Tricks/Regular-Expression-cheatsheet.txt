@@ -1,0 +1,14 @@
+. - matches any single charactors 
+? - The preceding item is not optional and will be matched, at most ], once
+* - The preceding item will be matched zero or more times. 
++ - the preceding item will be matched one or more times. 
+{N} - The preceding item will be matched exectly N times
+{N,} - the preceding item will be matched exactly N or more times. 
+{N.M} - the preceding item will be mached at least N, but not more then M times. 
+- represents the range if it't not first or last in a list or the endpoint point of a range in a list. 
+^ - match the empty string at the beginning of line. 
+$ - match the empty string at the end of a word. 
+\b - match the empty string at the edge of a word. 
+\B - matche the empty string provided it's not at the edge of a word.
+\< - match the empty string at the beginnning of word. 
+\> - match the empty string at the end of word.
