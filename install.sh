@@ -66,12 +66,8 @@ cp "/home/$(grep -F 1000:1000 /etc/passwd | cut -d: -f1)/.bashrc" /root/.bashrc
 
 
 echo -e "\n $red [x] Adding sources list..\n" 
-echo "deb https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee /etc/apt/sources.list
-echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free" | sudo tee -a /etc/apt/sources.list
 echo "deb https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list
 echo "deb-src https://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee -a /etc/apt/sources.list
-echo "deb http://deb.debian.org/debian bullseye main contrib non-free" | sudo tee /etc/apt/sources.list.d/debian.list
-echo "deb-src http://deb.debian.org/debian bullseye main contrib non-free" | sudo tee -a /etc/apt/sources.list.d/debian.list
 
 echo -e "\n $red [x] Updating..\n" 
 apt clean -y
