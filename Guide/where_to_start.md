@@ -2,15 +2,9 @@
 
 | **Take your time, it's faster**
 
-So now you are probably wondering what the hell to do ? Where to start ? Well if you follow the instructions and take the time to understand them (I mean REALLY understand), then everything will be alright! But, if you try to skip some step, be aware that things can go very bad... not only for your computer but also your real life.
+Starting out in cybersecurity can be daunting, but taking your time to learn the fundamentals can actually speed up your progress in the long run. It's important to follow the instructions and take the time to truly understand them, rather than skipping steps or taking shortcuts. Doing so can not only cause problems with your computer, but potentially impact your personal life as well.
 
-</br>
-
-**PART A - Your Terminal:** Here you will learn first how to work with the command line.
-
-**PART B - Anonymity:** Before jumping to any kind of attack you need to understand how to protect yourself from yourself.
-
-**PART C - Getting start:** Where to start with your first target.
+To help you get started, this guide is divided into three main parts. In Part A, you will learn the basics of working with the command line in your terminal. In Part B, you will learn about anonymity and how to protect yourself before conducting any kind of attack. Finally, in Part C, you will be given guidance on where to start with your first target.
 
 > Once you finish with this file, you can go to 'how_to_use_tools.md'
 
