@@ -71,5 +71,4 @@ The guides are accessible directly from CLI
 > If you see some of your works here and want your name added just message me and I will add it !
 
 --------------------------------------
-
-*The New Blood Project is my way to be the change I want to see - WondR <3*
+*The project's ultimate goal is to make knowledge free and accessible to all, so that anyone can learn and grow. By empowering individuals to learn and practice ethical hacking, Self-Way aims to be the change it wants to see in the world. WondR <3*
