@@ -13,11 +13,16 @@ The guides are accessible directly from CLI
 <hr>
 <br>
    
-> **For the installation please see the [Wiki](https://github.com/NeverWonderLand/Self-Way/wiki/Installation).**
->>
-> **After installation see [Getting Start](https://github.com/NeverWonderLand/Self-Way/wiki/Getting-Start).**
+**Index**
 
-</br>
+- [Installation](https://github.com/NeverWonderLand/Self-Way/wiki/Installation)
+- [Getting Start](https://github.com/NeverWonderLand/Self-Way/wiki/Getting-Start)
+- [First Step](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/First_Step.md)
+- [How to Use Tools](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/how_to_use_tools.md)
+- [Guide](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/README.md)
+- [Updating Self-Way](https://github.com/NeverWonderLand/Self-Way/blob/main/updating_SW.md)
+
+<hr>
 
 **Category of tools;**
 
