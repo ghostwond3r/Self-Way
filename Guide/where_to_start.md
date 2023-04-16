@@ -117,16 +117,17 @@ service tor restart
 </br>
 
 # PART C
+When starting with a new objective, there are several key questions you should answer to guide your efforts:
 
-**First questions to answer when starting with a new objective**
+1. What/Who is the target? Unearth initial information to identify your target.
+2. What is the attack surface? Locate the network range to determine the scope of your attack.
+3. What hosts are alive? Ascertain which machines are active to identify potential targets.
+4. How can they be accessed? Identify open ports/access points to understand how to gain entry.
+5. What platform are they? Detect operating systems to understand the technology you'll be dealing with.
+6. What software can be attacked? Uncover services on ports to identify specific software vulnerabilities.
+7. How do all these pieces fit together? Map the network to fully understand the infrastructure.
 
-1. Unearth initial information: What/ Who is the target ?  
-2. Locate the network range: What is the attack surface ?  
-3. Ascertain active machines: What hosts are alive ?  
-4. Open ports / access points: How can they be accessed ?  
-5. Detect operating systems: What platform are they ?  
-6. Uncover services on ports: What software can be attacked ?  
-7. Map the network Tie it all together, document, and form a strategy.
+By answering these questions, you'll be able to tie everything together, document your findings, and form a comprehensive strategy for your attack.
 
 **The phases of an attack (of course it can be more than this, but thats the more often use)**
 
