@@ -131,8 +131,9 @@ By answering these questions, you'll be able to tie everything together, documen
 
 **The phases of an attack (of course it can be more than this, but thats the more often use)**
 
-1. Information gathering
-
+1. Information gathering: 
+> Before even starting the attack, reconnaissance is often done to gather information about the target's infrastructure, employees, vendors, and other relevant information.
+   
     * DNS Analysis
     * IDS/IPS Identification
     * Live Host Identification
@@ -146,6 +147,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * SSL Analysis
 
 2. Vulnerability Assessment
+> analysis of the target to identify potential weaknesses, such as outdated software, misconfigured settings, or insecure coding practices.
 
     * enumerating Live hosts
     * access points
@@ -160,6 +162,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * Web Vulnerability Scanners
 
 3. Exploitation
+> This involves finding and exploiting a vulnerability to gain a foothold on the target's system.
 
     * Database
     * Researching Exploit
@@ -169,6 +172,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * Backdoors
 
 4. Password Attacks
+> If attackers are successful in obtaining sensitive information, they will attempt to exfiltrate it from the target's network.
 
     * Local Attacks
     * Offline Attacks
@@ -176,6 +180,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * Password Profiling & Wordlists
 
 5. Maintaining Access
+> Once access has been obtained, attackers may try to move laterally through the network to reach more valuable systems and data.
 
     * Rootkits
     * Unpatched systems
@@ -185,6 +190,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * Web Backdoors
 
 6. Post Exploitation
+> Involves further reconnaissance, lateral movement through the network, and exploitation of additional vulnerabilities to achieve the attacker's goals.
 
     * Pass-The-Hash Attack
     * Hash & Password Dump
@@ -193,6 +199,7 @@ By answering these questions, you'll be able to tie everything together, documen
     * Windows Post Exploitation
 
 7. Clearing Tracks
+> leave no trace of the attack and ensure that the attacker cannot be identified or traced back to their actions.
 
     * IDS evasion
     * log manipulation
