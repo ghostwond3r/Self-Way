@@ -1,3 +1,20 @@
+Sniffing, also known as packet sniffing or network sniffing, is a reconnaissance process in which an attacker intercepts and analyzes network traffic to gather information about a target system, network, or devices. It is a passive technique, meaning that the attacker is simply "listening" to the network traffic without actively sending any packets or interacting with the target system.
+
+The process of sniffing in recon typically involves the following steps:
+
+• Choose the right tool: Select an appropriate network sniffing tool, such as Wireshark, tcpdump, or Ettercap, that allows you to capture and analyze network packets.
+
+• Set up the sniffer: Configure the network interface card (NIC) of the attacker's device to operate in promiscuous mode. This mode allows the NIC to capture all network packets, regardless of their destination, instead of only capturing packets addressed to the device.
+
+• Capture network traffic: Use the chosen sniffing tool to start capturing network packets that pass through the network segment the attacker's device is connected to.
+
+• Filter and analyze packets: Analyze the captured packets to extract valuable information about the target network and devices. You can use filters and search functions in the sniffing tool to focus on specific protocols, IP addresses, or data patterns that may reveal important details, such as usernames, passwords, or network configurations.
+
+• Identify vulnerabilities: Use the gathered information to identify potential vulnerabilities, misconfigurations, or weak security practices in the target system or network. This information can be used to plan and execute further attacks.
+
+
+
+
 # Sniffing tools
 
 * Network Sniffers:
