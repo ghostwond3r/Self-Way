@@ -1,4 +1,31 @@
-## OSINT
+OSINT, or Open Source Intelligence, refers to the collection and analysis of publicly available information to gather intelligence about a target during the reconnaissance phase of an ethical hacking or penetration testing engagement. This information can help security professionals and ethical hackers understand the target's environment, identify potential vulnerabilities, and plan their attack strategies more effectively.
+
+OSINT sources can include a wide range of publicly accessible resources, such as:
+
+• Websites: Corporate websites, blogs, and forums can provide valuable information about a target organization, its infrastructure, and employees.
+
+• Search engines: Google, Bing, and other search engines can help uncover information related to the target, such as indexed web pages, cached content, and file downloads.
+
+• Social media platforms: Facebook, LinkedIn, Twitter, and other social media platforms can provide insights into an organization's activities, employee profiles, and potential weaknesses.
+
+• WHOIS databases: These databases contain information about domain registration, including the registrant's name, contact details, and registration dates.
+
+• DNS records: DNS records can reveal information about an organization's domain, such as IP addresses, mail servers, and subdomains.
+
+• Online databases and archives: Publicly accessible databases and archives, such as the Wayback Machine, can provide historical snapshots of websites and other valuable information.
+
+• Government records: Public records, such as business registrations, patents, and legal documents, can offer insights into a company's operations and partnerships.
+
+• GeoIP databases: These databases can help determine the physical location of IP addresses, providing geographical context for a target's infrastructure.
+
+• Job postings: Job postings can reveal information about an organization's technology stack, internal processes, and potential weaknesses.
+
+• Public code repositories: GitHub, GitLab, and other code repositories can provide insight into an organization's software development practices and potential vulnerabilities in their code.
+
+The goal of OSINT in reconnaissance is to gather as much information as possible without actively engaging with the target system or network. This passive approach helps reduce the risk of detection while still providing valuable insights that can be used to plan further attacks or improve an organization's security posture.
+
+
+# OSINT
 
 ### Passive Discovery
 
