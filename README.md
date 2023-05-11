@@ -21,6 +21,7 @@ The guides are accessible directly from CLI
 - [How to Use Tools](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/how_to_use_tools.md)
 - [Guide](https://github.com/NeverWonderLand/Self-Way/blob/2f0facd64dde521c1603fc6a8e7b5882a9b2a837/Guide/README.md)
 - [Updating Self-Way](https://github.com/NeverWonderLand/Self-Way/blob/main/updating_SW.md)
+- [Changelog](https://github.com/NeverWonderLand/Self-Way/commits/v1.0.0)
 
 <br>
 
