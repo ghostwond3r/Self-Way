@@ -59,7 +59,12 @@ The guides are accessible directly from CLI
 </br>
 
 <hr>
-> To support the project: bitcoin:bc1qax7kackunv2zrhmnjw36cd45w64nj74cxd9f9f
+
+> To support the project (bitcoin):  
+```
+bc1qax7kackunv2zrhmnjw36cd45w64nj74cxd9f9f
+```
+
 <hr>
 
 > This repo have been build based on many other's amazing work:
