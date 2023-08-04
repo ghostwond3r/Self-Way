@@ -7,7 +7,6 @@
 <p align="center">
 Built to learn ethical hacking on your own<br>
 Includes guides, tutorials, cheat sheets and tools<br>
-The guides are accessible directly from CLI
 </p>
 
 <hr>
