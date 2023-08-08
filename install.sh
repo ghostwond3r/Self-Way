@@ -616,7 +616,6 @@ git clone https://github.com/1N3/Sn1per.git /opt/vulns/Sn1per/ && \
 git clone https://github.com/BlackArch/sploitctl.git /opt/vulns/sploitctl/ && \
 git clone https://github.com/golismero/golismero.git /opt/vulns/golismero/ && \
 git clone https://github.com/AlessandroZ/BeRoot.git /opt/vulns/BeRoot/ && \
-git clone https://github.com/littl3field/Audix.git /opt/vulns/Audix/ && \
 git clone https://github.com/tomac/yersinia.git /opt/vulns/yersinia/ && \
 git clone https://github.com/OWASP/joomscan.git /opt/vulns/joomscan/ && \
 git clone https://github.com/almandin/fuxploider.git /opt/vulns/fuxploider/ && \
@@ -626,7 +625,6 @@ git clone https://github.com/projectdiscovery/nuclei.git /opt/vulns/nuclei/ && \
 git clone https://github.com/projectdiscovery/nuclei-templates.git /opt/vulns/nuclei-templates/ && \
 git clone https://github.com/Moham3dRiahi/XAttacker.git /opt/vulns/XAttacker/ && \
 git clone https://github.com/s0md3v/Silver.git /opt/vulns/Silver/ && \
-git clone https://github.com/whickey-r7/grab_beacon_config.git /opt/vulns/grab_beacon_config/ && \
 git clone https://github.com/rebootuser/LinEnum.git /opt/vulns/LinEnum/ && \
 git clone https://github.com/diego-treitos/linux-smart-enumeration.git /opt/vulns/linux-smart-enumeration && \
 git clone https://github.com/linuz/Sticky-Keys-Slayer.git /opt/vulns/Sticky-Keys-Slayer/ && \
