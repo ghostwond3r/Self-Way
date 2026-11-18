@@ -42,6 +42,7 @@
 40. [Linux MIPS](https://www.linux-mips.org/wiki/Main_Page) (Using for references)
 41. [QIRA](https://qira.me/) -> [Github Repo](https://github.com/geohot/qira)
 42. [Resource Hacker (Windows Only)](http://www.angusj.com/resourcehacker/)
+43. [Resource Cracker](https://www.pelock.com/products/resource-cracker)
 43. [PowerShellArsenal](https://github.com/mattifestation/PowerShellArsenal)
 44. [Firmware-mod-tookit](https://github.com/rampageX/firmware-mod-kit)
 45. [Binary Analysis Tool Next-Gen (BANG)](https://github.com/armijnhemel/binaryanalysis-ng)
